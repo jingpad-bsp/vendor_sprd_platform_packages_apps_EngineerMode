@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+     <!--<Preference
+        android:key="volte"
+        android:title="@string/ue_cap_volte" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.engineermode.telephony.UeCapVolteActivity"
+            android:targetPackage="com.sprd.engineermode" />
+     </Preference>
+     <SwitchPreference
+        android:key="anr"
+        android:title="@string/ue_cap_anr" >
+     </SwitchPreference>
+     <SwitchPreference
+        android:key="fbi"
+        android:title="@string/ue_cap_fbi" >
+     </SwitchPreference>  -->
+     <SwitchPreference
+        android:key="dlca"
+        android:title="@string/ue_cap_dlca" >
+     </SwitchPreference>
+     <SwitchPreference
+        android:key="ulca"
+        android:title="@string/ue_cap_ulca" >
+     </SwitchPreference>
+     <!--<SwitchPreference
+        android:key="tm9"
+        android:title="@string/ue_cap_tm9" >
+     </SwitchPreference>
+     <SwitchPreference
+        android:key="eicic"
+        android:title="@string/ue_cap_eicic" >
+     </SwitchPreference>
+     <SwitchPreference
+        android:key="embms"
+        android:title="@string/ue_cap_embms" >
+     </SwitchPreference>
+     <SwitchPreference
+        android:key="mdt"
+        android:title="@string/ue_cap_mdt" >
+     </SwitchPreference>
+     <SwitchPreference
+        android:key="mta"
+        android:title="@string/ue_cap_mta" >
+     </SwitchPreference>
+     <SwitchPreference
+        android:key="emfbi"
+        android:title="@string/ue_cap_emfbi" >
+     </SwitchPreference>  -->
+     <SwitchPreference
+        android:key="ul_64qam"
+        android:title="@string/ue_cap_ul_64qam" >
+     </SwitchPreference>
+</PreferenceScreen>

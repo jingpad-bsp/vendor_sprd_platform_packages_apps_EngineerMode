@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="45dp"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical"
+    android:descendantFocusability="blocksDescendants">
+    <TextView
+        android:id="@+id/sceneInfo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginLeft="50dp"/>
+    <ImageButton
+        android:id="@+id/btn_add"
+        android:src="@drawable/ic_menu_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="12dp"
+        android:visibility="gone"
+        android:clickable="false"
+        android:background="#00000000"/>
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:drawableRight="@android:drawable/btn_radio"
+        android:background="@android:color/transparent"
+        android:clickable="false"
+        android:button="@null"/>
+    <!-- Divider -->
+    <ImageView
+        android:id="@+id/divider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:visibility="invisible"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/nav_divider"
+         />
+
+    <!-- Details button -->
+    <ImageView
+        android:id="@+id/editDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="5dp"
+        android:visibility="invisible"
+        android:background="?android:attr/selectableItemBackground"
+        android:src="@drawable/ic_bt_config"/>
+</LinearLayout>

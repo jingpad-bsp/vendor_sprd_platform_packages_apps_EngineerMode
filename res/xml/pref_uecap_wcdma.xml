@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+     <SwitchPreference
+        android:key="ul_16qam"
+        android:title="@string/ue_cap_ul_16qam" >
+     </SwitchPreference>
+     <SwitchPreference
+        android:key="dbhsdpa"
+        android:title="@string/ue_cap_db_hsdpa" >
+     </SwitchPreference>
+     <SwitchPreference
+        android:key="snow3g"
+        android:title="@string/ue_cap_snow3g" >
+     </SwitchPreference>
+     <SwitchPreference
+        android:key="w_diversity"
+        android:title="@string/ue_cap_w_diversity" >
+     </SwitchPreference>
+     <SwitchPreference
+        android:key="hsdpa"
+        android:title="@string/ue_cap_hsdpa" >
+     </SwitchPreference>
+</PreferenceScreen>

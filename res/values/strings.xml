@@ -1,0 +1,1954 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="nxp">NXP</string>
+    <string name="mos_switch">MOS</string>
+    <string name="mos_test_mode">Mos Test Mode</string>
+    <string name="not_mos_test_mode">Not Mos Test Mode</string>
+    <string name="meid_switch">Store Meid At Sim Init</string>
+    <string name="dm_switch">ctcc dm switch</string>
+    <string name="sip_force_mt_session_timer">sip force mt session timer</string>
+    <string name="no_space_internal">no enough apace in internal storage</string>
+    <string name="sim_invalid">SIM is invalid</string>
+    <string name="apk_not_exist">this apk does not exist</string>
+    <string name="not_support_visitor_or_user_mode">visitor or user mode does not support this feature</string>
+    <!-- begin 550429 add by suyan.yang 2016.05.10 -->
+    <string name="sms_over_ip_switch">SMS OVER IP</string>
+    <!-- end 550429 add by suyan.yang 2016.05.10 -->
+    <string name="imsswitch">IMS APN</string>
+    <string name="volte_switch">Volte Switch</string>
+    <string name="dualVoLTE_switch">DualVoLTE Switch</string>
+    <string name="volte_switch_waring">This action will restart the phone, whether or not to continue?</string>
+    <string name="qrm_switch_waring">This action will restart the phone, whether or not to continue?</string>
+    <string name="choose_to_reboot">The phone will restart after set success, whether or not to continue?</string>
+    <string name="volteswitch">Volte Switch</string>
+    <string name="traffic_class">traffic class:</string>
+    <string name="Default_value">Default value</string>
+    <string name="Self_defining_value">Self definit value</string>
+    <string name="app_name">EngineerMode</string>
+    <string name="tab_telephony">Telephony</string>
+    <string name="tab_debug">Debug&amp;Log</string>
+    <string name="tab_connectivity">Connectivity</string>
+    <string name="tab_hardwaretest">HardWare</string>
+    <string name="tab_location">Location</string>
+    <string name="systeminfo">System Info</string>
+    <string name="powerdissipation">Power Dissipation Setting</string>
+    <string name="verinfo">Version Info</string>
+    <string name="memory_info_and_usage">Memory Info And Usage</string>
+    <string name="usage_top5_process">Usage Top 5 Process</string>
+    <string name="cpu_info_and_usage">Cpu Info And Usage</string>
+    <string name="cpu_usage">Cpu Usage</string>
+    <string name="other_system_info_and_detail">Other System Info And Detail</string>
+    <string name="thread_info">Thread Info</string>
+    <!-- SPRD: Add power log. {@ -->
+    <string name="sprd_power_log">Power Log</string>
+    <string name="sprd_power_hint_log">Power Hint Log</string>
+    <string name="sprd_power_guru_log">Power Guru Log</string>
+    <string name="sprd_doze_log">Doze Log</string>
+    <string name="sprd_display_log">Display Log</string>
+    <string name="sprd_battery_log">Battery Log</string>
+    <string name="sprd_wakelock_log">WakeLock Log</string>
+    <string name="sprd_power_controller_log">PowerController Log</string>
+    <string name="sprd_battery_saver_log">BatterySaver Log</string>
+    <string name="sprd_alarm_log">Alarm Log</string>
+    <string name="sprd_power_controller_switch">PWCTL Enabled</string>
+    <string name="sprd_power_controller_gps_switch">PWCTL GPS Enabled</string>
+    <string name="sprd_power_controller_network_switch">PWCTL Network Enabled</string>
+    <string name="sprd_power_controller_bg_clean_switch">PWCTL BGClean Enabled</string>
+    <string name="sprd_power_controller_wakelock_switch">PWCTL Wakelock Enabled</string>
+    <string name="sprd_power_controller_only_saver_switch">PWCTL Only In Saver Enabled</string>
+    <string name="sprd_power_controller_gps_only_saver_switch">PWCTL GPS Only In Saver Enabled</string>
+    <string name="sprd_log_prompt">Prompt:All changes to this page will take effect after rebooting the device.</string>
+    <!-- Add power log. @} -->
+    <string name="battery_log">Battery Log</string>
+    <string name="build_number">Build Number</string>
+    <string name="flash_block_info">Flash Block Info</string>
+    <string name="cftresult">CFT Result</string>
+    <string name="logsettings">Log Settings</string>
+    <string name="it3">IT3</string>
+    <string name="iot">IOT Test</string>
+    <string name="pclog">PC Log</string>
+    <string name="slogui">Ylog UI</string>
+    <string name="label_slogui">YlogUI</string>
+    <string name="rdo_general_on">On</string>
+    <string name="rdo_general_off">Off</string>
+    <string name="rdo_general_lowpower">Silent</string>
+    <string name="chk_general_switch">General switch</string>
+    <string name="chk_general_android">Record Android log</string>
+    <string name="chk_general_modem">Record modem log</string>
+    <string name="chk_general_cp0">Record WCDMA Modem Log</string>
+    <string name="chk_general_cp1">Record TD-SCDMA Log</string>
+    <string name="chk_general_cp2">Record WCN Modem Log</string>
+    <string name="chk_general_cp3">Record CP3 Log</string>
+    <string name="txv_general_storagelocation">Log path</string>
+    <string name="rdo_general_sdcard">SDCard</string>
+    <string name="rdo_general_nand">Data directory</string>
+    <string name="btn_general_clearlog">Clear logs in Log path</string>
+    <string name="btn_general_dump">Dump log in SD</string>
+    <string name="chk_general_snapsvc">Start screenshot service</string>
+    <string name="chk_general_alwaysrun">Always showing the notification in status bar</string>
+    <string name="chk_general_autoclear">HW watchdog</string>
+    <string name="alert_request_dump_title">Request dumping log in SDCard</string>
+    <string name="alert_request_dump_prompt">Need to dump logs in T-Card? Please ensure that you have chosen the SDCard in logpath.</string>
+    <string name="toast_dump_filename_error">Please check your input, you can input latin-characters and numbers only.</string>
+    <string name="chk_android_switch">Record Android Log</string>
+    <string name="txv_android_branch">Subswitch</string>
+    <string name="chk_android_kernel">Record kernel log</string>
+    <string name="chk_android_system">Record system log</string>
+    <string name="chk_android_main">Record main log</string>
+    <string name="chk_android_event">Record event log</string>
+    <string name="chk_android_radio">Record radio log</string>
+    <string name="chk_modem_switch">Record modem log</string>
+    <string name="chk_muti_modem_switch0">Record modem0 log</string>
+    <string name="chk_muti_modem_switch1">Record modem1 log</string>
+    <string name="txv_modem_other">Misc options</string>
+    <string name="chk_modem_bluetooth">Record bluetooth log</string>
+    <string name="chk_modem_tcp">Record cap log</string>
+    <string name="chk_modem_misc">Record misc log</string>
+    <string name="txv_alert_dump">Please input package name</string>
+    <string name="txv_alert_clearlog">Really clear all logs?</string>
+    <string name="alert_dump_title">Dump logs</string>
+    <string name="alert_dump_dialog_ok">OK</string>
+    <string name="alert_dump_dialog_cancel">Cancel</string>
+    <string name="alert_clear_title">Clear logs</string>
+    <string name="alert_clear_dialog_ok">Delete</string>
+    <string name="alert_clear_dialog_cancel">Abort</string>
+    <string name="alert_clear_string">Really clear all logs?</string>
+    <string name="tabtag_tabhost_tabgeneral">General</string>
+    <string name="tabtag_tabhost_tabandroid">Android Log</string>
+    <string name="tabtag_tabhost_tabmodem">Modem and Misc</string>
+    <string name="toast_receiver_failed">Failed to start Ylog service</string>
+    <string name="notification_slogsvc_title">YlogUI running in background</string>
+    <string name="notification_slogsvc_prompt">Press to return YlogUI</string>
+    <string name="notification_slogsvc_statusbarprompt">Starting YlogUI service</string>
+    <string name="notification_snapsvc_title">YlogUI screenshot service</string>
+    <string name="notification_snapsvc_prompt">Press here to screenshot now</string>
+    <string name="notification_snapsvc_statusbarprompt">YlogUI screenshot service has begun</string>
+    <string name="notification_low_storage_title">Storage volume is low</string>
+    <string name="notification_low_storage_prompt">Please dump or clear logs in time</string>
+    <string name="notification_low_storage_statusbar_prompt">Warning, storage volume is very low</string>
+    <string name="progressdialog_tabhost_prompt">Please wait..</string>
+    <string name="toast_snap_success">Screenshot successfully</string>
+    <string name="toast_snap_failed">Failed to screenshot</string>
+    <string name="toast_snap_prompt">Pull the statusbar, you\'ll find screenshot service, press it to snap the screen.</string>
+    <string name="toast_dump_input_limited">Please check your input,and keep it less than 40.</string>
+    <string name="toast_service_snap_start_failed">Failed to start snap service.</string>
+    <string name="toast_service_snap_end_failed">Failed to stop snap service.</string>
+    <string name="toast_service_slog_start_failed">Failed to start ylog service.</string>
+    <string name="toast_snap_timeout">Run ylogctl screen timeout,the operation is invalid.</string>
+    <string name="toast_service_slog_end_failed">Failed to stop ylog service.</string>
+    <string name="toast_freespace_nand">Free space in Data directory:</string>
+    <string name="toast_freespace_sdcard">Free space in SDCard:</string>
+    <string name="low_free_space_title">Request clean or dump logs</string>
+    <string name="low_free_space_message">The free space of current logpath is low, this may effect saved logs or dumping log, please dump them or clean them in time</string>
+    <string name="slog_dump_ok">Done</string>
+    <string name="slog_dump_failed">Dumping long failed</string>
+    <string name="slog_dump_outtime">Out of time during dumping log</string>
+    <string name="menu_mode_add">Save to </string>
+    <string name="menu_mode_select">Select mode</string>
+    <string name="menu_mode_delete">Delete mode</string>
+    <string name="dialog_button_slog_create_new_mode">Save to </string>
+    <string name="dialog_button_slog_update_mode">Save to </string>
+    <string name="menu_add_to">Save to </string>
+    <string name="mode_dialog_add_title">Add mode</string>
+    <string name="mode_dialog_delete_title">Remove mode</string>
+    <string name="mode_dialog_update_title">Update to</string>
+    <string name="mode_dialog_save_title">Save as</string>
+    <string name="mode_dialog_select_title">Select mode</string>
+    <string name="mode_dialog_duplicate_title">Duplicated mode</string>
+    <string name="mode_dialog_duplicate_message">The mode name just input is duplicated, update the mode or rename instead</string>
+    <string name="mode_dialog_duplicate_positive">Update</string>
+    <string name="mode_dialog_duplicate_negative">Rename</string>
+    <string name="slog_clear_ok">Clear done</string>
+    <string name="slog_clear_failed">Failed to clear</string>
+    <string name="set">SET</string>
+    <string name="slog_version_info">Updated on 2013-7-11, Correct some reading functions, remove duplicate query, remove effect of child thread.</string>
+    <string name="low_space_dialog_message">Current storage nearly exhausted, only %dMB is available, suggest dump log immediately.\n\nIf do nothing, the phone would be crashed because of /data volume exhausted.\n\nYlogUI Service notification has shown in StatusBar, do some actions</string>
+    <string name="low_space_dialog_title">Low storage volume</string>
+    <string name="low_space_dialog_option">Don\'t show again</string>
+    <string name="low_space_dialog_positive">OK</string>
+    <string name="low_space_dialog_negative">@string/low_space_dialog_option</string>
+    <!-- SlogUI Added Done -->
+    <string name="precheck">PreCheckApk</string>
+    <string name="action_save">Save Key Parameters</string>
+    <string name="status_unavailable">Unavailable</string>
+    <string name="precheck_title">PreCheck</string>
+    <string name="action_about">About Apk info</string>
+    <string name="modem_dsp_log_entries_values_default">0</string>
+    <string name="default_apn">Default</string>
+    <string name="customize">Customize</string>
+    <string name="supplementary_service_query">Supplementary service query</string>
+    <string name="message_retransmission">Message Retransmission</string>
+    <string name="integrity_protection">Integrity Protection</string>
+    <string name="automatic_startup_power">Automatic Startup Power</string>
+    <string name="network_mode">Network Mode</string>
+    <string name="w_prefer_plus">W Prefer</string>
+    <string name="lte_impede_data">LTE Data Impede</string>
+    <string name="gprsservice">Gprs attach/detach Service</string>
+    <string name="apn_settings">Apn Settings</string>
+    <string name="real_network_setting">Real Network Setting</string>
+    <string name="preferred_network_mode_set_title">Set Network Mode</string>
+    <string name="preferred_network_mode_summary">Change the network operating mode</string>
+    <string name="preferred_network_mode_dialogtitle">Preferred network mode</string>
+    <string name="iot_title">IOT Setting</string>
+    <string name="aocsetting_iot">Call cost setting</string>
+    <string name="protocalsetting_iot">Protocol version setting</string>
+    <string name="communitysupport_iot">Community Capability</string>
+    <string name="community_cap_query">Click to Query</string>
+    <string name="not_support">Not Support</string>
+    <string name="support">Support</string>
+    <string name="cta_iot_protocal_title">Protocol version setting</string>
+    <string name="cta_iot_protocal_summary">Protocol version setting</string>
+    <string name="cta_iot_fband_title">FBAND setting</string>
+    <string name="cta_iot_fband_summary">FBAND frequency and auxiliary frequency setting</string>
+    <string name="lockoperator_iot">Locking/unlocking setting</string>
+    <string name="gprs_title">GPRS</string>
+    <string name="gprs_sim1">SIM1</string>
+    <string name="gprs_sim2">SIM2</string>
+    <string name="gprs_sim3">SIM3</string>
+    <string name="it3_title">IT3</string>
+    <string name="driversetting">Usim driver log setting</string>
+    <string name="safemodeswitch">"Safe mode switch"</string>
+    <string name="iottest">IOT test</string>
+    <string name="qpasetting">QPA setting</string>
+    <string name="power">Power</string>
+    <string name="autoanswer">Auto Answer</string>
+    <string name="bandselect">BandSelect</string>
+    <string name="bandselect_warning">BandSelect Warning</string>
+    <string name="bandselect_warning_message">Please close the EngineerMode test Notification in the Notification bar before bandselect.</string>
+    <string name="cfu">CFU</string>
+    <string name="networkmode">Network Mode</string>
+    <string name="dsds_mode">DSDS Mode</string>
+    <string name="netinfo">NetInfo</string>
+    <string name="cat3andCat4">Query the ability of UE supports</string>
+    <string name="csfb2gsm">CSFB2GSM_DELAY</string>
+    <string name="netinfostatistics">Netinfo Statistics</string>
+    <string name="userinfo">User Info</string>
+    <string name="behaviorinfo">Behavior Info</string>
+    <string name="netinforecord">Net Info</string>
+    <string name="mobiledataservice">Data Services Preferred</string>
+    <string name="fastdormancy">Fast Dormancy</string>
+    <string name="simmelock">SIM Me Lock</string>
+    <string name="videotype">Video Type</string>
+    <string name="paraset">Para Set</string>
+    <string name="diversity">Diversity</string>
+    <string name="wdiversity">WCDMA Diversity</string>
+    <string name="ltediversityTX">LTE SCC TX</string>
+    <string name="ltediversityRX">LTE Diversity RX</string>
+    <string name="ltediversityPriTX">LTE Primary TX</string>
+    <string name="ltediversityPriRX">LTE Primary RX</string>
+    <string name="appsettings">App Settings</string>
+    <string name="dummysettings">Dummy Nv</string>
+    <string name="dunnysetting01">From the measured</string>
+    <string name="dunnysetting02">Re-election</string>
+    <string name="dunnysetting03">Re-election revert</string>
+    <string name="dunnysetting04">Forced not re-election</string>
+    <string name="dunnysetting05">Redirection</string>
+    <string name="dunnysetting06">CS HO</string>
+    <string name="dunnysetting07">PS HO</string>
+    <string name="dunnysetting08">PS CCO</string>
+    <string name="psreleated">PS Releated</string>
+    <string name="qosswitch">Qos Switch</string>
+    <string name="sim1sim2">SIM1/SIM2</string>
+    <string name="defaultt">Default</string>
+    <string name="alwaysquery">Always Query</string>
+    <string name="alwaysnotquery">Always not Query</string>
+    <string name="ncell">Ncell</string>
+    <string name="scell">Scell</string>
+    <string name="networkpersonalization">Network Personalization</string>
+    <string name="networksubsetpersonalization">Network Subset Personalization</string>
+    <string name="serviceproviderpersonalization">Service Provider Personalization</string>
+    <string name="corporatepersonalization">Corporate Personalization</string>
+    <string name="simpersonalization">SIM Personalization</string>
+    <string name="manualassert">Manual Assert</string>
+    <string name="plmnselect">PLMN Select</string>
+    <string name="rfparam">RF Param</string>
+    <string name="sleepmode">Sleep Mode</string>
+    <string name="autopoweron">Auto PowerOn</string>
+    <string name="forbidplmn">Forbid PLMN</string>
+    <string name="energencycallretry">Emergency Call Retry</string>
+    <string name="cellbroadcast">Cell Broadcast</string>
+    <string name="misc">Misc</string>
+    <string name="openclose">open/close</string>
+    <string name="apnsetting">Apn Setting</string>
+    <string name="lockfrequency">lock frequency</string>
+    <string name="autoattach">Auto attach at power on</string>
+    <string name="aocsetting">AOC Setting</string>
+    <string name="pdpactive">PDP Active/Deactive</string>
+    <string name="gprsdata">GPRS Data Send</string>
+    <string name="smsserver">SMS Server</string>
+    <string name="timeslotconflict">Timeslot conflict</string>
+    <string name="pagingcoordination">Paging coordination</string>
+    <string name="siminfo">Sim info</string>
+    <string name="hsupasetting">HSUPA setting</string>
+    <string name="alert_cmcc_set">CMCC TEST</string>
+    <string name="alert_cmcc_set_message">This item contains some CMCC test item required and some preset conditions, please reset Factory data after completing the CMCC TEST</string>
+    <string name="alert_cucc_set">CUCC TEST</string>
+    <string name="alert_cucc_set_message">This item contains some CUCC test item required and some preset conditions, please reset Factory data after completing the CUCC TEST</string>
+    <string name="alertdialog_ok">OK</string>
+    <string name="alertdialog_cancel">CANCEL</string>
+    <string name="usagetopoff">Pause</string>
+    <string name="usagetopon">Refresh</string>
+    <string name="frequency_set">Frequency Setting</string>
+    <string name="click_set_band">Click to set</string>
+    <string name="td_w_set">TD|WCDMA Setting</string>
+    <string name="frequency_query">Frequency Query</string>
+    <string name="click_query_set_frequency">Click to Query and Set</string>
+    <string name="click_query_frequency">Click to Query</string>
+    <string name="lock_unlogk_frequency">Lock/UnLock Setting</string>
+    <string name="gsm_set">GSM Setting</string>
+    <string name="frequency_band_set">Frequency Band Setting</string>
+    <string name="band_query">Frequency Band Query</string>
+    <string name="real_network">Real Network Setting</string>
+    <string name="real_net">Real Net</string>
+    <string name="simulate_net">Simulate Net</string>
+    <string name="btn_mtbfreset">MTBF Start</string>
+    <string name="btn_mtbffactoryset">Factory data Reset</string>
+    <string name="mtbf">MTBF</string>
+    <string name="shortcut_selection">Shortcut selection</string>
+    <string name="launcher">Launcher</string>
+    <string name="mtbf_launcher_shortcut">Shortcut</string>
+    <string name="mtbf_launcher_shortcut_summary">Shortcut for Launcher,click for more option</string>
+    <string name="settings">Settings</string>
+    <string name="mtbf_setting_conn">Data Connection</string>
+    <string name="mtbf_setting_conn_summary">Open data connection and set APN</string>
+    <string name="mtbf_setting_time">DateTime</string>
+    <string name="mtbf_setting_time_summary">DateTime set and datetime format set</string>
+    <string name="mtbf_setting_usb">Developer options</string>
+    <string name="mtbf_setting_usb_summary">USB debugging and stay awake</string>
+    <string name="mtbf_setting_im">InputMethods</string>
+    <string name="mtbf_setting_im_summary">Set android IM as default</string>
+    <string name="mtbf_setting_screen">Displays</string>
+    <string name="mtbf_setting_screen_summary">Brightness,sleep and Auto-rotate screen</string>
+    <string name="mms">MMS</string>
+    <string name="mtbf_mms_notify">Notifications</string>
+    <string name="mtbf_mms_notify_summary">Notification disable</string>
+    <string name="calendar">Calendar</string>
+    <string name="mtbf_calendar_notify">Notifications</string>
+    <string name="mtbf_calendar_notify_summary">Notifications disable and set reminder time to None</string>
+    <string name="broswer">Browser</string>
+    <string name="mtbf_broswer_mode">Open pages mode</string>
+    <string name="mtbf_broswer_mode_summary">Open pages in overview disable</string>
+    <string name="mtbf_broswer_bookmark">Bookmarks</string>
+    <string name="mtbf_broswer_bookmark_summary">Load bookmarks from sdcard</string>
+    <string name="email">Email</string>
+    <string name="mtbf_email_address">Email Account</string>
+    <string name="mtbf_email_address_summary">Preinstall email Account</string>
+    <string name="engineermode">Engineermode</string>
+    <string name="mtbf_em_logs">Delete logs</string>
+    <string name="mtbf_em_logs_summary">Delete logs,contain system logs and kernel logs</string>
+    <string name="select_sim_type">SIM type select</string>
+    <string name="select_email_addrs">Email address</string>
+    <string name="select_email_psw">Password</string>
+    <string name="sim_type_cmcc">CMCC</string>
+    <string name="sim_type_cucc">CUCC</string>
+    <string name="select_text">Select APPs</string>
+    <string name="select_all">Select All</string>
+    <string name="unselect_all">Unselect All</string>
+    <string name="shortcut_menu_ok">Done</string>
+    <string name="mtbf_processing">MTBF processing</string>
+    <string name="mtbf_processing_wait">Please wait...</string>
+    <string name="mtbf_result">MTBF Result</string>
+    <string name="btn_confirm">Confirm</string>
+    <string name="btn_retry">Retry at once</string>
+    <string name="all_done">MTBF Done</string>
+    <string name="input_card_to_test">Please input card to set</string>
+    <string name="transmit_at_maximum_power">WIFI transmit at maximum power</string>
+    <string name="factoryset">Factory Set</string>
+    <string name="retry_notify">Try again 3 second later</string>
+    <string name="retry">Retry</string>
+    <string name="empty_frequency">Device does not search frequency</string>
+    <string name="query_frequency_result">Frequency Query Result</string>
+    <string name="lock_frequency">Lock Frequency</string>
+    <string name="unlock_frequency">UnLock Frequency</string>
+    <string name="check_frequency_to_lock">Check Frequency to Lock</string>
+    <string name="alert_lock_frequency">UnLock Frequency Setting will unLock all searched frequency</string>
+    <string name="sim_forbid_plmn">Sim Forbid Plmn</string>
+    <string name="sim_equal_plmn">Sim Equal Plmn</string>
+    <string name="unlockfreq">unlock freq cells:</string>
+    <string name="lfc1">Lock_freq1_cells:</string>
+    <string name="lfc2">Lock_freq2_cells:</string>
+    <string name="lfc3">Lock_freq3_cells:</string>
+    <string name="lfc4">Lock_freq4_cells:</string>
+    <string name="gprsdatasend">Data number:</string>
+    <string name="gprscontent">Send content:</string>
+    <string name="radio_info_imei_label">IMEI:</string>
+    <string name="td_a_frequency">TD_SCDMA Band 34</string>
+    <string name="td_f_frequency">TD_SCDMA Band 39</string>
+    <string name="empty_band">Empty Band</string>
+    <string name="flash_not_support">The project does not support this</string>
+    <string name="input_cmcc_card">Please insert CMCC SIM to set</string>
+    <string name="input_cucc_card">Please insert CUCC SIM and turn off \'W Prefer Plus\' to set</string>
+    <string name="input_sim_warn">Make sure the Slot 2 No Sim</string>
+    <string name="no_sim1_warn">Make sure the Slot 1 has Sim</string>
+    <string name="no_sim_warn">Make sure the Slot has 1 Sim</string>
+    <string name="sprdilog">SPRDilog</string>
+    <string name="gsm850">GSM850</string>
+    <string name="egsm900">EGSM900</string>
+    <string name="dcs1800">DCS1800</string>
+    <string name="pcs1900">PCS1900</string>
+    <string name="td19">TD1.9</string>
+    <string name="td21">TD2.1</string>
+    <string name="wband1">WBand1</string>
+    <string name="wband2">WBand2</string>
+    <string name="wband5">WBand5</string>
+    <string name="wband8">WBand8</string>
+    <string name="button_ok">OK</string>
+    <!-- Radio Info Start -->
+    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="radio_info_call_redirect_label">Call redirect:</string>
+    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="radio_info_ppp_resets_label">Number of PPP reset since boot:</string>
+    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="radio_info_gsm_disconnects_label">GSM disconnects:</string>
+    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="radio_info_current_network_label">Current network:</string>
+    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="radio_info_data_successes_label">Data successes:</string>
+    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="radio_info_ppp_received_label">PPP received:</string>
+    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="radio_info_gsm_service_label">GSM service:</string>
+    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="radio_info_signal_strength_label">Signal strength:</string>
+    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="radio_info_call_status_label">Call status:</string>
+    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="radio_info_ppp_sent_label">PPP sent:</string>
+    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="radio_info_radio_resets_label">Radio resets:</string>
+    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="radio_info_message_waiting_label">Message waiting:</string>
+    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="radio_info_phone_number_label">Phone number:</string>
+    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="radio_info_band_mode_label">Select radio band</string>
+    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="radio_info_network_type_label">Network type:</string>
+    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="radio_info_set_perferred_label">Set preferred network type:</string>
+    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="radio_info_ping_ipaddr">Ping IpAddr:</string>
+    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="radio_info_ping_hostname">Ping Hostname(www.google.com):</string>
+    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="radio_info_http_client_test">HTTP Client test:</string>
+    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="ping_test_label">Run ping test</string>
+    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="radio_info_smsc_label">SMSC:</string>
+    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="radio_info_smsc_update_label">Update</string>
+    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="radio_info_smsc_refresh_label">Refresh</string>
+    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="radio_info_toggle_dns_check_label">Toggle DNS check</string>
+    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="oem_radio_info_label">OEM-specific Info/Settings</string>
+    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="radio_info_signal_location_label">Location:</string>
+    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="radio_info_neighboring_location_label">Neighboring CID:</string>
+    <string name="radio_info_data_attempts_label">Data attempts:</string>
+    <string name="radio_info_roaming_label">Roaming:</string>
+    <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="radioInfo_menu_viewADN">View SIM address book</string>
+    <!-- Phone Info screen. Menu item label.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="radioInfo_menu_viewFDN">View Fixed Dialing Numbers</string>
+    <!-- Phone Info screen. Menu item label.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="radioInfo_menu_viewSDN">View Service Dialing Numbers</string>
+    <!-- Phone Info screen. Menu item label.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="radioInfo_menu_getPDP">Get PDP list</string>
+    <string name="radio_info_gprs_service_label">GPRS service:</string>
+    <!-- Phone Info screen. Button label to turn on the radio . Only shown in diagnostic screen, so precise translation is not needed. -->
+    <string name="turn_on_radio">Turn on radio</string>
+    <!-- Phone Info screen. Button label to turn off the radio . Only shown in diagnostic screen, so precise translation is not needed. -->
+    <string name="turn_off_radio">Turn off radio</string>
+    <string name="radioInfo_unknown">Unknown</string>
+    <string name="radioInfo_display_dbm">dBm</string>
+    <!-- Phone Info screen. Units shown after a value.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="radioInfo_display_asu">asu</string>
+    <!-- Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="radioInfo_lac">LAC</string>
+    <!-- Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="radioInfo_cid">CID</string>
+    <string name="radioInfo_service_emergency">Emergency calls only</string>
+    <string name="radioInfo_service_in">In service</string>
+    <string name="radioInfo_service_off">Radio off</string>
+    <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="radioInfo_roaming_in">Roaming</string>
+    <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="radioInfo_roaming_not">Not roaming</string>
+
+    <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="radioInfo_phone_idle">Idle</string>
+    <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="radioInfo_phone_ringing">Ringing</string>
+    <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="radioInfo_phone_offhook">Call in progress</string>
+
+    <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="radioInfo_data_disconnected">Disconnected</string>
+    <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="radioInfo_data_connecting">Connecting</string>
+    <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="radioInfo_data_connected">Connected</string>
+    <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="radioInfo_data_suspended">Suspended</string>
+    <string name="radioInfo_display_packets">pkts</string>
+    <!-- Phone Info screen. Units shown after a value.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="radioInfo_display_bytes">bytes</string>
+    <string name="ims_reg_required_off">Turn off IMS registration required</string>
+    <!-- Phone SMS over IMS IMS registration required on. Only shown in diagnostic screen, so precise translation is not needed. -->
+    <string name="ims_reg_required_on">Turn on IMS registration required</string>
+    <!-- Phone SMS over IMS on. Only shown in diagnostic screen, so precise translation is not needed. -->
+    <string name="sms_over_ims_on">Turn on SMS over IMS</string>
+    <!-- Phone SMS over IMS off. Only shown in diagnostic screen, so precise translation is not needed. -->
+    <string name="sms_over_ims_off">Turn off SMS over IMS</string>
+    <!-- Phone ram dump on. Only shown in diagnostic screen, so precise translation is not needed. -->
+    <string name="lte_ram_dump_on">Turn on lte ram dump</string>
+    <!-- Phone ram dump off. Only shown in diagnostic screen, so precise translation is not needed. -->
+    <string name="lte_ram_dump_off">Turn off lte ram dump</string>
+    <!-- Radio Info End -->
+    <string name="set_bands_error">Set Error,Please try again after a few minutes</string>
+    <string name="gprs_attach">Attached</string>
+    <string name="gprs_deattach">Detached</string>
+    <string name="always_attach">Always Attach</string>
+    <string name="when_need">When Needed</string>
+    <string name="fir_pdp">1st PDP</string>
+    <string name="sec_pdp">2nd PDP</string>
+    <string name="as_primary">As Primary</string>
+    <string name="as_secondary">As Secondary</string>
+    <string name="activate_pdp">Activate PDP</string>
+    <string name="deactivate_pap">Deactivate PDP</string>
+    <string name="send_data">Send Data</string>
+    <string name="clear_data">Clear Data</string>
+    <string name="hide_text">1000</string>
+    <string name="hide_text1">0</string>
+    <string name="input_rang">Input Rang:1-16000</string>
+    <string name="about">About EM</string>
+    <string name="version_info">Version Info</string>
+    <string name="version_info_detail">EngineerMode v2.0</string>
+    <string name="menu_settings">Settings</string>
+    <string name="imsi_nums">MMC</string>
+    <string name="gid1">GID1</string>
+    <string name="gid2">GID2</string>
+    <string name="simlock_lock">Lock</string>
+    <string name="simlock_unlock">Unlock</string>
+    <string name="simlock_retrytimes">Retry Times</string>
+    <string name="simlock_cancel">Cancel</string>
+    <string name="password_input_notice">Password</string>
+    <string name="password_input_again_notice">Password again</string>
+    <string name="fill_memory_alert_msg">It may cost 10 minutes or more,Please wait...</string>
+    <string name="fill_memory_stop_msg">Stuffing MEMORY has been deleted</string>
+    <string name="fill_memory_alert_ok">Ok,I got it</string>
+    <string name="memory_low">Warning:out of memory</string>
+    <string name="set_ready">Please input card and make sure AirplaneMode Off to set</string>
+    <string name="default_set">Default Setting</string>
+    <string name="custom_set">Custom Setting</string>
+    <string name="custom_apn_set">CUCC test, you need to enable the default APN, Please enter the Setting to set</string>
+
+    <!-- SlogUI string resources -->
+    <eat-comment />
+
+    <string name="general_android">Android Log</string>
+    <string name="general_modem">Modem Log</string>
+    <string name="general_cp0">WCDMA Modem Log</string>
+    <string name="general_cp1">TD-SCDMA Modem Log</string>
+    <string name="general_cp2">NWCN Modem Log</string>
+    <string name="general_cp3">TD-LTE Modem Log</string>
+    <string name="general_cp4">TDD-LTE Modem Log</string>
+    <string name="general_cp5">FDD-LTE Modem Log</string>
+    <string name="general_bluetooth">Bluetooth Log</string>
+    <string name="general_cap">Cap Log</string>
+    <string name="storage_free">Free</string>
+    <string name="storage_usage">Used</string>
+    <string name="storage_location_prompt">PHONE STORAGE</string>
+    <string name="storage_location">Log Path:</string>
+    <string name="mode_save">Save mode</string>
+    <string name="settings_device_log_setting_divider">Ylog Settings</string>
+    <string name="slogui_common_control_title">YLog</string>
+    <string name="slogui_settings_title">Ylog Settings</string>
+    <string name="collector_genral">General Settings</string>
+    <string name="collection_general_show_notification">Always show Ylog in Notification</string>
+    <string name="collection_general_screen_service">Snap service</string>
+    <string name="collection_general_save_all">Save more logs in last_log</string>
+    <string name="collection_general_prompt_logpath">Log path</string>
+    <string name="collection_general_logpath_data">Data directory</string>
+    <string name="collection_general_logpath_external">External directory</string>
+    <string name="collector_loglevel2">2-VERBOSE</string>
+    <string name="collector_loglevel3">3-DEBUG</string>
+    <string name="collector_loglevel5">5-ERROR</string>
+    <string name="modem_loglevel_default">Default</string>
+    <string name="modem_loglevel_full">Full</string>
+    <string name="modem_loglevel_advanced">Advanced</string>
+    <string name="modem_loglevel">Modem Loglevel</string>
+    <string name="advanced_wcdmd">WCDMA Filter</string>
+    <string name="advanced_lte">LTE Filter</string>
+    <string name="advanced_wcdmd_wl1">W-throuthput_l1</string>
+    <string name="advanced_wcdmd_wl2">W-throuthput_l2</string>
+    <string name="advanced_wcdmd_sleep">W-sleep</string>
+    <string name="advanced_wcdmd_manual">Manual</string>
+    <string name="wcdmd_manual_level0">Level 0</string>
+    <string name="wcdmd_manual_level1">Level 1</string>
+    <string name="wcdmd_manual_level2">Level 2</string>
+    <string name="wcdmd_manual_level3">Level 3</string>
+    <string name="wcdmd_manual_level4">Level 4</string>
+    <string name="wcdmd_manual_level5">Level 5</string>
+    <string name="advanced_lte_danymic">Danymic</string>
+    <string name="advanced_lte_manual">Manual</string>
+    <string name="lte_manual_log">Log Level</string>
+    <string name="lte_manual_up">UP Trace Level</string>
+    <string name="lte_manual_rrc">RRC Trace Level</string>
+    <string name="lte_manual_nas">NAS Trace Level</string>
+    <string name="lte_manual_error">0-ERROR</string>
+    <string name="lte_manual_warning">1-WARNING</string>
+    <string name="lte_manual_normal">2-NORMAL</string>
+    <string name="lte_manual_debug">3-DEBUG</string>
+    <string name="collector_filter_screen_default">Default</string>
+    <string name="collector_filter_screen_wl1">Throughput(WL1)</string>
+    <string name="collector_filter_screen_wl2">Throughput(WL2)</string>
+    <string name="collector_filter_screen_sleep">Sleep</string>
+    <string name="collector_filter_screen_all">All ylog</string>
+    <string name="collector_loglevel">Android Loglevel</string>
+    <string name="collector_filter_screen">Filter Screen</string>
+    <string name="collector_android">Android Log</string>
+    <string name="prompt_branches">Android Log branches</string>
+    <string name="switch_android">Record Android log</string>
+    <string name="switch_events">Record events log</string>
+    <string name="switch_kernel">Record kernel log</string>
+    <string name="switch_main">Record main log</string>
+    <string name="switch_radio">Record radio log</string>
+    <string name="switch_system">Record system log</string>
+    <string name="collector_cp_log_level">CP LogLevel</string>
+    <string name="collector_cp_log_level_w">W LogLevel</string>
+    <string name="collector_cp_log_level_lte">LTE LogLevel</string>
+    <string name="collector_others">Others</string>
+    <string name="collection_others_clear_logs">Clear logs</string>
+    <string name="collection_others_dump_log">Dump log</string>
+    <string name="collection_others_log_control_prompt">Dump or clear logs</string>
+    <string name="collector_system">System Settings</string>
+    <string name="collection_system_hwwatchdog">HW watchdog</string>
+    <string name="collection_system_sysdump">Sysdump</string>
+    <string name="collection_system_coredump">Core dump</string>
+    <string name="collection_system_hprofs">Hprofs</string>
+    <string name="collection_system_sprddebug">Sprd debug</string>
+    <string name="service_slog_title">YlogUI Service</string>
+    <string name="service_slog_statusbar_prompt">Ylog service has been launched</string>
+    <string name="service_slog_prompt">Press to resume YlogUI</string>
+    <string name="service_snap_title">YlogUI Snap</string>
+    <string name="service_snap_statusbar_prompt">Snap service will be launched</string>
+    <string name="service_snap_prompt">Press to take a screenshot</string>
+    <string name="dump_clear_action_duplicated">Ylog is busy now, please standby</string>
+    <string name="dump_action_successed">Dump log successfully</string>
+    <string name="dump_action_failed">Failed to dump log</string>
+    <string name="clear_action_successed">Clear log successfully</string>
+    <string name="clear_action_failed">Failed to clear log</string>
+    <string name="clear_ylog_action_failed">Failed to clear Ylog</string>
+    <string name="clear_modem_action_failed">Failed to clear modem log</string>
+    <string name="screenshot_successed">Snap successfully</string>
+    <string name="screenshot_failed">Snap failed</string>
+    <string name="screenshot_timeout">Screenshot timeout</string>
+    <string name="mode_popup_list_header">Modes</string>
+    <string name="mode_delete">Delete mode</string>
+    <string name="mode_create">Create a mode</string>
+    <string name="mode_update">Update current mode</string>
+    <string name="mode_prompt_mode_exsist_title">Duplicated mode</string>
+    <string name="mode_prompt_mode_exsist_prompt">The mode %s was existed, would you like update this mode?</string>
+    <string name="mode_prompt_mode_exsist_posistive">Continue</string>
+    <string name="mode_prompt_mode_exsist_negative">Cancel</string>
+    <string name="mode_prompt_mode_update_complete">Mode was updated</string>
+    <string name="mode_prompt_delete_title">Really delete</string>
+    <string name="mode_prompt_delete_prompt">The mode will be lost</string>
+    <string name="mode_prompt_delete_positive">Delete</string>
+    <string name="mode_prompt_delete_negative">Cancel</string>
+    <string name="mode_prompt_delete_complete">Mode has been removed</string>
+    <string name="mode_prompt_create_mode_prompt">Please input your new mode name</string>
+    <string name="mode_prompt_create_mode_positive">Create</string>
+    <string name="mode_prompt_create_mode_negative">Cancel</string>
+    <string name="mode_prompt_create_mode_complete">Create completed</string>
+    <string name="scene_switching">Set…</string>
+    <string name="scene_switching_wait">Please wait…</string>
+    <!-- ADD FOR IOT -->
+    <string name="pdp_test">PDP TEST</string>
+    <!-- ADD FOR LTE -->
+    <string name="setting_dialog_con1">Confirm the setting of this</string>
+    <string name="setting_dialog_con2">This will automatically restart the mobile phone</string>
+    <!-- Old slog strings -->
+    <eat-comment />
+
+    <!-- add for VT option -->
+    <string name="VT_option">VT Option</string>
+    <string name="confirm">Confirm</string>
+    <string name="vtoption_on_message">To enable the function will cause you to use related third party software. If you and/or your client need to use the above-mentioned third party software, you shall be required to pay royalty to the related third party to get the authorized license.Confirm to modify ,then the mobile will reboot. </string>
+    <string name="vtoption_off_message">Are you sure to reboot mobile for closing vt?</string>
+    <!-- add for VT switch -->
+
+
+    <!-- Wifi EUT Start -->
+    <string name="alert_wifi_test">Wifi EUT Warning</string>
+    <string name="alert_close_wifi">Please close wifi before Wifi EUT Test</string>
+    <string name="wifi_eut_band">Band</string>
+    <string name="wifi_eut_channel">Channel</string>
+    <string name="wifi_eut_pkt_length">Pkt length</string>
+    <string name="wifi_eut_pkt_length_hint">64~4095</string>
+    <string name="wifi_eut_pkt_cnt">Pkt cnt</string>
+    <string name="wifi_eut_pkt_cnt_hint">0~65535</string>
+    <string name="wifi_eut_powerLevel">Power level</string>
+    <string name="wifi_eut_powerLevel_hint">0~17</string>
+    <string name="wifi_eut_rate">Rate</string>
+    <string name="wifi_eut_mode">Mode</string>
+    <string name="wifi_eut_preamble">Preamble</string>
+    <string name="wifi_eut_band_width">Band width</string>
+    <string name="wifi_eut_cbw">CBW</string>
+    <string name="wifi_eut_sbw">SBW</string>
+    <string name="wifi_eut_guard_interval">Guard interval</string>
+    <string name="wifi_tx_cw">CW</string>
+    <string name="wifi_tx_go">Go</string>
+    <string name="wifi_tx_stop">Stop</string>
+    <string name="wifi_eut_text_rx_num">Test RX Num</string>
+    <string name="wifi_eut_rx_ok">RX Ok:</string>
+    <string name="wifi_eut_per">PER:</string>
+    <string name="wifi_eut_type">Type</string>
+    <string name="wifi_eut_addr">Addr</string>
+    <string name="wifi_eut_length">Length</string>
+    <string name="wifi_eut_value">Value</string>
+    <string name="wifi_tx_read">Read</string>
+    <string name="wifi_tx_write">Write</string>
+    <string name="alert_wifi">Do not open Wifi when testing</string>
+    <string name="wifi_eut_path">RF Tx Path</string>
+    <string name="wifi_eut_standard">RF Standard</string>
+    <string name="wifi_rx_path">RF Rx Path</string>
+    <!-- Wifi EUT End -->
+
+
+    <!-- UA Setting start -->
+    <string name="ua_other_title">Choose Other UA</string>
+    <string name="read_ua_error">Read UserAgent file contents error.</string>
+    <string name="ua_setting">UA Setting</string>
+    <string name="cur_ua">Current UA:</string>
+    <string name="ua_default"> Default UA</string>
+    <string name="ua_other">Other UA</string>
+    <string name="ua_chrome"> Chrome UA</string>
+    <string name="ua_ie"> IE UA</string>
+    <string name="ua_custom"> Custom UA</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <!-- UA Setting end -->
+    <string name="gps_configration">GPS config</string>
+    <string name="agps_log_show">AGPS LOG show</string>
+    <!-- SPRD: modify 20140419 Spreadtrum of 301972 EngineerMode, telephony-GPRS, the title shows the corresponding sim card @{ -->
+    <string name="gprs_sim_title">SIM</string>
+    <!-- @} -->
+    <string name="setting_successfully"><xliff:g id="menu_lte">%s</xliff:g> Set Success</string>
+    <string name="setting_failed"><xliff:g id="menu_lte">%s</xliff:g> Set Fail</string>
+    <string name="tab_reselect">Reselect</string>
+    <string name="tab_handover">HandOver</string>
+    <string name="tab_attachTime">AttachTime</string>
+    <string name="tab_dropTimes">DropTimes</string>
+    <string name="tab_carrierHandoverTimes">CarrierHandoverTimes</string>
+    <string name="droptimes_2g">2g droptimes </string>
+    <string name="droptimes_3g">3g droptimes </string>
+    <string name="droptimes_lte">lte droptimes </string>
+    <string name="droptimes_all">droptimes total </string>
+    <string name="attachtime_2g">2g attachtime </string>
+    <string name="attachtime_3g">3g attachtime </string>
+    <string name="attachtime_lte">lte attachtime </string>
+    <string name="attachtime_total">attachtime total</string>
+    <string name="w_2cc_to_1cc">WCDMA 2cc to 1cc</string>
+    <string name="w_1cc_to_2cc">WCDMA 1cc to 2cc</string>
+    <string name="lte_2cc_to_1cc">LTE 2cc to 1cc</string>
+    <string name="lte_1cc_to_2cc">LTE 1cc to 2cc</string>
+    <string name="success_number">Success</string>
+    <string name="pass_ratio">Pass ratio</string>
+    <string name="delay_time">Delay</string>
+    <string name="fail_number">Fail</string>
+    <string name="g3_g3">3G-3G</string>
+    <string name="g2_g2">2G-2G</string>
+    <string name="g3_g2">3G-2G</string>
+    <string name="g2_g3">2G-3G</string>
+    <string name="g3_g4">3G-4G</string>
+    <string name="g2_g4">2G-4G</string>
+    <string name="g4_g4">4G-4G</string>
+    <string name="g4_g2">4G-2G</string>
+    <string name="g4_g3">4G-3G</string>
+    <string name="g3_g3_cs">3G-3G CS </string>
+    <string name="g3_g2_cs">3G-2G CS </string>
+    <string name="g2_g2_cs">2G-2G CS </string>
+    <string name="g2_g3_cs">2G-3G CS </string>
+    <string name="g3_g2_ps">3G-2G PS</string>
+    <string name="g2_g2_ps">2G-2G PS</string>
+    <string name="g2_g3_ps">2G-3G PS</string>
+    <string name="g2_g4_ps">2G-4G PS</string>
+    <string name="g4_g2_ps">4G-2G PS</string>
+    <string name="g2_g4_cs">2G-4G CS </string>
+    <string name="g3_g4_cs">3G-4G CS </string>
+    <string name="g4_g4_cs">4G-4G CS </string>
+    <string name="g4_g3_cs">4G-3G CS </string>
+    <string name="g4_g2_cs">4G-2G CS </string>
+    <string name="srvcc_2g">SRVCC 2G</string>
+    <string name="srvcc_3g">SRVCC 3G</string>
+    <string name="delay_default">NA</string>
+    <!-- SPRD: modify 20140609 Spreadtrum of 321078 porting slide settings feature -->
+    <string name="android_utils">Performance Utils</string>
+    <string name="title_slide_settings">Slide Settings</string>
+    <string name="summary_slide_settings">set slide parameter</string>
+    <string name="label_slide_settings">SlideSettings</string>
+
+    <!-- Launcher Settings -->
+    <string name="launcher_settings">Launcher Setting</string>
+    <string name="delay_time_slide">Setting Damp</string>
+    <string name="default_delay_time">default damp %1$d，the range[%2$d, %3$d]</string>
+    <string name="delay_time_explain">The larger the value, the slower the slide</string>
+    <string name="slip_velocity">Set Rollback Time</string>
+    <string name="default_slip_velocity">default rollback time %1$d，the range[%2$d, %3$d]</string>
+    <string name="slip_velocity_explain">The higher the value, the slower the page rollback</string>
+    <string name="set_la_snap_velocity">Set slide flip speed</string>
+    <string name="default_la_snap_velocity">default slide flip speed %1$d，the range[%2$d, %3$d]</string>
+    <string name="la_snap_velocity_explain">The larger the value, the faster the slide</string>
+    <string name="set_la_touchslop">Set the trigger slide length</string>
+    <string name="default_la_touchslop">default trigger slide length %1$d，the range[%2$d, %3$d]</string>
+    <string name="la_touchslop_explain">The smaller the value, the easier the sliding behavior of the trigger</string>
+    <string name="set_la_minvelocity">Set the trigger sliding speed I</string>
+    <string name="default_la_minvelocity">default trigger sliding speed I %1$d，the range[%2$d, %3$d]</string>
+    <string name="la_minvelocity_explain">The smaller the value, the easier the sliding behavior of the trigger</string>
+    <string name="set_la_velocity">Set the trigger sliding speed II</string>
+    <string name="default_la_velocity">default trigger sliding speed II %1$d，the range[%2$d, %3$d]</string>
+    <string name="la_velocity_explain">The smaller the value, the easier the sliding behavior of the trigger</string>
+    <string name="warn_la_velocity">Trigger trigger sliding speed II must be greater than the sliding speed I, please reset</string>
+
+    <!-- ListView Settings -->
+    <string name="listview_settings">Set ListView slide up and down</string>
+    <string name="set_lv_friction">Setting the coefficient of friction</string>
+    <string name="default_lv_friction">default the coefficient of friction %1$d，the range[%2$d, %3$d]</string>
+    <string name="lv_friction_explain">The shorter the higher the value, the faster the process is stopped to stop the slide in response to sliding distance</string>
+    <string name="set_lv_velocity">Set sliding speed</string>
+    <string name="default_lv_velocity">default sliding speed %1$d，the range[%2$d, %3$d]</string>
+    <string name="lv_velocity_explain">The larger the value, the process of sliding, the greater the speed of the slide</string>
+    <string name="set_lv_touchslop">Set the trigger slide length</string>
+    <string name="default_lv_touchslop">default the trigger slide length %1$d，the range[%2$d, %3$d]</string>
+    <string name="lv_touchslop_explain">The smaller the value, the easier the sliding behavior of the trigger</string>
+    <string name="set_lv_minvelocity">Set trigger sliding speed</string>
+    <string name="default_lv_minvelocity">default trigger sliding speed %1$d，the range[%2$d, %3$d]</string>
+    <string name="lv_minvelocity_explain">The smaller the value, the easier the sliding behavior of the trigger</string>
+    <string name="cancel_slide">cancel</string>
+    <!-- SPRD: modify 20140621 Spreadtrum of 325713 EngineerMode, telephony-LTE modem add Clear Prior Information@{ -->
+    <string name="btn_clear_prior_information">Clear Prior Information</string>
+    <!-- @} -->
+    <string name="fm_preference_title">FM</string>
+    <string name="turn">Turn Transceiver</string>
+    <string name="seek">Seek Transceiver</string>
+    <string name="earphone">Set Earphone</string>
+    <!--begin 562936 add by suyan.yang 2016.05.14 -->
+    <string name="bler">RDS BLER</string>
+    <!--end 562936 add by suyan.yang 2016.05.14 -->
+    <string name="fm_rds_bler">FM RDS BLER</string>
+    <string name="fm_noise_scan">FM Noise Scan</string>
+    <string name="fm_reg_mode">FM Reg Mode</string>
+    <string name="fm_tune_mode">FM Tune Mode</string>
+    <string name="fm_audio_mode">FM Audio Mode</string>
+    <string name="get_para">get para</string>
+    <string name="set_para">set para</string>
+    <string name="audio_hbound">softmute hbound:</string>
+    <string name="audio_lbound">softmute lbound:</string>
+    <string name="audio_power_th">power threshold:</string>
+    <string name="audio_phyt">Retardation coefficient:</string>
+    <string name="audio_snr_th">snr threshold:</string>
+    <string name="start_freq">Start freqency(MHz):</string>
+    <string name="end_freq">End freqency(MHz):</string>
+    <string name="fm_delay">Delay(ms):</string>
+    <string name="fm_freq">freq</string>
+    <string name="fm_rssi">rssi</string>
+    <string name="fm_snr">snr</string>
+    <string name="fm_address">Reg Address(0x):</string>
+    <string name="fm_reg_val">Reg Value(0x):</string>
+    <string name="read_reg">read</string>
+    <string name="write_reg">write</string>
+    <string name="tune_rssi_th">rssi threshold:</string>
+    <string name="tune_snr_th">snr threshold:</string>
+    <string name="tune_freq_offset_th">freq offset threshold(0x):</string>
+    <string name="tune_pilot_power_th">pilot power threshold(0x):</string>
+    <string name="tune_noise_power_th">noise power threshold(0x):</string>
+    <string name="turn_button">Turn</string>
+    <string name="seek_button">Seek</string>
+    <string name="turn_textview">Turn Channel</string>
+    <string name="nOperInd">nOperInd : <xliff:g id="operind">%s</xliff:g></string>
+    <string name="nStereoInd">nStereoInd: <xliff:g id="stereoind">%s</xliff:g></string>
+    <string name="nRssi">nRssi: <xliff:g id="rssi">%s</xliff:g></string>
+    <string name="nFreqValue">nFreqValue: <xliff:g id="freqvalue">%s</xliff:g></string>
+    <string name="nPwrIndicator">nPwrIndicator: <xliff:g id="pwrindicator">%s</xliff:g></string>
+    <string name="nFreqOffset">nFreqOffset: <xliff:g id="freqoffset">%s</xliff:g></string>
+    <string name="nPilotDet">nPilotDet: <xliff:g id="pilotdet">%s</xliff:g></string>
+    <string name="nNoDacLpf">nNoDacLpf: <xliff:g id="nodaclpf">%s</xliff:g></string>
+    <string name="seek_all_channel_rssi">Seek All Channel pwrIndicator（dBm）</string>
+    <string name="start">Start</string>
+    <string name="seel_all_channel_frequency_title">Seek All Channel frequency</string>
+    <string name="set_earphone_status">Set Earphone Status</string>
+    <string name="earphone_and_extroverted_switch_title">Set Earphone And Extroverted Switch</string>
+    <string name="earphone_and_extroverted_switch_start_switch">Start Switch</string>
+    <string name="earphone_button_play">Earphone Play</string>
+    <!-- begin 562936 add by suyan.yang 2016.05.19 -->
+    <string name="channel_switch">Channel Set</string>
+    <string name="channel_set_title">Set FM Channel</string>
+    <string name="input_channel_tips">Please input channel value</string>
+    <string name="format">Format: 87.5</string>
+    <!-- end 562936 add by suyan.yang 2016.05.19 -->
+    <string name="extroverted_button_play">Extroverted Play</string>
+    <string name="check_earphone">There is no Headset, Unable test, please insert the Headset</string>
+    <string name="check_input_count">Please input seek counts , Click start button</string>
+    <string name="invalid_count">Invalid number，please input length of number small than ten</string>
+    <string name="fm_cancel">Cancel</string>
+    <string name="seel_all_channel_frequency_adapter_frequency_and_counts">Frequency:<xliff:g id="frequency">%s</xliff:g>   Counts:<xliff:g id="counts">%s</xliff:g></string>
+    <string name="earphone_and_extroverted_switch_underway">"Switch Test ..."</string>
+    <string name="seel_all_channel_frequency_adapter_frequency_and_rssi">Frequency:<xliff:g id="frequency">%s</xliff:g>    pwrIndicator:<xliff:g id="rssi">%s</xliff:g></string>
+    <string name="over">Over</string>
+    <string name="earphone_and_extroverted_switch_counts_string">Please input switching counts</string>
+    <string name="background_search_timer">Background Search Timer(restart invalid)</string>
+    <string name="lte_timer">LTE Timer(restart invalid)</string>
+    <string name="rsrp_param">RSRP Param(restart invalid)</string>
+    <string name="input">please input data</string>
+    <string name="turn_channel_unit">MHz</string>
+    <string name="alert_fm_test">FM Test Warning</string>
+    <string name="alert_close_fm">Please close FM before testing</string>
+    <string name="alert_fm">Do not open FM when testing</string>
+
+    <!-- De_sense_pll -->
+    <string name="de_sense_pll_tv_address">Address</string>
+    <string name="de_sense_pll_0x">0x</string>
+    <string name="de_sense_pll_number">Number</string>
+    <string name="de_sense_pll_numberDefault">1</string>
+    <string name="de_sense_pll_tv_data">Data</string>
+    <string name="de_sense_pll_tv_result">De Sense PLL result</string>
+    <string name="de_sense_pll_bt_read">Read</string>
+    <string name="de_sense_pll_bt_write">Write</string>
+
+    <!-- SPRD:Netinfo -->
+    <string name="turn_channel_edit_text">Please input channel frequency</string>
+    <string name="check_input_frequency">Please input complete interval</string>
+    <string name="invalid_frequency">Invalid number，please input length of number small than three</string>
+
+    <!-- SPRD:netinfo -->
+    <string name="netinfo_server_cell">Serving cell</string>
+    <string name="netinfo_neighbour_cell">The Neighbor cell</string>
+    <string name="netinfo_adjacent_cell">Between Neighbor cell</string>
+    <string name="netinfo_outfield_information">Outfield Network Information</string>
+    <string name="netinfo_adjacent_cell_2g">Between Neighbor cell（2G）</string>
+    <string name="netinfo_adjacent_cell_3g">Between Neighbor cell（3G）</string>
+    <string name="netinfo_adjacent_cell_4g">Between Neighbor cell（4G）</string>
+    <string name="netinfo_adjacent_cell_5g">Between Neighbor cell（5G）</string>
+    <string name="no_server">no Network</string>
+    <string name="unknow_server">unknown Network</string>
+    <string name="sim_trace">SIM Trace</string>
+    <string name="restart_valid">Restart Valid</string>
+    <string name="seek_channel_tip">Seeking channel...</string>
+    <string name="seek_channel_counts">Seeking chnanel counts...</string>
+    <string name="netinfo_cellid">CellID</string>
+    <string name="netinfo_frequency">Frequency</string>
+    <string name="netinfo_bsic">BSIC</string>
+    <string name="netinfo_cpid">CPID</string>
+    <string name="netinfo_rsrp">RSRP</string>
+    <string name="netinfo_rsrq">RSRQ</string>
+    <string name="netinfo_pci">PCI</string>
+    <string name="netinfo_psc">PSC</string>
+    <string name="netinfo_interference_value">Interference</string>
+    <string name="netinfo_signal_strength">Signal</string>
+    <string name="netinfo_cell_0">cell_0</string>
+    <string name="netinfo_cell_1">cell_1</string>
+    <string name="netinfo_cell_2">cell_2</string>
+    <string name="netinfo_cell_3">cell_3</string>
+    <string name="netinfo_cell_4">cell_4</string>
+    <string name="netinfo_cell_5">cell_5</string>
+    <string name="netinfo_cell_6">cell_6</string>
+    <string name="netinfo_cell_7">cell_7</string>
+    <string name="netinfo_cell_8">cell_8</string>
+    <string name="netinfo_cell_9">cell_9</string>
+    <string name="netinfo_cell_10">cell_10</string>
+    <string name="netinfo_cell_11">cell_11</string>
+    <string name="netinfo_cell_12">cell_12</string>
+    <string name="netinfo_cell_13">cell_13</string>
+    <string name="netinfo_cell_14">cell_14</string>
+    <string name="netinfo_cell_15">cell_15</string>
+
+    <!-- BT CLASSIC BQB start -->
+    <string name="alert_bt_test">BT Test Warning</string>
+    <string name="alert_close_bt_eut">Please close BT CLASSIC BQB before testing</string>
+    <string name="alert_close_bt">Please close BT before testing</string>
+    <string name="bt_tx_pattern">TX Pattern</string>
+    <string name="bt_tx_channel">TX Channel</string>
+    <string name="bt_tx_pac_type">TX Pac Type</string>
+    <string name="bt_tx_pac_len">TX Pac Len</string>
+    <string name="bt_tx_power_type">TX Power Type</string>
+    <string name="bt_tx_power_value">TX Power Value</string>
+    <string name="bt_tx_pac_cnt">TX Pac Cnt</string>
+    <string name="bt_start">Start</string>
+    <string name="bt_stop">Stop</string>
+    <string name="bt_rx_channel">RX Channel</string>
+    <string name="bt_rx_pac_type">RX Pac Type</string>
+    <string name="bt_rx_gain">RX Gain</string>
+    <string name="bt_rx_addr">RX Addr</string>
+    <string name="bt_rx_read">Read</string>
+    <string name="bt_rx_auto">Auto</string>
+    <string name="bt_rx_clear">Clear</string>
+    <string name="rx_refresh_time">Refresh Time</string>
+    <string name="input_rx_test_refresh_time">Pleases input 1s~10s refresh time</string>
+    <string name="bt_rx_time">TIME</string>
+    <string name="bt_rx_rssi">RSSI</string>
+    <string name="bt_rx_per">PER</string>
+    <string name="bt_rx_ber">BER</string>
+    <string name="alert_bt">Do not open BT when testing</string>
+    <string name="vamos_cpc">VAMOS&#38;CPC</string>
+    <!--begin bug567135 add by suyan.yang 2016-05-27 -->
+    <string name="bt_ble_tx_pattern">BLE TX Pattern</string>
+    <string name="bt_ble_tx_packet_payload">BLE TX Pac Payload</string>
+    <string name="bt_ble_tx_channel">BLE TX Channel</string>
+    <string name="bt_ble_tx_data_length">BLE TX Data Length</string>
+    <string name="bt_ble_tx_pac_type">BLE TX Pac Type</string>
+    <string name="bt_ble_tx_pac_len">BLE TX Pac Len</string>
+    <string name="bt_ble_tx_power_type">BLE TX Power Type</string>
+    <string name="bt_ble_tx_power_value">BLE TX Power Value</string>
+    <string name="bt_ble_tx_pac_cnt">BLE TX Pac Cnt</string>
+    <string name="bt_ble_tx_mod_index">BLE TX Mod_Index</string>
+    <string name="bt_ble_tx_le_phy">BLE TX LE_PHY</string>
+    <string name="bt_ble_rx_channel">BLE RX Channel</string>
+    <string name="bt_ble_rx_pac_type">BLE RX Pac Type</string>
+    <string name="bt_ble_rx_gain">BLE RX Gain</string>
+    <string name="bt_ble_rx_addr">BLE RX Addr</string>
+    <string name="bt_ble_rx_mod_index">BLE RX Mod_Index</string>
+    <string name="bt_ble_rx_le_phy">BLE RX LE_PHY</string>
+    <string name="ble_rx_channel">0~39</string>
+    <string name="ble_rx_gain_range">0~5</string>
+    <string name="ble_rx_addr_range">input 12 bits addr</string>
+    <string name="ble_tx_channel">0~39</string>
+    <string name="ble_tx_data_length">0~192</string>
+    <string name="ble_tx_pac_cnt_range">0~65535</string>
+    <!--end bug567135 add by suyan.yang 2016-05-27 -->
+    <!-- BT CLASSIC BQB end -->
+    <!-- Switch machine info start -->
+    <string name="engtest">engtest power on</string>
+    <string name="alarm">alarm power on</string>
+    <string name="charger">charger power on</string>
+    <string name="unknown">Normal power on</string>
+    <string name="normal_poweron">Normal power on</string>
+    <string name="normal_poweroff">Normal power off</string>
+    <string name="unknown_power_on">Unknown reason for power on</string>
+    <string name="unknown_power_off">Unknown reason for power off</string>
+    <string name="wdgreboot">watch dog reboot</string>
+    <string name="panic">kernel panic reboot</string>
+    <string name="special">system process reboot</string>
+    <string name="power_on_info">Power On Info</string>
+    <string name="power_off_info">Power Off Info</string>
+    <string name="modem_assert_info">Modem Assert Info</string>
+    <string name="battery_life_info">Battery Life Info</string>
+    <string name="dump_info">Dump File</string>
+    <string name="clear_info">Clear File</string>
+    <string name="timer">timer power off</string>
+    <string name="power_shutdown_key">press power shutdown key power off</string>
+    <string name="power_longpress_reboot_key">longpress power shutdown key power off</string>
+    <string name="power_reboot_key">press power reboot key power off</string>
+    <string name="battery">Low battery power off</string>
+    <string name="recovery">recovery power off</string>
+    <string name="over_temp">over temp power off</string>
+    <string name="battery_life_time">Battery Life Time</string>
+    <string name="open_battery_time">open switch info</string>
+    <string name="low_power_time">Lower Power time</string>
+    <string name="battery_life">Battery Life</string>
+    <string name="open_time">Time: <xliff:g id="number_of_deleted_items">%s</xliff:g></string>
+    <string name="battery_percent">Battery level: <xliff:g id="NUMBER">%d%%</xliff:g>"</string>
+    <string name="no_data_toast">no data in file</string>
+    <string name="no_sd_toast">please insert sd card</string>
+    <string name="clear_success_toast">clear successfully</string>
+    <string name="dump_file_toast">dump file successfully</string>
+    <string name="no_space_toast">no more sd space</string>
+    <!-- Switch machine info end -->
+
+    <string name="input_sim__warn">Please input SIM card</string>
+    <string name="input_frequency">Input the frequency: </string>
+    <string name="input_bsic">Input the bsic: </string>
+    <string name="select_band">Select BAND: </string>
+    <string name="redirection_open">OPEN</string>
+    <string name="redirection_close">CLOSE</string>
+    <string name="memory_leak_tip">please exit EM, then enter EM, click it again</string>
+    <string name="open_card_warn">Please first turn off aireplane mode or open sim card</string>
+    <string name="switch_mode_warn_message">Do not enable/disable SIM card or operate flight mode after entering network mode,otherwise there will be problems</string>
+    <string name="feature_not_support">The Product Not Support</string>
+    <string name="feature_not_support_by_user_version">The User Version Not Support</string>
+    <string name="feature_not_support_by_debug_version">The Debug Version Not Support</string>
+    <string name="feature_abnormal">The Feature Abnormal</string>
+    <string name="not_support_well">The Feature Not Support Well</string>
+    <string name="screen_off_never_title">Never Screen Off</string>
+    <string name="close_screen_off_never">Please set screen off time in Settings</string>
+    <string name="hash_value_writed">hash value written</string>
+    <string name="hash_value_not_writed">hash value not written</string>
+    <string name="hash_value">Hash Value</string>
+    <string name="slog_not_start"> Ylog Not Start</string>
+    <string name="create_config"> Config is creating</string>
+    <string name="grrc_resident_state">GRRC Resident State</string>
+    <string name="grrc_random_access_state">GRRC Random Access State</string>
+    <string name="restart_ue_to_effective_log">This Setting needs restart UE to effective, click "OK" to confirm and UE will restart</string>
+    <string name="log_path_chage_to_internel">Log Path will change from external to internal because of Sdcard unmounted</string>
+    <string name="log_path_chage_to_externel">Now, Sdcard has mounted\nLog Path will change from internal to external</string>
+    <string name="misc_dialog_warn">Warn</string>
+    <string name="dialog_warn_content">It will take about 10 minutes, and can not perform other operations, please click "OK"  to continue, please click "Cancel"to cancel</string>
+    <string name="hspa_setting">HSPA Setting</string>
+    <string name="hsdpa">HSDPA</string>
+    <string name="hsupa">HSUPA</string>
+    <string name="vt_dialog_ok">OK</string>
+    <string name="vt_dialog_cancel">CANCEL</string>
+    <string name="memory_leak_confirm">This action will trigger modem assert, whether to continue?</string>
+    <string name="switch_for_usb_active">USB interface activation</string>
+    <string name="uplmn_control">UPLMN Control</string>
+    <string name="bih_enabled">Enable BIH</string>
+    <string name="is_roaming">Roaming</string>
+    <string name="non_roaming">Non-roaming</string>
+    <string name="upload_aprfile">Upload APR.xml</string>
+    <string name="click_to_upload_aprfile">Click to upload file</string>
+    <string name="aler_upload_aprfile">Please turn on wifi or data connection to upload file</string>
+    <string name="monitor_switch_warning">No special requirements of Development_Area, please do not open</string>
+    <string name="monitor_dialog_warning">This feature can interfere with the test after the open, it is recommended not to open, whether it should open?</string>
+    <string name="launcherdebug">Launcher debug</string>
+
+    <!-- vowifi setting start -->
+    <string name="vowifi_white_list_allowed_switch">VoWifi White List Enable</string>
+    <string name="vowifi_lab_sim_allowed_switch">VoWifi Lab Sim Enable</string>
+    <!-- vowifi setting end -->
+
+    <!-- volte setting start -->
+    <string name="volte_setting">VoLTE Setting</string>
+    <string name="volte_registration">Registration</string>
+    <string name="volte_impi_impu_setting">IMPI/IMPU Setting</string>
+    <string name="volte_impi_impu_sub_setting">IMPI/IMPU Custom Setting</string>
+    <string name="volte_pcscf_setting">P-CSCF Setting</string>
+    <string name="volte_ip_setting">IP Setting</string>
+    <string name="volte_mut_length">MUT Length</string>
+    <string name="volte_subscribe_setting_switch">Subscribe Switch</string>
+    <string name="volte_sigcomp_setting">SigComp Setting</string>
+    <string name="volte_sigcomp_setting_switch">SigComp Setting Switch</string>
+    <string name="volte_sigcomp_algorithm">SigComp Algorithm</string>
+    <string name="volte_ipsec_setting">IPSec Setting</string>
+    <string name="volte_expires_time_setting">Expires Timer Setting</string>
+    <string name="volte_call">Call</string>
+    <string name="volte_code_way">Code Way</string>
+    <string name="volte_voice_code_way">Voice Code Way</string>
+    <string name="volte_voice_code_speed">Voice Code Speed</string>
+    <string name="volte_evs_primary">EVS Primary Mode</string>
+    <string name="volte_voice_code_type">Audio Codec</string>
+    <string name="volte_set_error">Please select at least one content !</string>
+    <string name="min_bandwidth">Minimum Bandwidth</string>
+    <string name="max_bandwidth">Maximum Bandwidth</string>
+    <string name="min_rate">Minimum Bitrate</string>
+    <string name="max_rate">Maximum Bitrate</string>
+    <string name="default_encode_rate">Default Encoding Bitrate</string>
+    <string name="aware_mode_title">Channel Aware Mode</string>
+    <string name="aware_bandwidth_title">Channel Aware Bandwidth</string>
+    <string name="rate_set">Mode Set</string>
+    <string name="volte_precondition_setting">Precondition Setting</string>
+    <string name="volte_precondition_setting_switch">Precondition Switch</string>
+    <string name="volte_tqos_time_setting">Tqos Timer Setting</string>
+    <string name="volte_tcall_time_setting">Tcall Timer Setting</string>
+    <string name="volte_treg_time_setting">Treg Timer Setting</string>
+    <string name="volte_pqos_time_setting">Pqos Timer Setting</string>
+    <string name="volte_ipsec_setting_switch">IPSec Setting Switch</string>
+    <string name="volte_maintain_algorithm">Maintain Algorithm</string>
+    <string name="volte_encryption_algorithm">Encryption Algorithm</string>
+    <string name="volte_psauthtype_setting">PsAuthType Setting</string>
+    <string name="volte_psauthtype">PS Auth Type</string>
+    <string name="volte_psauthtype_usrname_setting">UserName</string>
+    <string name="volte_psauthtype_password_setting">PassWord</string>
+    <string name="pls_input">Please Input</string>
+    <string name="pcscf_static">Static</string>
+    <string name="pcscf_dynamic">Dynamic</string>
+    <string name="pcscf_static_input">Please input P-CSCF address</string>
+    <!-- volte setting end -->
+    <string name="nvitem_list">NV Item List</string>
+    <string name="wifi_auto_auth">Wifi Auto Authentication</string>
+    <string name="mode_switch">Mode Switch</string>
+    <string name="mode_switch_waring">This action will restart the phone, whether or not to continue?</string>
+    <string name="no">Cancel</string>
+    <string name="pref_pick_interval">interval</string>
+    <string name="auto_upload_apr">Auto Upload APR</string>
+    <string name="apr_server">APR Server</string>
+    <string name="detect_time">Detect Time</string>
+    <string name="input_detect_time">Please input time(hour)</string>
+    <string name="group">Group</string>
+    <string name="input_group">Please input a group</string>
+    <string name="open_aprserver">Open APR</string>
+    <string name="engineermode_save">Save</string>
+    <string name="apr_select_anr">anr</string>
+    <string name="apr_select_nativecrash">Native crash</string>
+    <string name="apr_select_javacrash">Java crash</string>
+    <string name="apr_select_modemassert">Modem assert</string>
+    <string name="apr_select_crashclass">Crash class</string>
+    <string name="apr_save_error">Open APR，Please select at least one content !</string>
+    <string name="check_apr_log">View log</string>
+    <string name="check_apr_log_summary">Auton upload APR log</string>
+    <string name="check_precheck">PreCheck</string>
+    <string name="clear_apr_log">Clear</string>
+    <string name="apr_upload_history">APR upload history</string>
+    <string name="empty_view_hint">There is no data!</string>
+    <string name="apr_switch_close_hint">Please open the Apr switch in APR server.</string>
+    <string name="apr_detect_time_hint">The number of input is too large, please re-enter.</string>
+    <string name="apr_group_hint">The input is too long, please re-enter.</string>
+    <string name="system_update">System Update</string>
+    <!-- new slog -->
+    <string name="modem_log_warn">Warning of the Crawl modem log</string>
+    <string name="modem_log_enpc_warn">Modem log has been catched by engpc,if you want to use the SD mode to crawl, please click the "OK" button to set related settings, otherwise click "Cancel" button to end the operation</string>
+    <string name="modem_log_no_enpc_warn">Use SD mode to crawl modem log , you need to click the "OK" button to enter enter the setup interface to open the ARM LOG switch, etc, otherwise click "Cancel" button to end the operation</string>
+    <string name="log_output_settings">Log output settings</string>
+    <string name="advanced_settings">Advanced Settings</string>
+    <string name="custom_log_level">Log Level(0-5)</string>
+    <string name="custom_trace_module">Trace Module List(32 hexadecimal characters)</string>
+    <string name="custom_msg_sap">Msg Sap List(64 hexadecimal characters)</string>
+    <string name="arm_log_output_settings">ARM Log output settings</string>
+    <string name="log_output_custom">Log Output Style Custom</string>
+    <string name="custom_dialog_message">Please set in the advanced Settings, whether enter advanced Settings？</string>
+    <string name="sd_settings">Log storage capacity settings</string>
+    <string name="scenarios_custom">Scenarios Custom</string>
+    <string name="custom_last_cmd">The commands of the last set</string>
+    <string name="custom_now_cmd">Please input the command</string>
+    <string name="custom_last_cmd_no">No custom command set</string>
+    <string name="custom_command_input">The custom command input</string>
+    <string name="wiq_switch_meaasge">This switch turns on or off will restart the phone, whether or not to proceed?</string>
+    <string name="sd_set_log_size">Set the size of a single log file</string>
+    <string name="sd_set_all_log_size">Advanced set the size of external log file</string>
+    <string name="data_set_all_log_size">Set the size of data log file</string>
+    <string name="sd_log_size_unit">（Unit: MB）</string>
+    <string name="log_overwrite_enable">Log Overwrite</string>
+    <string name="modem_saved_pc">PC port</string>
+    <string name="custom_default_set">Restore Default</string>
+    <string name="sd_log_set">Set the size of external log file</string>
+    <string name="scenarios">Scenarios</string>
+    <string name="special_w_l1">W through put L1</string>
+    <string name="special_w_l2">W through put L2</string>
+    <string name="special_w_sleep">W sleep</string>
+    <string name="storage_location_ap">[AP Log Saved Path]</string>
+    <string name="storage_location_cp">[Modem Log Saved Path]</string>
+    <string name="collector_cp_settings">Modem Log Settings</string>
+    <string name="ap_log_settings">AP Log Settings</string>
+    <string name="switch_cap">Record CAP log</string>
+    <string name="switch_bluetooth">Record Bluetooth log</string>
+    <string name="connectivity_start_service">Start Service</string>
+    <string name="connectivity_stop_service">Stop Service</string>
+    <string name="multi_user_hint">The current is multi-user mode, can not restore factory settings.!</string>
+    <string name="antenna_set">Antenna Settings</string>
+    <string name="root_check">Root Check</string>
+    <string name="root_checking">root checking...</string>
+    <string name="rooted">rooted</string>
+    <string name="no_rooted">no root</string>
+    <string name="other_test_tools">Other Testing Tools</string>
+    <string name="single_dual_sim_mode_switch">Single or dual SIM mode switch</string>
+    <string name="single_sim_mode">Single SIM mode</string>
+    <string name="dual_sim_mode">Dual SIM mode</string>
+    <!-- single/dual_sim_mode end -->
+    <!-- slog -->
+    <string name="slog_open_scene">scene</string>
+    <string name="slog_open_tool">Tools</string>
+    <!-- SPRD: Bug 557464 normal log button display is not same with scence activity @{ -->
+    <string name="slog_no_scene">No Scene</string>
+    <string name="slog_info_no">Null</string>
+    <!-- @} -->
+    <string name="slog_normal_scene">Normal Log</string>
+    <string name="slog_data_scene">Data Service</string>
+    <string name="slog_voice_scene">Voice Service</string>
+    <string name="slog_modem_scene">Modem Service</string>
+    <string name="slog_wcn_scene">WCN Service</string>
+    <string name="slog_sim_scene">SIM Data</string>
+    <string name="slog_user_scene">User Log</string>
+    <string name="slog_custom_scene">Custom</string>
+    <string name="slog_scene_info">[Current Scene Log Info]</string>
+    <string name="slog_scene_save_time">[Current Scene Log Duration]</string>
+    <string name="slog_scene_save_path">[Current Scene Log Save Path]</string>
+    <string name="slog_version">[Current  Log Version]</string>
+    <string name="slog_modem_assert">Modem Assert Manually</string>
+    <string name="slog_dump_wcn">Dump WCN Mem Manually</string>
+    <string name="slog_dump_gps">Gnss Log</string>
+    <string name="slog_save_sleep_log">Save SleepLog</string>
+    <string name="slog_save_log_buf">Save LogBuf</string>
+    <string name="slog_general">General setting</string>
+    <string name="slog_select_scene">Scene Select</string>
+    <string name="slog_defined_title">Custom Scene</string>
+    <string name="slog_defined_commit">Commit</string>
+    <string name="slog_defined_general">General Settings</string>
+    <string name="slog_defined_general_1">Always show Ylog in Notification</string>
+    <string name="slog_defined_general_2">snap device</string>
+    <string name="slog_defined_aplog">AP Log Settings</string>
+    <string name="slog_defined_aplog_1">Android Log</string>
+    <string name="slog_defined_aplog_2">TCP/IP Log</string>
+    <string name="slog_defined_aplog_3">BT HCI Log</string>
+    <string name="slog_defined_more">more</string>
+    <string name="slog_defined_aplog_more_title">Android Log Branches</string>
+    <string name="slog_defined_aplog_more_1">Main Log</string>
+    <string name="slog_defined_aplog_more_2">System Log</string>
+    <string name="slog_defined_aplog_more_3">Radio Log</string>
+    <string name="slog_defined_aplog_more_4">Event Log</string>
+    <string name="slog_defined_aplog_more_5">Kernel Log</string>
+    <string name="slog_defined_aplog_more_7">Crash Log</string>
+    <string name="slog_defined_aplog_more_groupradio">Android Log Level</string>
+    <string name="slog_defined_aplog_more_groupradio_1">2-VERBOSE</string>
+    <string name="slog_defined_aplog_more_groupradio_2">3-DEBUG</string>
+    <string name="slog_defined_aplog_more_groupradio_3">5-ERROR</string>
+    <string name="slog_defined_aplog_more_6">Art Debug Log</string>
+    <string name="slog_defined_iv_modem_log_prefer">Modem Log Prefer</string>
+    <string name="slog_defined_modem_log_prefer_tips">This will collect modem log primarily, ap log secondary, Go on?</string>
+    <string name="slog_defined_modemlog">Modem Log Settings</string>
+    <string name="slog_defined_modemlog_1">Modem Log</string>
+    <string name="slog_defined_modemlog_2">TCP/IP Log</string>
+    <string name="slog_defined_modemlog_3">Enable Auto Dump Modem Assert</string>
+    <string name="slog_defined_modemlog_more_1">IQ Mode</string>
+    <string name="slog_defined_modemlog_more_2">Log Capacity Setting</string>
+    <string name="slog_defined_modemlog_more_3">Log Level Filter</string>
+    <string name="slog_defined_dsplog">DSP Log Settings</string>
+    <string name="slog_defined_ag_dsp_log">AG-DSP Log</string>
+    <string name="slog_defined_dsplog_1">DSP Log</string>
+    <string name="slog_defined_dsplog_2">DSP Log Output Mode</string>
+    <string name="slog_defined_dsplog_radio_1">Output from UART</string>
+    <string name="slog_defined_dsplog_radio_2">Output with Modem Log</string>
+    <string name="slog_defined_wcnlog">WCN Log Settings</string>
+    <string name="slog_defined_wcnlog_1">WIFI/BT Log</string>
+    <string name="slog_defined_wcnlog_2">GNSS Log</string>
+    <string name="slog_defined_wcnlog_3">Enable Dump WCN Mem in User</string>
+    <string name="slog_dump_art">Dump Art debug log</string>
+    <string name="new_slog_summer">This feature also does not work, please do not click</string>
+    <string name="slog_modem_to_pc">Modem To PC</string>
+    <string name="slog_modem_to_pc_lowercase">modem to pc</string>
+    <string name="slog_etb">ETB</string>
+    <string name="slog_clear_title">Clear</string>
+    <string name="slog_want_clear">Do you want clear log</string>
+    <string name="slog_modem_save_path">[Current Modem Log Save Path]</string>
+    <string name="send_power">RF Send Power</string>
+    <string name="send_power_dailog">Please confirm whether turn on flight mode prior to RF Send Power operation, otherwise there will be problems</string>
+    <!-- slogmodem error waring start -->
+    <string name="slogmodem_error_1">Request is not recognized</string>
+    <string name="slogmodem_error_2">Command parameter error</string>
+    <string name="slogmodem_error_3">Command fails</string>
+    <string name="slogmodem_error_4">The system is saved CP dump, sleeping or RingBuf</string>
+    <string name="slogmodem_error_5">Need to start CP log</string>
+    <string name="slogmodem_error_6">CP does not support the sleeping function</string>
+    <string name="slogmodem_error_7">CP does not support RingBuf function</string>
+    <string name="slogmodem_error_8">CP occurred assert</string>
+    <!-- slogmodem error waring end -->
+    <string name="ddr_switch">DDR Power Down</string>
+    <string name="mtbf_switch">MTBF Switch</string>
+    <string name="mtbf_switch_stop">Non-MTBF testing, please do not open the switch</string>
+    <string name="mini_dump_path">MiniDump Storage Location Setting</string>
+    <string name="core_file">CoreFile</string>
+    <string name="fm_dialog_tittle">Error</string>
+    <string name="fm_dialog_message">Please plug headset!</string>
+    <!-- BEGIN BUG547014 zhijie.yang 2016/05/09 -->
+    <string name="mipi_log">MIPI Log</string>
+    <!--END BUG547014 zhijie.yang 2016/05/09 -->
+    <string name="switch_watch_dog_title">Watch Dog</string>
+    <string name="ag_dsp_output_mode">AG-DSP Log Output Mode</string>
+    <string name="ag_dsp_output_disable">Disable</string>
+    <string name="ag_dsp_output_uart">Output from UART</string>
+    <string name="ag_dsp_output_usb">Output from USB</string>
+    <string name="ag_dsp_pcm_dump_log">AG-DSP Pcm Dump Log</string>
+    <!--BEGIN BUG540993 2016/05/11 sprd:EngineerMode add the parameter of CAP log packet length feature-->
+    <string name="cap_log_packet">Cap Log Packet Length</string>
+    <!--END BUG540993 2016/05/11 sprd:EngineerMode add the parameter of CAP log packet length feature-->
+    <string name="slog_defined_cm4_log">CM4 Log</string>
+    <string name="slog_defined_arm_pcm_log">ARM Pcm Log</string>
+    <string name="slog_defined_dsp_pcm_log">DSP Pcm Log</string>
+    <string name="logmanager_ylogd">Full Log</string>
+    <string name="logmanager_pac_log">One Key Pac Log</string>
+    <!-- SPRD: 474686 Feature for Uplmn @{ -->
+    <string name="uplmn_switch">Uplmn Switch</string>
+    <string name="uplmnswitch">Uplmn Switch</string>
+    <!-- @} -->
+    <!-- SPRD:Bug 579966  @{ -->
+    <string name="wifi_eut_2351_chip">2351 chip</string>
+
+    <!-- END BUG547014 zhijie.yang 2016/05/09 -->
+
+    <!-- SPRD: Bug 527396 add Vamos switch in engineermode @{ -->
+    <string name="vamos">Vamos</string>
+    <string name="vamos_device_capability">Device Capability</string>
+    <string name="vamos_capability_report">Capability Report to N/W</string>
+    <string name="vamos_working_status">Working Status</string>
+    <string name="vamos_setting_status_summery_1">Support</string>
+    <string name="vamos_setting_status_summery_2">Not support</string>
+    <string name="vamos_working_status_summery_1">Enable</string>
+    <string name="vamos_working_status_summery_2">Disable</string>
+    <string name="vamos_working_status_yes">Yes</string>
+    <string name="vamos_working_status_no">No</string>
+    <string name="vamos_function_description">Function Description</string>
+    <string name="function_description_summary">Device Capability: “Support” means this device/binary nv enabled Vamos. Otherwise, nv disabled Vamos or no Vamos code integrated.\nCapability Report to N/W: Set Vamos capability reported to N/W.\nWorking Status: Whether this device is working at Vamos or not.</string>
+    <!-- @} -->
+    <string name="camera_id">Camera ID:</string>
+    <string name="lcd_id">LCD ID:</string>
+    <string name="sensors_id">Sensor ID:</string>
+    <string name="tp_version">TP Version:</string>
+    <string name="gsensor_id">GSensor ID:</string>
+    <string name="lsensor_id">LSensor ID:</string>
+    <string name="sensor_version">Sensor ID:</string>
+    <string name="dis_miss">Close</string>
+    <string name="slog_dump_marlin_mem">Dump Marlin Mem</string>
+    <string name="slog_system_dump_enable">System Dump Enable</string>
+    <string name="usbdebug">USB Debug</string>
+    <string name="logmanager_pac_log_confirm">Confirm whether a key package Log? \n (Packaged Log files stored in the root directory of the default storage)</string>
+    <string name="logmanager_pac_log_success">Save log to %s success</string>
+    <string name="logmanager_pac_log_fail">Save log fail, please check available storage space</string>
+    <string name="logmanager_pac_log_fail_tip">Save log fail</string>
+    <string name="desense_pll_tips">Before test, please execute the following commands:\n\nadb root\nadb remount\nadb shell setenforce 0</string>
+    <string name="plmn">Plmn</string>
+    <!-- orange start -->
+    <string name="ota_debug">OTA Debug</string>
+    <string name="rate">tx power:</string>
+    <string name="ota_debug_start">start</string>
+    <string name="ota_debug_stop">stop</string>
+    <string name="gcf">GCF</string>
+    <string name="gcf_Protocol_consistency">GCF PROTOCOL</string>
+    <string name="gcf_rf">GCF RF</string>
+    <string name="gcf_sim">GCF SIM</string>
+    <string name="gcf_volte">GCF VOLTE</string>
+    <string name="mode_set">Not set any test mode</string>
+    <string name="iot_activity_two">IOT</string>
+    <string name="iot_common">COMMON</string>
+    <string name="iot_huawei">HUAWEI</string>
+    <string name="iot_ericsson">ERICSSOn</string>
+    <string name="iot_nsn">NSN</string>
+    <string name="operator">OPERATOR</string>
+    <string name="operator_cmcc">CMCC</string>
+    <string name="operator_cucc">CUCC</string>
+    <string name="operator_orange">ORANGE</string>
+    <string name="operator_telstra">TELSTRA</string>
+    <string name="operator_vodafone">VODAFONE</string>
+    <string name="operator_telcel">TELCEL</string>
+    <string name="operator_movistar">MOVISTAR</string>
+    <string name="operator_reliance">RELIANCE</string>
+    <string name="operator_dt">DT</string>
+    <string name="operator_mtn">MTN</string>
+    <string name="operator_claro">CLARO</string>
+    <string name="operator_docomo">DOCOMO</string>
+    <string name="operator_ukee">UK_EE</string>
+    <string name="operator_megafon">Megafon</string>
+    <string name="operator_tmobile">T-Mobile</string>
+    <string name="operator_true">True</string>
+    <string name="operator_ytlc">YTLC</string>
+    <string name="operator_att">AT&#038;T</string>
+    <string name="operator_oysters">Oysters</string>
+    <string name="operator_beeline">Beeline</string>
+    <string name="operator_tim">TIM</string>
+    <string name="operator_ais">AIS</string>
+    <string name="operator_smarfren">Smarfren</string>
+    <string name="operator_dtag">DTAG</string>
+    <string name="operator_etisalat">Etisalat</string>
+    <string name="operator_mts">MTS</string>
+    <string name="operator_prestigio">Prestigio</string>
+    <string name="operator_seatel">Seatel</string>
+    <string name="operator_unitel">UNITEL</string>
+    <string name="operator_altice">Altice</string>
+    <string name="operator_peru_claro">Peru_Claro</string>
+    <string name="operator_dialog">Dialog</string>
+    <string name="operator_dtac">DTAC</string>
+    <string name="operator_inwi">INWI</string>
+    <string name="operator_irancell">Irancell</string>
+    <string name="operator_mascom">Mascom</string>
+    <string name="operator_ntel">Ntel</string>
+    <string name="operator_smile">Smile</string>
+    <string name="operator_veon">Veon</string>
+    <string name="operator_vodacom">Vodacom</string>
+    <string name="operator_fastlink">Fastlink</string>
+    <string name="operator_zone">Zone</string>
+    <string name="operator_ctcc">CTCC</string>
+    <string name="operator_telefonica">Telefonica</string>
+    <string name="current_mode">Current Mode</string>
+    <string name="orange_remaining">This action need reboot to take effect, do you want to reboot now?</string>
+    <string name="orange_remaining_ok">ok</string>
+    <string name="orange_remaining_cancel">cancel</string>
+    <string name="cap_log_length_hint">0~10000</string>
+    <string name="cap_log_length_set">Cap Log Length</string>
+    <!-- orange end -->
+    <!-- SPRD:modify for Bug 653299 add switch for associated start. @{ -->
+    <string name="startingwindow">Starting Window</string>
+    <!-- @} -->
+    <!-- ue_cap start -->
+    <string name="nw_cap">nw cap</string>
+    <string name="ue_cap">ue cap</string>
+    <string name="ue_cap_4g">4G</string>
+    <string name="ue_cap_3g">3G</string>
+    <string name="ue_cap_2g">2G</string>
+    <string name="ue_cap_ipv6">ipv6</string>
+    <string name="ue_cap_lte">LTE</string>
+    <string name="ue_cap_wcdma">WCDMA</string>
+    <string name="ue_cap_gsm">GSM</string>
+
+    <string name="ue_cap_dlca">DL CA</string>
+    <string name="ue_cap_ulca">UL CA</string>
+    <string name="ue_cap_tm9">TM9</string>
+    <string name="ue_cap_eicic">eICIC</string>
+    <string name="ue_cap_embms">eMBMS</string>
+    <string name="ue_cap_mdt">MDT</string>
+    <string name="ue_cap_mta">MTA</string>
+    <string name="ue_cap_emfbi">eMFBI</string>
+    <string name="ue_cap_ul_64qam">UL 64QAM</string>
+    <string name="ue_cap_fbi">mFBI</string>
+    <string name="ue_cap_anr">ANR</string>
+    <string name="ue_cap_volte">volte</string>
+
+    <string name="ue_cap_cpc">CPC</string>
+    <string name="ue_cap_ul_16qam">UL 16QAM</string>
+    <string name="ue_cap_db_hsdpa">DB-HSDPA</string>
+    <string name="ue_cap_dchsdpa">DC-HSDPA</string>
+    <string name="ue_cap_improved_l2_ul">improved_L2 UL</string>
+    <string name="ue_cap_efach">eFACH</string>
+    <string name="ue_cap_edrx">eDRX</string>
+    <string name="ue_cap_erach">eRACH</string>
+    <string name="ue_cap_snow3g">snow3G</string>
+    <string name="ue_cap_w_diversity">W diversity</string>
+    <string name="ue_cap_type3i">type3i</string>
+    <string name="ue_cap_fast_dormancy">Fast Dormancy</string>
+    <string name="ue_cap_cbs">CBS</string>
+    <string name="ue_cap_hsdpa">HSDPA</string>
+    <string name="ue_cap_hsupa">HSUPA</string>
+
+    <string name="ue_cap_vamos">vamos</string>
+    <string name="ue_cap_gsm_diversity">GSM diversity</string>
+
+    <string name="ue_cap_asrvcc">asrvcc</string>
+    <string name="ue_cap_bsrvcc">bsrvcc</string>
+    <string name="ue_cap_evs">evs</string>
+    <!-- ue_cap end -->
+    <!-- SPRD:modify for Bug 653299 add Thermal. -->
+    <string name="thermalsetting">Thermal</string>
+    <string name="maxcpufrq">MAX CPU Frq</string>
+    <string name="ca53_frq">CA53</string>
+    <string name="jvl_frq">JVL</string>
+
+    <string name="volte_dsda_enhanced">DualVolte DSDA Enhanced Switch</string>
+    <string name="dsda_enhanced_open">Enable smart forward, local conference call, smart callback, background music and phone group after check switch, some features will take effect after rebooting the device.</string>
+    <string name="dsda_enhanced_closed">Disable smart forward, local conference call, smart callback, background music and phone group after uncheck switch, some features will take effect after rebooting the device.</string>
+    <string name="reset">Reset</string>
+    <string name="factory_reset_message">This oprate will erase phone data!</string>
+    <string name="whitelist_ignore_switch">Ignore DualVoLTE Whitelist</string>
+
+    <string name="sim_0">SIM0</string>
+    <string name="sim_1">SIM1</string>
+    <!-- SPRD Bug 793108: Add kernel log level switch. -->
+    <string name="kernel_log_level">Kernel Log Level</string>
+    <!-- SPRD Bug 792363:Add Camera Power Test Mode switch. -->
+    <string name="camera_test_mode">Camera Power Test Mode</string>
+    <string name="open_log_tip">Please keep the Log on and restart the phone to ensure all the functions of the Android Log take effect</string>
+    <!-- SPRD BUG 799907 - [Feature List]AP CP GRO -->
+    <string name="gro_switch">GRO</string>
+    <string name="gro_throughput">ThroughPut</string>
+    <!-- SPRD Bug:847281:Power Dissipation setting - CPU Fre can not set. @{ -->
+    <string name="cpu_fre_hint_title">CPU Frequence Operation Hint</string>
+    <string name="cpu_fre_reboot_hint">This operation needs to restart the phone. After the test, please restore the switch to the state of open.</string>
+    <string name="cpu_fre_setting_hint">Please close the CPU FRE SWITCH.</string>
+    <!-- @} -->
+    <!-- SPRD Bug 849746: network mode switch. @{ -->
+    <string name="network_mode_switch_hint">The network mode is switching, please wait!</string>
+    <string name="network_mode_switch_faided_hint">The network mode is not supported, switch failed!</string>
+    <!-- @} -->
+    <string name="cbw_center_offset">Channel offset</string>
+    <string name="wifi_eut_offset">Offset</string>
+    <!-- SPRD Bug 862430:Change the "success" prompt to "reboot to take effect". -->
+    <string name="audio_codec_setting_hint">Success,Please reboot to take effect!</string>
+    <!-- SPRD Bug 867203:Change the prompt of BandSelect set. -->
+    <string name="band_select_setting_hint">Reboot phone or set airplane mode to enable that operation.</string>
+    <string name="action_settings">Settings</string>
+    <string name="bandselect_introduction">Band select\n\nDemand purpose:\n\n   In order to quickly set up any frequency band of mode that the machine supported to improve the test efficiency. \n\n*******************************\n\nFunction description:\n\n    1)Read All the bands and modes from NV. \n\n    2)Distinguish SIM1 and SIM2\n\n******************************* \n\nImplementation scheme :\n\n    1)Judge the card slot of SIM card, how many card slot show appropriate SIM \n    2)The display interface will provide frequency options for each model 3)Use the AT commands to select the frequency band, such as setting up AT:AT+SBAND=1,12,38 in band38 under LTE; if the settings are successful, the corresponding information prompt box will be popped up.\n\n</string>
+    <string name="cfu_introduction">CFU\n\nDemand purpose:\n\n   In order to quickly set up unconditional calling transfer to improve the test efficiency. \n\n*******************************\n\nFunction description:\n\n    1)Provide three radio buttons:Default, Always Query, Always Not Query . \n\n    2)Configure Default: when the properties of the mobile \'persist.radio.ssda.mode\' are tdd-csfb, fdd-csfb, and CSFB, the Default is Always Not Query in the option list, and the other Default is Always Query. \n\n    3)The relevant settings are written by the \'persist.sys.callforwarding attribute\', and when the Always Query option is selected, the \'persist.sys.callforwarding\' is written 1, namely, SystemProperties.set (\"persist.sys.callforwarding\", \"1\"); When selecting Always Not Query option, write 0 to \'persist.sys.callforwarding\', SystemProperties.set(\"persist.sys.callforwarding\", \"0\")\n\n</string>
+    <string name="netinfostatistics_introduction">NetInfo Statistics\n\nDemand purpose:\n\n   In order to quickly Query route test information. \n\n*******************************\n\nFunction description:\n\n    Show the route test informations:\n\n    1)The number, success rate and average delay of cell reselection. \n\n    2)The number of cell handover, success rate and average delay\n\n    3)Network time statistics .\n\n    4)Statistics of the number of net loss \n\n******************************* \n\nImplementation scheme :\n\n    1)\'AT+SPENGMD=0,7,1\' get the frequency and success rate of cell reselection. \n    2)\'AT+SPENGMD=0,7,2\' get the number and success rate of cell handover. \n    3)\'AT+SPENGMD=0,7,7\' get the time in 2G/3G/LTE. \n    4)\'AT+SPENGMD=0,2,2\' get the drop time in 2G/3G/LTE . \n\n</string>
+    <string name="gprs_introduction">GPRS Test\n\nDemand purpose:\n\n   In order to quickly set Attach/Detach, Activate/Deactive PDP, and Send Gprs data for testing GPRS. \n\n*******************************\n\nFunction description:\n\nFor different SIM cards, do the following tests :\n\n    1)\'AT+CGATT\' is used to attach or disattach GPRS services. \n\n    2)\'AT+CGACT\' is used to activate or inactivate PDP\n\n    3)\'AT+SGPRSDATA\' is used to realized to send datas.\n\n*******************************\n\nImplementation scheme :\n\n    There are two input box.\n\n    The first input box is used to set the length of GPRS datas(1-16000) used to be send; \n\n    The second input box is used to set appointed GPRS data. \n\n</string>
+    <string name="de_sense_pll_introduction">De-sense-PLL\n\nDemand purpose:\n\n   It is used to modify the register of PLL in engineer mode, like reading and writing ARM register in mobile tester. \n\n*******************************\n\nFunction description:\n\nThis function is actually a function of reading and writing the fixed address register, using the \'lookat\' command, send \'lookat\' command by \'cmd_skt\' service: \n\n    1)Address is 8 bits and 4 bytes align address, 8 bits are controled by app, 4 bytes align address are controled by cmd_skt. \n\n    2)Number\'s default is 1, the input value is the parameters carried by \'look at -l\'.\n\n    3)Click Read button will send \'lookat –l num 0x addr\', if the Return value contains \'VALUE\' means read register successful, the return will show in result zone; otherwise, the fail reason will show in result zone.\n\n    4)Click Write button will send \'lookat –s 0x data 0x addr\', if the return value contains \'Result\' means successful, otherwise means failed.\n\n</string>
+    <string name="operate_bt_eut_hint">Please close the switch of Bluetooth scanning in Settings - Location - Wi-Fi and Bluetooth scanning - Bluetooth scanning.</string>
+    <!-- sprd 898844 : Volte Settings @{ -->
+    <string name="ue_settings">UE Settings</string>
+    <string name="temporary_settings">Temporary Settings</string>
+    <string name="operator_settings">Operator Settings SIM</string>
+    <string name="operator_settings_0">Operator Settings SIM 0</string>
+    <string name="operator_settings_1">Operator Settings SIM 1</string>
+    <string name="plmn_white_list">PLMN White List</string>
+    <string name="development_settings">Development Settings</string>
+    <string name="ua_name">UA Name</string>
+    <string name="sprd_volte">SPRD VoLTE</string>
+    <string name="video">Video</string>
+    <string name="video_call_enable">Video Call Enable</string>
+    <string name="video_codec">Video Codec</string>
+    <string name="video_conference_enable">Video Conference Enable</string>
+    <string name="dynamic_resolution_enable">Dynamic Resolution Enable</string>
+    <string name="sms">SMS</string>
+    <string name="sms_over_ip_enable">SMS over IP Enable</string>
+    <string name="sms_pdu_format">SMS PDU Format</string>
+    <string name="tpdu">TPDU</string>
+    <string name="audio">Audio</string>
+    <string name="sip_settings">SIP Settings</string>
+    <string name="ipsec_settings">IPSec Settings</string>
+    <string name="call_settings">Call Settings</string>
+    <string name="supple_service_settings">Supplementary Service Settings</string>
+    <string name="ipsec_enable">IPSec Enable</string>
+    <string name="Integrity_algorithm">Integrity Algorithm</string>
+    <string name="hmac_sha_md5">hmac-sha-1/hmac-md5-96</string>
+    <string name="cipher_algorithm">Cipher Algorithm</string>
+    <string name="aes_cbc">null/aes-cbc/des-ede3-cbc</string>
+    <string name="reg_subscribe_enable">Reg Event Enable</string>
+    <string name="reg_subscrib_expire">Reg Subscribe Expire Time(S)</string>
+    <string name="mwi_enable">MWI Enable</string>
+    <string name="mwi_subscribe_enable">MWI Subscribe Enable</string>
+    <string name="mwi_subscribe_expire">MWI Subscribe Expire Time(S)</string>
+    <string name="sip_header_compact">SIP Header Compact Form</string>
+    <string name="mtu">MTU</string>
+    <string name="pcscf_port">PCSCF Port</string>
+    <string name="register_expire">Register Expire Time(S)</string>
+    <string name="treg_timer">Treg Timer(MS)</string>
+    <string name="temergreg_timer">Temergreg Timer(MS)</string>
+    <string name="ussi_enable">USSI Enable</string>
+    <string name="initial_register_pani">Initial Register With PANI</string>
+    <string name="audio_codec_settings">Audio Codec Settings</string>
+    <string name="audio_rtp_timeout_timer">Audio RTP Timeout Timer(S)</string>
+    <string name="audio_rtcp_time_internal">Audio RTCP Time Interval(S)</string>
+    <string name="audio_rs">Audio RS</string>
+    <string name="audio_rr">Audio RR</string>
+    <string name="audio_dynamic_rate">Audio Dynamic Codecc Rate Enable</string>
+    <string name="video_codec_type">Video Codec Type</string>
+    <string name="video_rs">Video RS</string>
+    <string name="video_rr">Video RR</string>
+    <string name="video_dynamic_rate">Video Dynamic Codecc Rate Enable</string>
+    <string name="reliable_180_enable">Reliable 180 Enable</string>
+    <string name="direct_alerting_enable">Direct Alerting Enable</string>
+    <string name="resource_always_ready">Resource Always Ready</string>
+    <string name="precondition_enable">Precondition Enable</string>
+    <string name="video_early_media">Video Early Media (CAT)</string>
+    <string name="video_upgrade_precondition">Video Upgrade Precondition</string>
+    <string name="srvcc">SRVCC</string>
+    <string name="alerting">Alerting</string>
+    <string name="mid_call">Mid-call</string>
+    <string name="pre_alerting">Pre-alerting</string>
+    <string name="rsrvcc">RSRVCC</string>
+    <string name="rsrvcc_support">RSRVCC Support</string>
+    <string name="national_url_format">National URL Format</string>
+    <string name="international_url_format">International URL Format</string>
+    <string name="tcall_timer">Tcall Timer(MS)</string>
+    <string name="ringing_timer">Ringing Timer(S)</string>
+    <string name="ringback_timer">Ringback Timer(S)</string>
+    <string name="no_answer_timer">NO Answer Timer(S)</string>
+    <string name="session_timer">Session Timer(S)</string>
+    <string name="min_se_timer">Min-SE Timer(S)</string>
+    <string name="session_timer_refresher">Session Timer Refresher</string>
+    <string name="mt_session_timer">MT Session Timer(S)</string>
+    <string name="mt_session_timer_refresher">MT Session Timer Refresher</string>
+    <string name="conference_urI">Conference URI</string>
+    <string name="video_audio_merge">Video Call + Audio Call Merge To</string>
+    <string name="mo_amr_oa_mode">MO AMR OA Mode</string>
+    <string name="named_tel_event_enable">Named Tel Event Enable</string>
+    <string name="bsf_uri">BSF URI</string>
+    <string name="bsf_port">BSF Port</string>
+    <string name="xcap_uri">Xcap URI</string>
+    <string name="xcap_port">Xcap Port</string>
+    <string name="xcap_auid">Xcap Auid</string>
+    <string name="local_call_waiting">Local Call Waiting Status Enable</string>
+    <string name="dns_srv_enable">DNS SRV Enable</string>
+    <string name="activate_cfnl_enable">Activate CFNL Enable</string>
+    <string name="https_enable">HTTPS Enable</string>
+    <string name="http_put_media">HTTP-PUT Media Tag Enable</string>
+    <string name="ip_priority">IP Priority</string>
+    <string name="dev_flag_1">Dev Flag 1</string>
+    <string name="dev_flag_2">Dev Flag 2</string>
+    <string name="dev_flag_3">Dev Flag 3</string>
+    <!-- SPRD: 922313 - lvds dump @{ -->
+    <string name="lvds_dump">LVDS Dump</string>
+    <string name="reboot_setting_prompt">Success, Please reboot to take effect!</string>
+    <!-- @} -->
+    <!-- SPRD: 871064 - Delta nv @{ -->
+    <string name="delta_nv">Adaptive Parameter Configuration</string>
+    <string name="manual_test_mode">Test Mode</string>
+    <string name="auto_test_mode">Auto test by SIM</string>
+    <string name="apc_function">APC</string>
+    <string name="apc_enable_waring">Delta NV will auto load after reboot, are you sure to reboot?</string>
+    <!-- @} -->
+
+    <string name="launcher_debug_enable_hint">Operation Hint：Log open successfully!</string>
+    <string name="launcher_fw_debug_enable_hint_title">Operation Hint</string>
+    <string name="launcher_fw_debug_enable_hint_msg">Log open successfully! Restart the phone to effective, Restart now？</string>
+    <string name="bt_ble_rx_pattern">BLE RX Pattern</string>
+
+    <string name="sprd_power_hal_log">PowerHAL Log</string>
+    <string name="kernel_log_level_hint">Use only for factory test mode</string>
+
+    <string name="release_white_list">Released White List</string>
+    <string name="test_plmn_1">Test PLMN 1</string>
+    <string name="test_plmn_2">Test PLMN 2</string>
+    <string name="video_max_resolution">Video Max Resolution</string>
+    <string name="default_conference_uri">sip:mmtel@conf-factory.ims.mnc***.mcc###.3gppnetwork.org</string>
+    <string name="default_bsf_uri">bsf.ims.mnc***.mcc###.pub.3gppnetwork.org</string>
+    <string name="default_xcap_uri">xcap.ims.mnc***.mcc###.pub.3gppnetwork.org</string>
+    <string name="test_plmn_prompt">Please open airplane mode first before operating Test PLMN 1/Test PLMN 2</string>
+    <string name="alert_open_wifi">Before opening the switch, please open wifi first</string>
+    <string name="dvfs_cpufre_hint">After reboot, it will restore to default value.</string>
+
+    <!-- SPRD: 1004021 - add mms center number edition @{ -->
+    <string name="sms_center_number">SMS center number</string>
+    <string name="sms_center_introduction">SMS center number(2019-02-19)\n\nDemand purpose:\n\n    Add the editing options of SMS center in the EngineerMode to make it convenient for laboratory testing. When the white card defaults to no SMS center, it can send SMS normally. \n\n*******************************\n\nFunction description:\n\n    1).SMS center numbers of SIM cards can be displayed. If two SIM cards are inserted, they should be listed separately. The interfaces involved is:\n\n SmsManagerEx.getDefault().getSmscForSubscriber(subId)\n\n    2).The SMS center number of SIM card can be modified. If two SIM cards are inserted, attention to paid to distinguishing. The interfaces involved is:\n\nSmsManagerEx.getDefault().setSmscForSubscriber(smscAddr, subId);</string>
+
+
+    <!-- SPRD 985039 - [Feature List]AI IP -->
+    <string name="imagination_nna">Imagination nna</string>
+    <string name="cambricon_npu">Cambricon npu</string>
+    <string name="ai_ip">AI IP</string>
+    <string name="ai_ip_switch">AI IP Switch</string>
+    <string name="ai_ip_function">AI IP Function</string>
+    <string name="ai_log">AI Log</string>
+    <string name="nn_log">NN log</string>
+    <string name="model_log">model</string>
+    <string name="compilation_log">compilation</string>
+    <string name="execution_log">execution</string>
+    <string name="cpuexec_log">cpuexec</string>
+    <string name="manager_log">manager</string>
+    <string name="driver_log">driver</string>
+    <string name="ai_ip_introduction">AI IP(2018-03-26)\n\nDemand purpose:\n\nSwitching between different AI IPs, such as ROC1 driver support for switching between Cambricon and Imagination AI IPs,The project team requires that only one software version be produced, and that the tester set AI IP (property attribute) in engineering mode, and manually restart the driver to switch to the newly configured AI IP. \n\n*******************************\n\nFunction description:\n\n    1.AI IP property:“persist.vendor.npu.version” \n\n    “0” means select nothing\n\n     “1” means Imagination nna\n\n    “2” means Cambricon npu\n\n\n\n    2.NN log property:“debug.nn.vlog” \n\n    1) “model”\n\n    2) “compilation”\n\n    3) “execution”\n\n    4) “cpuexec”\n\n    5) “manager”\n\n    6) “driver”</string>
+
+    <!-- SPRD 958254: C2K feature @{ -->
+    <string name="ue_cap_cdma_2000">CDMA 2000</string>
+    <string name="enhance_network_priority">Enhance priority of DO</string>
+    <string name="enforce_1x_idle_handoff">Enforce 1X idle handoff</string>
+    <string name="enforce_do_idle_handoff">Enforce DO idle handoff</string>
+    <string name="enforce_1x_drop">Enforce 1X drop</string>
+    <string name="enforce_do_drop">Enforce DO drop</string>
+    <string name="enforce_do_reselect_lte">Enforce DO reselect LTE</string>
+    <string name="enforce_lte_reselect_do">Enforce LTE reselect DO</string>
+    <string name="ue_cap_cdma">CDMA</string>
+    <string name="ue_cap_cdma_sr1_supported">Sr1supported</string>
+    <string name="ue_cap_cdma_sr3_supported">Sr3supported</string>
+    <string name="ue_cap_cdma_rcclass1_supported">Rcclass1supported</string>
+    <string name="ue_cap_cdma_rcclass2_supported">Rcclass2supported</string>
+    <string name="ue_cap_cdma_rcclass3_supported">Rcclass3supported</string>
+    <string name="ue_cap_cdma_qpch_supported">Rpchsupported</string>
+    <string name="ue_cap_cdma_band_class">BandClass</string>
+    <string name="ue_cap_cdma_band_sub_class">BandSubClass</string>
+    <string name="ue_cap_cdma_rate1m8_supported">Rate1M8Supported</string>
+
+    <string name="netinfo_server_cell_lte">LTE Serving cell</string>
+    <string name="netinfo_neighbour_cell_lte">LTE Neighbor cell</string>
+    <string name="netinfo_outfield_information_lte">LTE Outfield Network Information</string>
+    <string name="netinfo_adjacent_cell_2g_lte">LTE Between Neighbor cell（2G）</string>
+    <string name="netinfo_adjacent_cell_3g_lte">LTE Between Neighbor cell（3G）</string>
+    <string name="netinfo_server_cell_do">DO Serving cell</string>
+    <string name="netinfo_neighbour_cell_do">DO Neighbor cell</string>
+    <string name="netinfo_server_cell_1x">1X Serving cell</string>
+    <string name="netinfo_neighbour_cell_1x">1X Neighbor cell</string>
+    <string name="netinfo_pilot_pn">Pilot_pn</string>
+    <string name="netinfo_pnPhase">PnPhase</string>
+    <string name="netinfo_strength">Strength</string>
+    <!-- @} -->
+    <string name="phone_information">Phone Information</string>
+    <string name="terminator_version">Terminator Version</string>
+    <string name="software_version">Software Version</string>
+    <string name="hardware_version">Hardware Version</string>
+    <string name="prl_version">PRL Version</string>
+    <string name="system_version">Operation System Version</string>
+    <string name="storage_volume">Storage Volume</string>
+    <string name="memory_volume">Memory Volume</string>
+    <string name="sid_number">SID</string>
+    <string name="nid_number">NID</string>
+    <string name="meid_number">MEID</string>
+    <string name="esn_number">ESN</string>
+    <string name="baseid_number">BaseID</string>
+    <string name="imei_number1">IMEI1</string>
+    <string name="imei_number2">IMEI2</string>
+    <string name="cellid_sim_slot1">CELLID(sim slot1)</string>
+    <string name="cellid_sim_slot2">CELLID(sim slot2)</string>
+    <!-- SPRD 1034017 disable EVDO @{ -->
+    <string name="status_opened">On</string>
+    <string name="status_closed">Off</string>
+    <string name="disable_evdo">Evdo status</string>
+
+    <!-- SPRD 1033959: ASDIV feature @{ -->
+    <string name="asdiv_settings">ASDIV Settings</string>
+    <string name="set_fail">set failed!</string>
+    <!-- @} -->
+    <string name="set_success">set success!</string>
+    <string name="get_fail">get failed!</string>
+    <string name="wifi_info">Wifi Info</string>
+    <string name="wifi_certification">Wifi Certification</string>
+    <string name="bt_rx_pattern">RX Pattern</string>
+    <string name="ble_tx_power_value_marlin2">0~4</string>
+    <string name="ble_tx_power_value_marlin3">0~9</string>
+    <!-- SPRD Bug 1048637: C2K Configuration. @{ -->
+    <string name="c2k_configuration">C2K Test Configuration</string>
+    <!-- @} -->
+    <!-- SPRD 815541 : Coulometer Power Test Mode -->
+    <string name="coulometer_power">Coulometer Power Test</string>
+    <string name="coulometer_time_quantum1">Time slot 1</string>
+    <string name="coulometer_time_quantum2">Time slot 2</string>
+    <string name="coulometer_time_quantum3">Time slot 3</string>
+    <string name="coulometer_time_begin">Start time: </string>
+    <string name="coulometer_time_finish">End time: </string>
+    <string name="coulometer_time_end">Test duration(hour): </string>
+    <string name="coulometer_start">START</string>
+    <string name="coulometer_finish">END</string>
+    <string name="coulometer_result">RESULT</string>
+    <string name="coulometer_clean">CLEAR</string>
+    <string name="coulometer_year">Y</string>
+    <string name="coulometer_month">M</string>
+    <string name="coulometer_day">D</string>
+    <string name="coulometer_hour">H</string>
+    <string name="coulometer_minute">Min</string>
+    <string name="year_format_err">The format of year is error</string>
+    <string name="month_format_err">The format of month is error</string>
+    <string name="day_format_err">The format of day is error</string>
+    <string name="hour_format_err">The format of hour is error</string>
+    <string name="minute_format_err">The format of minute is error</string>
+    <string name="during_empty_err">Test duration can not null</string>
+    <string name="cc_test_chart">Coulometer Power Test curve</string>
+    <string name="notice_test_stop">Testing，are you sure to stop？</string>
+    <string name="notice_data_empty">There are no test datas</string>
+    <string name="coulometer_testing">Testing ...</string>
+    <string name="coulometer_test_stop">Test end</string>
+    <string name="coulometer_not_test">waiting ...</string>
+    <string name="coulometer_notice">show curve</string>
+    <string name="function_introduction">Function instruction</string>
+    <string name="start_time_error">Start time is less than current system time, please modify start time</string>
+    <string name="end_time_error">End time is less than start time, please modify end time</string>
+    <string name="duration_introduce">(Exactly to a decimal point)</string>
+    <string name="less_than_twinty_toast">If test duration is less than 20 minutes, can not show the curve</string>
+    <string name="notice_testing_show">Testing，there are no test datas or not fully</string>
+
+    <string name="coulometer_power_introduction">Coulometer Power Test(2018-02-09)\n\nDemand purpose:Users can see the approximate power consumption of a scene when using a mobile phone\n\n*******************************\n\nImplementation Method ：\n\n1)When pressing START button, echo 1 > /sys/class/power_supply/sprdfgu/cc_test_cmd. \n\n2)When pressing END button, echo 0 > /sys/class/power_supply/sprdfgu/cc_test_cmd.\nRead the datas from cat /sys/class/power_supply/sprdfgu/cc_test_result. \n\n*******************************\n\nUI design:\n\n  The data are recorded every 10 minutes. After the end, all data stored in every 10 minutes are plotted with a simple curve through the value of "vertical axis time" and "vertical axis power consumption". \n  Test long standby power, such as 24, 48 hours, can collect data every one or two hours, and then draw it for one point with each data.\n  If the test time of the simple scene is less than 20 minutes, there is no need to draw a curve.\n\n  There can not overlapping part of the test time for each time period. </string>
+    <string name="camera_fps">Camera FPS</string>
+    <string name="set_max">Set Max</string>
+    <string name="set_min">Set Min</string>
+    <string name="range">5~30</string>
+    <string name="camera_fps_introduction">Camera FPS(2018-03-01)\n\nDemand purpose:\n\nEasy adjustment of taking video \ preview frame rate and indirect debugging of camera power \n\n*******************************\n\nFunction description:\n    Take video / preview frame indirect adjustment. Add a fixed frame rate function in the EngineerMode. Take video and preview can input the max and Minimum frame that you want.\n\n*******************************\n\nImplementation Method：\n\n1)Preview frame rate settings ：\n    setprop persist.sys.camera.preview.fps abcd   //Setting the preview frame rate from cd to ab\n\n2)Video frame rate setting ：\n    setprop persist.sys.camera.record.fps abcd    //Setting the video frame rate from cd to ab\n\n3)Restore defaults\nAvoid the default value not restored after the tester is completed a functional switch. One button restores all of the above functions and switches to default values .\n\n   To set the frame rate to a certain value, the fixed video frame rate is 20fps as an example:\n    setprop persist.sys.camera.record.fps 2020，can not write as setprop persist.sys.camera.record.fps 20，The first two bits of the parameter string are maxfps, and the next two bits are minfps, which can not be missing .user version can use *#*#83781#*#* -> HARDWARETEST -> Camera FPS。\n\n*******************************\n\nUI design:\n\n  Camera  FPS have three functions：\n    1)Preview \n    2)Recording \n    3)Restore Defaults</string>
+    <string name="gro_introduction">SETH Network card GRO Converging function (2018-03-12)\n\nDemand purpose:\n\n    Make this function in EngineerMode, Convenient tester for manual opening test .\n\n*******************************\n\nFunction description:\n    SETH Network card GRO Converging function belong to AP side Network card downlink data message Converging function, can reduce the processing pressure of the kernel network subsystem, It also reduces the number of the uplink TCP ACK and reduces the MIPs overhead of CP .\n\n*******************************\n\nImplementation Method：\n\n1)Open GRO, setprop ctl.start gro_on\n\n2)Close GRO, setprop ctl.start gro_of\n\n3)Query :sys/module/seth/parameter/gro_enable value is 1 to open gro，value is 0 to close gro。\n\n*******************************\n\nAcceptance plan :\n\n  When downloading by FTP, Open GRO, capturing cap log of ap side , the downlink message will have the effect of gathering, and it can be judged from the length of the message, almost is bigger than 1500 bytes. close GRO, The downlink message length is about 1500 bytes</string>
+
+    <string name="ping_packages">Ping packages</string>
+    <string name="ping_ipv4">IPv4</string>
+    <string name="ping_ipv6">IPv6</string>
+    <string name="ping_address">Ping Address: </string>
+    <string name="ping_size">Ping Size(bytes): </string>
+    <string name="ping_size_hint">84</string>
+    <string name="ping_address_hint">www.baidu.com</string>
+    <string name="ping_count">Ping Count: </string>
+    <string name="ping_count_hint">4</string>
+    <string name="result_information">Command result:</string>
+    <string name="result_empty">Result empty</string>
+
+    <string name="ping_packages_introduction">Ping packages Test(2018-03-26)\n\nDemand purpose:\n\nIt is convenient for the IOT test to check whether the Ping packet chain is normal or not, and at present, the UE Ping server is carried out through the computer through the USB binding computer, which is not conducive to the operation of the testers. \n\n*******************************\n\nFunction description:\n\n    It can be operated by the UE Ping server through the EngineerMode. IP type selection, Ping packet time, Ping packet interval, and Ping packet size can be carried out .\n\n</string>
+
+    <!-- SPRD 838786 : PDN Test Mode add -->
+    <string name="pdn_test">PDN Test</string>
+    <string name="pdn_test_introduction">PDN Test(2018-03-26)\n\nDemand purpose:\n\nPDN is an essential operation in the IOT test, which is now set by the APK and AT commands, and the process is complex and is not conducive to the operation of the testers. \n\n*******************************\n\nFunction description:\n\n    UE Attach established the first road to build the default carrying capacity, It can build multiple PDN through EngineerMode, each PDN corresponding to different APN parameters, to set up special carrying capacity and special carrying capacity, special bearing will activate and default carrying capacity associated, and can be activated to default and special carrying capacity.\n\n</string>
+    <string name="dedicate_pdn">Dedicate Pdn Test</string>
+    <string name="at_cgd">AT CGDSCONT TEST</string>
+    <string name="at_cge">AT CGEQOS TEST</string>
+    <string name="at_cgt">AT CGTFT TEST</string>
+    <string name="at_cga">AT CGACT TEST</string>
+    <string name="cid">CID</string>
+    <string name="pid">PID</string>
+    <string name="actived">ACTIVATE</string>
+    <string name="state">STATE</string>
+    <string name="qci">QCI</string>
+    <string name="dl_gbr">DL_GBR</string>
+    <string name="ul_gbr">UL_GBR</string>
+    <string name="dl_mbr">DL_MBR</string>
+    <string name="ul_mbr">UL_MBR</string>
+    <string name="packet_filter_identifier">Pac Fil</string>
+    <string name="evaluation_precedence">Eva Pre</string>
+    <string name="source_address">Sou Addr</string>
+    <string name="protocol_number">Pro Num</string>
+    <string name="destination_port_range">Des Port</string>
+    <string name="source_port_range">Sou Port</string>
+    <string name="ipsec_security_parameter">Ips Sec</string>
+    <string name="type_of_service">Type Ser </string>
+    <string name="flow_label">Flow Lab</string>
+    <string name="iot_pdp">IOT PDP</string>
+    <string name="cga_hint_1">please input 0~1</string>
+    <string name="cga_hint_15">"please input 1~15</string>
+    <string name="cgd_hint_15">please input 1~15</string>
+    <string name="cge_hint_15">please input 1~9 or 128~254</string>
+    <string name="cgt_hint_11">please input 1~11</string>
+    <string name="cgt_hint_16">please input 1~16</string>
+    <string name="cgt_hint_255">please input 0~255</string>
+    <string name="cgt_hint_215">please input 0~16777215</string>
+    <string name="cgt_hint_295">please input 0~4294967295</string>
+
+    <!-- SPRD 838490 : adb shell window -->
+    <string name="adb_shell_hint">getprop</string>
+    <string name="adb_shell_cmd">Adb shell </string>
+    <string name="adb_shell">Adb shell </string>
+    <string name="adb_shell_introduction">Adb shell Test(2018-03-26)\n\nDemand purpose:\n\n In order to facilitate the user to run the shell command directly on the phone, it provides the function of direct input to the shell command. \n\n*******************************\n\nFunction description:\n\n    The interface can directly enter the shell command that you want to run in the edit box. Click start to run the command, and the results will be outputed directly under the command box, which can run two shell at the same time.\n\n</string>
+    <!-- SPRD BUG 838388 - Frequency Point test -->
+    <string name="frequency_lte">LTE</string>
+    <string name="frequency_wcdma">WCDMA</string>
+    <string name="frequency_point">Frequency Point</string>
+    <string name="frequency_point_introduction">Frequency Point Test(2018-03-26)\n\nDemand purpose:\n\nFor convenience of outfield testing, we need to input required frequency point, one key start lock function. \n\n*******************************\n\nFunction description:\n\n    The method of locking LTE frequency point:\n\nAT+SFUN=5\nAT+SPCLEANINFO=4\nAT+SPFRQ=0,4,earfcn //lock frequency point，earfcn is the number of frequency point which need to input\n AT+SFUN=4 \n\nThe method of unlocking LTE frequency point:\n\nAT+SFUN=5\nAT+SPFRQ=1\nAT+SFUN=4\n\nThe method of locking WCDMA frequency point:\n\nat+spfrq=0,0,earfcn//lock frequency point，earfcn is the number of frequency point which need to input\n\n</string>
+    <!-- SPRD: 1057530 - GCF Test -->
+    <string name="gcf_test">GCF Test</string>
+    <string name="insert_sim_card_prompt">Please insert at least one SIM Card !</string>
+
+    <!-- SPRD: 1148207 - bt eut prompt -->
+    <string name="bt_eut_prompt">Exit from BT will automatically stop wcnd service and this function will also be shut down.</string>
+    <string name="alert_open_wifi_first">Please open WiFi first</string>
+
+    <!-- SPRD: 1162693  - Jeita Control -->
+    <string name="jeita_control">Jeita Control</string>
+
+<!--    UNISOC: 1430096  Modify the value range of power level-->
+    <string name="power_level_range1">0~24</string>
+    <string name="power_level_range2">0~24</string>
+    <string name="power_value_marlin2">0~4</string>
+    <string name="power_value_marlin3">0~9</string>
+    <string name="bt_tx_mode">TX Mode</string>
+    <string name="wifi_tx_start">START</string>
+    <!-- SPRD: 1192071 - Diagnosis and modem port lock -->
+    <string name="at_diag">AT port lock</string>
+    <string name="restore_cpu_frequency">Please restore the status after use!</string>
+    <string name="cdma_imsi1">CDMAIMSI1</string>
+    <string name="cdma_imsi2">CDMAIMSI2</string>
+    <string name="icc_id1">ICCID1</string>
+    <string name="icc_id2">ICCID2</string>
+    <string name="cabc_test">CABC Test</string>
+    <string name="volte_enable">VoLTE Enable</string>
+    <string name="unselect_nsa_only_prompt">Network Mode is NR, can not select NSA Only</string>
+    <string name="unselect_nr_only_prompt">NR Cap is NSA Only, can not select NR Only</string>
+    <string name="alertdialog_reboot">Reboot</string>
+    <string name="alertdialog_reboot_message">\n\nPlease reboot. \nIt must reboot to get the settings effective.</string>
+    <string name="antenna_nr">NR</string>
+    <string name="rps_udp">rps_udp</string>
+    <string name="sfp_test">Soft Fast Path</string>
+    <string name="qrm_enable">QRM Switch</string>
+    <string name="srs_enable">SRS 1T4R</string>
+    <string name="up_rate">Upstream Rate: </string>
+    <string name="down_rate">Downstream Rate: </string>
+    <string name="resident_duration">Minimum Resident Duration(SEC): </string>
+    <string name="high_speed_duration">Minimum High Speed Duration(SEC): </string>
+    <string name="smart_5g">Smart 5G</string>
+    <string name="local_release">Local Release</string>
+    <string name="function_start">Click to Turn On</string>
+    <string name="function_stop">Click to Turn Off</string>
+    <string name="upstream_rate_prompt">Please input Upstream Rate between 0 ~ 10000</string>
+    <string name="downstream_rate_prompt">Please input Downstream Rate between 0 ~ 10000</string>
+    <string name="resident_duration_prompt">Please input Resident Duration!</string>
+    <string name="high_speed_duration_prompt">Please input High Speed Duration!</string>
+    <string name="rate_percent_prompt">Please input NR/LTE Rate Percent!</string>
+    <string name="speed_triger_prompt">Please input Speed Triger!</string>
+    <string name="emergency_prompt">Please input NR Emergency LTE!</string>
+    <string name="nr_weak_rsrp_prompt">Please input NR Weak RSRP!</string>
+    <string name="lte_weak_rsrp_prompt">Please input LTE Weak RSRP!</string>
+    <string name="speed_threshold_prompt">Please input Speed Threshold Percent!</string>
+    <string name="start_success_prompt">Start successful!</string>
+    <string name="start_fail_prompt">Start failed!</string>
+    <string name="stop_success_prompt">Stop successful!</string>
+    <string name="stop_fail_prompt">Stop failed!</string>
+    <string name="get_status_fail_prompt">Get status failed!</string>
+    <string name="mipi_log_serdes_channel">Channel:</string>
+    <string name="mipi_log_serdes_freq">Freq:</string>
+    <!-- UNISIC:1314195 @{ -->
+    <string name="automodemasserttest">AutoModemAssertTest</string>
+    <string name="modem_assert_ask">Do you want to end the AutoModemAssert?</string>
+    <string name="modem_assert_set_time">Delay Time</string>
+    <string name="modem_assert_set_number">Number</string>
+    <string name="modem_assert_set_restarttime">Restart Time</string>
+    <string name="modem_assert_introduce">Introduction：\n\nDelay Time：the time from Modem Assert command issued to Modem Assert triggered\n\nNumber：the total number of Modem Assert command issued\n\nRestart Time：the time between Modem Reset and the next Modem Assert command issued</string>
+    <string name="modem_assert_back">Back</string>
+    <string name="modem_assert_start">Start</string>
+    <string name="modem_assert_close">Close</string>
+    <string name="modem_assert_return">Return</string>
+    <!-- @} -->
+    <string name="alertdialog_reboot_count">Reboot Countdown</string>
+    <!-- SPRD:  CTA security feature -->
+    <string name="cta_security_title">CTA Security Debug</string>
+    <string name="cta_security_hint_title">Operation Hint</string>
+    <string name="cpu_debug">AP CPU Hang Debug</string>
+</resources>

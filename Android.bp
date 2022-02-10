@@ -1,0 +1,41 @@
+android_app {
+    name: "EngineerMode",
+    srcs: ["src/**/*.java", "src/**/*.kt"],
+    resource_dirs: ["res"],
+    //sdk_version: "current",
+    platform_apis: true,
+    certificate: "platform",
+    manifest: "AndroidManifest.xml",
+
+    static_libs: [
+        "android-support-v7-appcompat",
+        "android-support-core-ui",
+        "android-support-v13",
+        "android-support-design",
+        "rxjava-jar",
+        "rxandroid-jar",
+        "em-core",
+        "em-factory"
+    ],
+
+    jni_libs: ["libjni_engineermode"],
+
+    /*
+    libs: [
+        "telephony-common",
+        "ims_common",
+        "radio_interactor_common",
+        "org.apache.http.legacy"
+    ],
+    */
+    aaptflags: [
+        "--extra-packages",
+        "com.unisoc.engineermode.core.factory"
+    ],
+
+    optimize: {
+        enabled: false,
+        //proguard_flags_files: ["proguard.cfg"],
+    }
+}
+

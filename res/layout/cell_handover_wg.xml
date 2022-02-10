@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:id="@+id/handover_wg_tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dip"
+            android:paddingTop="5dip" >
+
+            <TextView
+                android:id="@+id/handover_wg_label00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical" />
+
+            <TextView
+                android:id="@+id/handover_wg_label01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:text="@string/success_number" />
+
+            <TextView
+                android:id="@+id/handover_wg_label02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:text="@string/fail_number" />
+
+            <TextView
+                android:id="@+id/handover_wg_label03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:text="@string/pass_ratio" />
+
+            <TextView
+                android:id="@+id/handover_wg_label04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:text="@string/delay_time" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/handover_wg_tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:paddingLeft="5dip"
+            android:paddingTop="5dip" >
+
+            <TextView
+                android:id="@+id/handover_wg_label10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:text="@string/g3_g3_cs" />
+
+            <TextView
+                android:id="@+id/handover_wg_label11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical" />
+
+            <TextView
+                android:id="@+id/handover_wg_label12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical" />
+
+            <TextView
+                android:id="@+id/handover_wg_label13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical" />
+
+            <TextView
+                android:id="@+id/handover_wg_label14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:text="@string/delay_default" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/handover_wg_tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dip"
+            android:paddingTop="5dip" >
+
+            <TextView
+                android:id="@+id/handover_wg_label20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:text="@string/g3_g2_cs" />
+
+            <TextView
+                android:id="@+id/handover_wg_label21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical" />
+
+            <TextView
+                android:id="@+id/handover_wg_label22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical" />
+
+            <TextView
+                android:id="@+id/handover_wg_label23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical" />
+
+            <TextView
+                android:id="@+id/handover_wg_label24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:text="@string/delay_default" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/handover_wg_tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:paddingLeft="5dip"
+            android:paddingTop="5dip" >
+
+            <TextView
+                android:id="@+id/handover_wg_label30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:text="@string/g2_g2_cs" />
+
+            <TextView
+                android:id="@+id/handover_wg_label31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical" />
+
+            <TextView
+                android:id="@+id/handover_wg_label32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical" />
+
+            <TextView
+                android:id="@+id/handover_wg_label33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical" />
+
+            <TextView
+                android:id="@+id/handover_wg_label34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:text="@string/delay_default" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/handover_wg_tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dip"
+            android:paddingTop="5dip" >
+
+            <TextView
+                android:id="@+id/handover_wg_label40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:text="@string/g2_g3_cs" />
+
+            <TextView
+                android:id="@+id/handover_wg_label41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical" />
+
+            <TextView
+                android:id="@+id/handover_wg_label42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical" />
+
+            <TextView
+                android:id="@+id/handover_wg_label43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical" />
+
+            <TextView
+                android:id="@+id/handover_wg_label44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:text="@string/delay_default" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/handover_wg_tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dip"
+            android:paddingTop="5dip" >
+
+            <TextView
+                android:id="@+id/handover_wg_label50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:text="@string/g3_g2_ps" />
+
+            <TextView
+                android:id="@+id/handover_wg_label51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical" />
+
+            <TextView
+                android:id="@+id/handover_wg_label52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical" />
+
+            <TextView
+                android:id="@+id/handover_wg_label53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical" />
+
+            <TextView
+                android:id="@+id/handover_wg_label54"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:text="@string/delay_default" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/handover_wg_tableRow7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:paddingLeft="5dip"
+            android:paddingTop="5dip" >
+
+            <TextView
+                android:id="@+id/handover_wg_label60"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:text="@string/g2_g2_ps" />
+
+            <TextView
+                android:id="@+id/handover_wg_label61"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical" />
+
+            <TextView
+                android:id="@+id/handover_wg_label62"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical" />
+
+            <TextView
+                android:id="@+id/handover_wg_label63"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical" />
+
+            <TextView
+                android:id="@+id/handover_wg_label64"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:text="@string/delay_default" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/handover_wg_tableRow8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dip"
+            android:paddingTop="5dip" >
+
+            <TextView
+                android:id="@+id/handover_wg_label70"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:text="@string/g2_g3_ps" />
+
+            <TextView
+                android:id="@+id/handover_wg_label71"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical" />
+
+            <TextView
+                android:id="@+id/handover_wg_label72"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical" />
+
+            <TextView
+                android:id="@+id/handover_wg_label73"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical" />
+
+            <TextView
+                android:id="@+id/handover_wg_label74"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:text="@string/delay_default" />
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

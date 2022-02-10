@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/thermalsetting">
+
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="thermal_switch"
+        android:title="Thermal Switch">
+    </com.sprd.engineermode.EMSwitchPreference>
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="thermal_pa_switch"
+        android:title="Thermal PA Switch" >
+    </com.sprd.engineermode.EMSwitchPreference>
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="thermal_charge_switch"
+        android:title="Thermal Charge Switch">
+    </com.sprd.engineermode.EMSwitchPreference>
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="ipa"
+        android:title="IPA" >
+     </com.sprd.engineermode.EMSwitchPreference>
+</PreferenceScreen>

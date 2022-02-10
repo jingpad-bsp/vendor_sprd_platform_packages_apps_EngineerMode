@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <Preference
+        android:key="gcf_protocol"
+        android:title="@string/gcf_Protocol_consistency" >
+    </Preference>
+    <Preference
+        android:key="gcf_rf"
+        android:title="@string/gcf_rf" >
+    </Preference>
+    <Preference
+        android:key="gcf_sim"
+        android:title="@string/gcf_sim" >
+    </Preference>
+    <Preference
+        android:key="gcf_volte"
+        android:title="@string/gcf_volte" >
+    </Preference>
+    <!-- SPRD:838473 mbsfn swtich -->
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="mbsfn_switch"
+        android:title="MBSFN Switch">
+    </com.sprd.engineermode.EMSwitchPreference>
+</PreferenceScreen>

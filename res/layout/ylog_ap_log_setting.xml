@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:preference="http://schemas.android.com/apk/res/com.sprd.engineermode"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/setting_title"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:background="@drawable/slogui_ab_background_overlay"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="@string/ylog_debug_setting_tools"
+            android:textColor="@color/black"
+            android:textSize="16sp" >
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:gravity="center_vertical"
+                android:text="@string/log_level"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray" />
+
+        <RadioGroup
+            android:id="@+id/ylog_log_level"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <com.sprd.engineermode.debuglog.ylogui.RadioButtonView
+                android:id="@+id/aplog_level_0"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                preference:summary="@string/log_level_1_summary"
+                preference:title="@string/log_level_0" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray" />
+
+            <com.sprd.engineermode.debuglog.ylogui.RadioButtonView
+                android:id="@+id/aplog_level_1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                preference:summary="@string/log_level_2_summary"
+                preference:title="@string/log_level_1" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray" />
+
+            <com.sprd.engineermode.debuglog.ylogui.RadioButtonView
+                android:id="@+id/aplog_level_2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                preference:summary="@string/log_level_3_summary"
+                preference:title="@string/log_level_2" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray" />
+
+            <com.sprd.engineermode.debuglog.ylogui.RadioButtonView
+                android:id="@+id/aplog_level_3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                preference:summary="@string/log_level_4_summary"
+                preference:title="@string/log_level_3" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray" />
+
+            <com.sprd.engineermode.debuglog.ylogui.RadioButtonView
+                android:id="@+id/aplog_level_4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                preference:summary="@string/log_level_5_summary"
+                preference:title="@string/log_level_4" />
+
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray" />
+
+        <com.sprd.engineermode.debuglog.ylogui.SettingPreferenceView
+            android:id="@+id/ap_android_buffer_setting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            preference:tipsVisibility="visiable"
+            preference:summaryVisibility="visiable"
+            preference:summary="@string/android_buffer_summary"
+            preference:title="@string/android_buffer_setting" >
+        </com.sprd.engineermode.debuglog.ylogui.SettingPreferenceView>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray" />
+
+        <com.sprd.engineermode.debuglog.ylogui.SettingPreferenceView
+            android:id="@+id/ap_max_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            preference:tipsVisibility="visiable"
+            preference:summaryVisibility="visiable"
+            preference:summary="@string/ap_size_summary"
+            preference:title="@string/ap_max_size" >
+        </com.sprd.engineermode.debuglog.ylogui.SettingPreferenceView>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray" />
+
+        <com.sprd.engineermode.debuglog.ylogui.SettingPreferenceView
+            android:id="@+id/ap_total_max_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            preference:tipsVisibility="visiable"
+            preference:summaryVisibility="visiable"
+            preference:summary="@string/ap_total_max_size_summary"
+            preference:title="@string/ap_total_max_size" >
+        </com.sprd.engineermode.debuglog.ylogui.SettingPreferenceView>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray" />
+
+        <com.sprd.engineermode.debuglog.ylogui.SettingPreferenceView
+            android:id="@+id/ap_log_bugreport_enable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            preference:checkVisibility="visiable"
+            preference:summaryVisibility="visiable"
+            preference:summary="@string/bugreport_summary"
+            preference:checked="true"
+            preference:title="@string/bugreport_enable" >
+        </com.sprd.engineermode.debuglog.ylogui.SettingPreferenceView>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray" />
+
+        <com.sprd.engineermode.debuglog.ylogui.SettingPreferenceView
+            android:id="@+id/ap_log_override"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            preference:checkVisibility="visiable"
+            preference:checked="true"
+            preference:title="@string/log_override" >
+        </com.sprd.engineermode.debuglog.ylogui.SettingPreferenceView>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray" />
+    </LinearLayout>
+
+</ScrollView>

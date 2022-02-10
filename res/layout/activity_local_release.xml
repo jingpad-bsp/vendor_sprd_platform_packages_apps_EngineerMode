@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".telephony.LocalReleaseActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Local Release Timer(s):"/>
+        <EditText
+            android:id="@+id/local_release_timer"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="Please input timer 0～255"/>
+        <Button
+            android:id="@+id/set_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SET"/>
+    </LinearLayout>
+
+</LinearLayout>

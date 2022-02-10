@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="input_empty_tips">Please input scene name</string>
+    <string name="input_too_large_tips">Scene name input too long</string>
+    <string name="input_already_exists">Scene name already exists</string>
+    <string name="add_scene_title">Add Log Scene</string>
+    <string name="scene_add_success">Scene add success</string>
+    <string name="scene_add_fail">Scene add fail</string>
+    <string name="ylog_settings">Advanced Settings</string>
+    <string name="ylog_debug_setting_tools">Debug Setting &amp; Tools</string>
+    <string name="ylog_debug_setting_tools_tips">Including setting default storage path, manual dump, modem to pc, packing Log and other functions</string>
+    <string name="ylog_debug_setting">Debug setting</string>
+    <string name="ylog_debug_tools">Debug tools</string>
+    <string name="ylog_debug_collect">Log collect</string>
+    <string name="ylog_modem_monitor">Monitor Modem Abnormal</string>
+    <string name="ylog_modem_monitor_tips">Open this option to automatically grab relevant log information in case of Modem exceptions</string>
+    <string name="system_dump">Sysdump Enable</string>
+    <string name="system_dump_tips">Open this option to automatically trigger system dump in case of exception</string>
+    <string name="log_setting">Log Setting</string>
+    <string name="log_setting_tips">Log level, capacity sizes, log overrite and cp2/modem restart features can be set in all scenarios</string>
+    <string name="reset_to_default">Reset All Settings To Default</string>
+    <string name="reset_to_default_tips">Restore all default settings</string>
+    <string name="reset_to_default_warning">Will restore all log settings to default, go on?</string>
+    <string name="reset_all_settings_success">Reset all settings success!</string>
+    <string name="show_notification">Always Show Ylog In Notification</string>
+    <string name="snap_service">Snap Service</string>
+    <string name="move_data">Move Phonedata To Inside Card</string>
+    <string name="storage_path">Log Storage Location</string>
+    <string name="modem_assert">Modem Assert Manually</string>
+    <string name="cp2_assert">CP2 Assert Manually</string>
+    <string name="dump_wcn">Dump WCN Mem Manually</string>
+    <string name="dump_gnss">Dump GNSS Mem Manually</string>
+    <string name="dump_art">Dump Art Debug Log</string>
+    <string name="save_sleep_log">Save Modem SleepLog</string>
+    <string name="save_sleep_log_tips">Save modem sleep log fail, please close log scene</string>
+    <string name="modem_to_pc">Modem To PC</string>
+    <string name="wcn_to_pc">Wcn To PC</string>
+    <string name="pac_log">Pack Log</string>
+
+    <string name="ylog_settings_title">Log Setting</string>
+    <string name="ap_setting">AP Log Setting</string>
+    <string name="modem_setting">Modem Log Setting</string>
+    <string name="connectivity_setting">Connectivity Log Setting</string>
+    <string name="other_setting">Other Log Setting</string>
+
+    <string name="log_level">Log Level</string>
+    <string name="log_level_0">Level 0</string>
+    <string name="log_level_1">Level 1</string>
+    <string name="log_level_2">Level 2</string>
+    <string name="log_level_3">Level 3</string>
+    <string name="log_level_4">Level 4</string>
+    <string name="log_level_5">Level 5</string>
+    <string name="log_level_6">Level 6</string>
+
+    <string name="log_level_0_summary">Output FATAL</string>
+    <string name="log_level_1_summary">Error</string>
+    <string name="log_level_2_summary">Warn/Error</string>
+    <string name="log_level_3_summary">Info/Warn/Error</string>
+    <string name="log_level_4_summary">Debug/Info/Warn/Error</string>
+    <string name="log_level_5_summary">All log</string>
+    <string name="cp2_log_level_0_summary">Error</string>
+    <string name="cp2_log_level_1_summary">Warn/Error</string>
+    <string name="cp2_log_level_2_summary">Info/Warn/Error</string>
+    <string name="cp2_log_level_3_summary">Debug/Info/Warn/Error</string>
+    <string name="cp2_log_level_4_summary">All log</string>
+
+    <string name="ap_max_size">Limit AP Log Size(MB)</string>
+
+    <string name="ap_size_dialog_tips">You can set the maximum capacity of a single AP log folder, when AP log storage reaches the set value, will generate a current timestamp for the name of the new folder to store the AP log\n (default is 500MB, range is 100~500MB)</string>
+    <string name="ap_size_summary">The maximum capacity of the current single AP log folder</string>
+    <string name="ap_total_max_size">Limit AP Total Log Size(MB)</string>
+    <string name="ap_total_size_dialog_tips">Open the Log cyclic covering function, the total capacity of AP log generated after reaching the maximum value, will be the first time the log information coverage, record the AP log information of the latest \n (The default value is 4096MB and the size range is from 600M to 80% of the default total storage size. Note: Actual maximum values ​​may vary due to the default storage capacity)</string>
+
+    <string name="ap_total_max_size_summary">When the AP total log capacity reaches its maximum value, log will cycle cover \n (need open log cycle cover)</string>
+    <string name="android_buffer_setting">Android Buffer Setting</string>
+    <string name="android_buffer_summary">Android Buffer Size Setting</string>
+    <string name="android_buffer_setting_title">Select Logger sizes per log buffer</string>
+    <string name="bugreport_enable">Bugreport Enable</string>
+    <string name="bugreport_summary">When the LogManager open Bugreport Enable for Get all log print BugReport and Buffer log</string>
+
+    <string name="log_override">Log Cycle Cover</string>
+
+    <string name="ps_log_level">PS Log Level</string>
+    <string name="ps_log_level_0">Level 0</string>
+    <string name="ps_log_level_1">Level 1</string>
+    <string name="ps_log_level_2">Level 2</string>
+    <string name="ps_log_level_3">Level 3</string>
+    <string name="ps_log_level_4">Level 4</string>
+    <string name="ps_log_level_5">Level 5</string>
+    <string name="ps_log_level_0_summary">Critical</string>
+    <string name="ps_log_level_1_summary">Important</string>
+    <string name="ps_log_level_2_summary">Normal</string>
+    <string name="ps_log_level_3_summary">Information</string>
+
+    <string name="dsp_log_level">DSP Log Level</string>
+    <string name="dsp_log_level_0">Level 0</string>
+    <string name="dsp_log_level_1">Level 1</string>
+    <string name="dsp_log_level_2">Level 2</string>
+    <string name="iq_mode_setting">IQ Mode Setting</string>
+    <string name="etb_modle">ETB modle</string>
+    <string name="etb_modle_tips">Save the modem block problem debugging information</string>
+    <string name="modem_reboot">Modem Reset</string>
+    <string name="modem_reboot_tips">modem assert reboot</string>
+
+    <string name="single_log_size">Single Log Size</string>
+    <string name="single_log_size_tips">Single Log Size(range is 200M～512M)</string>
+    <string name="internal_log_size">Limit Total Internal partition Size</string>
+    <string name="internal_log_size_tips">Limit Total Internal partition Size(user version range is 50M～100M, userdebug version min range is 1024MB)</string>
+    <string name="external_log_size">Limit Total External Log Size</string>
+    <string name="internal_log_external_size_tips">Use all free space</string>
+    <string name="external_log_size_tips">You can set total external log size\n(The default value is 8192M when the user version is enabled, and is set to 600M ~ 80% of the default storage size.) Note: Due to the uncertainty of the default storage capacity, the actual maximum value may be Change)</string>
+    <string name="cp2_single_log_size_tips">Cp2 Single Log Size(range is 50～128M)</string>
+    <string name="cp2_internal_log_size_tips">Limit Total Internal partition Size(user version range is 50M～100M, userdebug version range is between 256M and 20% of the SD card storage capacity)</string>
+    <string name="cp2_external_log_size_tips">You can set total external log size\n(The default value is 3072M when the user version is enabled, and the range is 200M ~ 20% of the default storage size.) Note: Due to the uncertainty of the default storage capacity, the actual maximum value may be Change)</string>
+
+    <string name="ap_cap_log_packet_length">Ap Cap Log Packet Length</string>
+    <string name="modem_cap_log_packet_length">Modem Cap Log Packet Length</string>
+    <string name="audio_log_max_size">Limit Audio Log Size(MB)</string>
+    <string name="audio_log_max_size_tips">Only supports independent audio DSP hardware</string>
+    <string name="sensor_hub_max_size">Limit Sensor/PM Log Size(MB)</string>
+    <string name="sensor_hub_max_size_tips">Limit output sensor and power management related log</string>
+    <string name="other_total_max_size">Limit Total Log Size</string>
+
+    <string name="scene_normal">Normal scene</string>
+    <string name="scene_data">Data scene</string>
+    <string name="scene_voice">Audio scene</string>
+    <string name="scene_wcn">WCN scene</string>
+    <string name="scene_user">User scene</string>
+
+    <string name="scene_customer">Custom scene</string>
+
+    <string name="dump_full_log">Dump full log?</string>
+    <string name="dump_full_log_tips">get all log</string>
+    <string name="dump_ap_log_message">Dumping ap log...</string>
+    <string name="dump_cp0_log_message">Dumping cp0 log...</string>
+    <string name="dump_sensorhub_log_message">Dumping sensorhub log...</string>
+    <string name="dump_wcn_log_message">Dumping wcn log...</string>
+    <string name="dump_gnss_log_message">Dumping gnss log...</string>
+    <string name="dump_audio_log_message">Dumping audio log...</string>
+    <string name="dump_log2pc_log_message">Dumping log2pc log...</string>
+    <string name="dump_full_log_success">dump full log success!</string>
+    <string name="get_all_log">get all log</string>
+
+    <string name="scene_edit_title">Oprate</string>
+    <string name="scene_edit">Edit</string>
+    <string name="scene_delete">Delete</string>
+
+    <string name="slog_scene_info_title1">1.AP:&#160;</string>
+    <string name="slog_scene_info_title2">2.Modem:&#160;</string>
+    <string name="slog_scene_info_title3">3.Connectivity:&#160;</string>
+    <string name="slog_scene_info_title4">4.Others:&#160;</string>
+
+    <string name="ylog_defined_pslog">PS Log Settings</string>
+    <string name="ylog_defined_pslog_1">PS Log</string>
+    <string name="ylog_defined_cap_log">CP Cap Log</string>
+    <string name="ylog_defined_ap_cap_log">AP Cap Log</string>
+    <string name="slog_defined_eventmontor_log">Modem Abnormal Monitor</string>
+    <string name="ylog_defined_wcnlog">Connectivity Log Settings</string>
+    <string name="ylog_defined_otherlog">Others setting</string>
+    <string name="ylog_defined_wcnlog_2">GNSS Log</string>
+
+    <string name="insert_sdcard_tips">Please insert SD card</string>
+    <string name="ylog_tips_title1">I.Scene usage introduction</string>
+    <string name="ylog_tips_title2">II.Introduction to key function usage</string>
+    <string name="ylog_tips1">normal scene:The log is used to record regular standby, local services, WCN services, WeChat, web browsing, and equivalent small traffic data traffic scenarios\ndata scene:Used to record the exception log generated in the context of using the data business\nAudio scene: an exception log that is used to record a voice business related scene during a call\nWCN scene:Used to record connections such as Bluetooth, WIFI, FM, etc. to manage log generated in related scenarios\nUser scene: This scene is communication abnormal event monitoring mode, capturing only Android Log + Modem Abnormal Monitor\ncustom:The Log switches of different scenes can be freely combined, and the log generated in any matched scene can be recorded\n\n</string>
+    <string name="ylog_tips2">1.get all log:Can quickly grab a key to the use of the process of all the exception information\n2.pake log:Pack the Log of all Ylog folders and save them in the Ylog first level directory, "time folder.Zip"\n3.System Dump Enable:The function of this feature is to automatically trigger system dump in case of exception\n\n</string>
+    <string name="about_ylog">Tools Introduction</string>
+    <string name="about_ylog_title">Log tool instructions</string>
+
+    <string name="cp2_reboot">CP2 Reset</string>
+    <string name="cp2_reboot_tips">CP2 restart after dump occurs</string>
+    <string name="dump_marlin">Marlin Dump Mem Enable</string>
+    <string name="cp2_dump_marlin_tips">Marlin assert output mem file</string>
+    <string name="open_ylog_tips">Please open Ylog Scene</string>
+
+    <string name="moving_log">Moving Phonedata...</string>
+    <string name="moving_log_message">Data partition data is being transferred to internal storage ...</string>
+    <string name="snap_fail_tips">Snap fail, please open ylog first</string>
+    <string name="cap_log_size_unit">（Unit: byte）</string>
+    <string name="ylog_defined_cm4_log">Sensorhub Log</string>
+    <string name="modem_assert_alert_discription">If you select "Continue", Modem will directly restart and do not save the exception information, if you need to save the modem exception log, select "Cancel", set Modem Reset to close and then try again</string>
+    <string name="wcn_assert_alert_discription">If you select "Continue", WCN module will reboot directly and do not save the dump information. If you want the WCN Dump message, select "Cancel", set CP2 Reset to close and then try again</string>
+    <string name="modem_assert_summary">Assert manually when communication is abnormal</string>
+    <string name="wcn_assert_summary">Assert/dump manually when WCN is abnormal</string>
+    <string name="wcn_dump_summary">Dump memory when WCN is abnormal(UE will not restart)</string>
+    <string name="go_on">continue</string>
+    <string name="cap_log_length_warning">Limit(1~10000),80(before 80 byte),10000(all)</string>
+</resources>

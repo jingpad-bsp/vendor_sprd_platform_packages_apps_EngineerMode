@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="auto_answer"
+        android:summaryOff="Close"
+        android:summaryOn="Open"
+        android:title="@string/autoanswer" >
+    </com.sprd.engineermode.EMSwitchPreference>
+
+    <!-- SPRD Bug 921611: Not show SIM0 and SIM1 interface.@{ -->
+    <PreferenceScreen
+        android:key="band_select"
+        android:title="@string/bandselect" >
+    </PreferenceScreen>
+    <!-- @} -->
+
+    <com.sprd.engineermode.EMLongClickListPreference
+        android:entries="@array/supplementary_service_query_entries"
+        android:entryValues="@array/supplementary_service_query_values"
+        android:key="supplementary_service_query"
+        android:title="CFU"
+        android:summary="@string/cfu_introduction"/>
+
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="lte_impede_data"
+        android:title="@string/lte_impede_data" >
+    </com.sprd.engineermode.EMSwitchPreference>
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="disable_evdo"
+        android:title="@string/disable_evdo" >
+    </com.sprd.engineermode.EMSwitchPreference>
+    <Preference
+        android:key="network_mode"
+        android:title="@string/network_mode" >
+    </Preference>
+    <ListPreference
+        android:entries="@array/nr_cap_entries"
+        android:entryValues="@array/nr_cap_values"
+        android:key="nr_cap"
+        android:title="NR Cap"/>
+    <Preference
+        android:key="imageswitch"
+        android:title="Image Switch" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.android.regionconfig.SwitchSysVersionOem"
+            android:targetPackage="com.android.regionconfig" />
+    </Preference>
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/mode_switch"
+        android:entryValues="@array/mode_switch_value"
+        android:key="mode_switch"
+        android:title="@string/mode_switch" />
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/dsds_mode"
+        android:entryValues="@array/dsds_mode_value"
+        android:key="dsds_mode"
+        android:title="@string/dsds_mode" />
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="w_prefer_plus"
+        android:title="@string/w_prefer_plus" >
+    </com.sprd.engineermode.EMSwitchPreference>
+    <Preference
+        android:key="smart_5g"
+        android:title="@string/smart_5g" >
+        <intent
+            android:targetClass="com.sprd.engineermode.telephony.LtePreferActivity"
+            android:targetPackage="com.sprd.engineermode" />
+    </Preference>
+    <Preference
+        android:key="local_release"
+        android:title="@string/local_release" >
+        <intent
+            android:targetClass="com.sprd.engineermode.telephony.LocalReleaseActivity"
+            android:targetPackage="com.sprd.engineermode" />
+    </Preference>
+    <Preference
+        android:key="net_info"
+        android:title="@string/netinfo" >
+           <!-- intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.engineermode.telephony.NetInfoActivity"
+            android:targetPackage="com.sprd.engineermode" />-->
+    </Preference>
+    <Preference
+        android:key="cat3_4"
+        android:title="@string/cat3andCat4" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.engineermode.telephony.CategaryActivity"
+            android:targetPackage="com.sprd.engineermode" />
+    </Preference>
+    <Preference
+        android:key="csfb2gsm_delay"
+        android:title="@string/csfb2gsm" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.engineermode.telephony.Csfb2GsmDelayActivity"
+            android:targetPackage="com.sprd.engineermode" />
+    </Preference>
+
+    <com.sprd.engineermode.EMLongClickPreference
+        android:key="netinfo_statistics"
+        android:title="@string/netinfostatistics"
+        android:summary="@string/netinfostatistics_introduction">
+    </com.sprd.engineermode.EMLongClickPreference>
+
+    <com.sprd.engineermode.EMLongClickPreference
+        android:key="gprs_set"
+        android:title="@string/gprs_title"
+        android:summary="@string/gprs_introduction">
+    </com.sprd.engineermode.EMLongClickPreference>
+
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="dataservicepreferred"
+        android:title="@string/mobiledataservice" >
+    </com.sprd.engineermode.EMSwitchPreference>
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="fastdormancy"
+        android:title="@string/fastdormancy" >
+    </com.sprd.engineermode.EMSwitchPreference>
+
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="sim_trace"
+        android:title="@string/sim_trace"
+        android:summary="@string/restart_valid" >
+    </com.sprd.engineermode.EMSwitchPreference>
+
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/video_type_entries"
+        android:entryValues="@array/video_type_values"
+        android:key="video_type"
+        android:title="@string/videotype" />
+
+    <Preference
+        android:key="app_settings"
+        android:title="@string/appsettings" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.engineermode.telephony.AppSettingsPrefActivity"
+            android:targetPackage="com.sprd.engineermode" />
+    </Preference>
+
+    <Preference
+        android:key="ps_related"
+        android:title="PS Related" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.engineermode.telephony.PSRelatedPrefActivity"
+            android:targetPackage="com.sprd.engineermode" />
+    </Preference>
+
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="qos_switch"
+        android:summaryOff="Close"
+        android:summaryOn="Open"
+        android:title="@string/qosswitch" >
+    </com.sprd.engineermode.EMSwitchPreference>
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="sprd_ilog"
+        android:summaryOff="Close"
+        android:summaryOn="Open"
+        android:title="@string/sprdilog" >
+    </com.sprd.engineermode.EMSwitchPreference>
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="VT_option"
+        android:summaryOff="Close"
+        android:summaryOn="Open"
+        android:title="@string/VT_option" >
+    </com.sprd.engineermode.EMSwitchPreference>
+
+    <com.sprd.engineermode.EMSwitchPreference
+            android:key="switch_for_usb_active"
+            android:summaryOff="Close"
+            android:summaryOn="Open"
+            android:title="@string/switch_for_usb_active">
+    </com.sprd.engineermode.EMSwitchPreference>
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="dns_filter"
+        android:title="DNS Filter">
+    </com.sprd.engineermode.EMSwitchPreference>
+
+    <!-- sprd 898844 : Volte Settings @{ -->
+    <PreferenceScreen
+        android:key="volte_setting_apc"
+        android:title="@string/volte_setting">
+        <!-- UE Settings -->
+        <Preference
+            android:title="@string/ue_settings">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.sprd.engineermode.telephony.volte.UESettingsActivity"
+                android:targetPackage="com.sprd.engineermode" />
+        </Preference>
+        <!-- Temporary Settings -->
+        <Preference
+            android:title="@string/temporary_settings">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.sprd.engineermode.telephony.volte.TemporarySettingsActivity"
+                android:targetPackage="com.sprd.engineermode" />
+        </Preference>
+        <!-- Operator Settings SIM 0 -->
+        <Preference
+            android:key="operater_setting_0"
+            android:title="@string/operator_settings_0">
+        </Preference>
+        <!-- Operator Settings SIM 1 -->
+        <Preference
+            android:key="operater_setting_1"
+            android:title="@string/operator_settings_1">
+        </Preference>
+        <!-- PLMN White List -->
+        <!--<Preference
+            android:key="key_plmn"
+            android:title="@string/plmn_white_list" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.sprd.engineermode.telephony.volte.PlmnSettingsActivity"
+                android:targetPackage="com.sprd.engineermode" />
+        </Preference>-->
+        <!-- Development Settings -->
+        <Preference
+            android:title="@string/development_settings">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.sprd.engineermode.telephony.volte.DevelopMentSettingsActivity"
+                android:targetPackage="com.sprd.engineermode" />
+        </Preference>
+        <SwitchPreference
+            android:key="volte_enable"
+            android:title="@string/volte_enable"
+            android:summary="@string/restart_valid">
+        </SwitchPreference>
+        <ListPreference
+            android:entries="@array/suage_setting_entries"
+            android:entryValues="@array/suage_setting_values"
+            android:key="usage_setting"
+            android:title="Usage Setting"/>
+    </PreferenceScreen>
+    <Preference
+        android:key="volte_setting"
+        android:title="@string/volte_setting">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.engineermode.telephony.volte.VolteSettingsActivity"
+            android:targetPackage="com.sprd.engineermode" />
+    </Preference>
+    <Preference
+        android:key="iot_pdp"
+        android:title="PDP TEST" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.engineermode.telephony.IotAndPdpActivity"
+            android:targetPackage="com.sprd.engineermode" />
+    </Preference>
+
+    <Preference
+        android:key="nv_item_list"
+        android:title="@string/nvitem_list" >
+        <!--<intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.engineermode.telephony.NVItemListActivity"
+            android:targetPackage="com.sprd.engineermode" />-->
+    </Preference>
+
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="whitelist_ignore_switch"
+        android:title="@string/whitelist_ignore_switch" >
+    </com.sprd.engineermode.EMSwitchPreference>
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="vowifi_white_list_allowed_switch"
+        android:title="VoWiFi White List Enable" >
+    </com.sprd.engineermode.EMSwitchPreference>
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="vowifi_lab_sim_allowed_switch"
+        android:title="VoWiFi Lab Sim Enable" >
+    </com.sprd.engineermode.EMSwitchPreference>
+    <!-- SPRD 998834 UPLMN Control @{ -->
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="uplmn_control"
+        android:title="@string/uplmn_control" >
+    </com.sprd.engineermode.EMSwitchPreference>
+    <!-- }@ -->
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="ims_switch"
+        android:title="@string/imsswitch" >
+    </com.sprd.engineermode.EMSwitchPreference>
+
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="load_apn"
+        android:summaryOff="Close"
+        android:summaryOn="Open"
+        android:title="Load APN" >
+    </com.sprd.engineermode.EMSwitchPreference>
+
+    <PreferenceScreen
+        android:key="nxp_list"
+        android:title="@string/nxp" >
+    </PreferenceScreen>
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="mos_switch"
+        android:title="@string/mos_switch" >
+    </com.sprd.engineermode.EMSwitchPreference>
+
+    <!-- Store meid when Sim card is initialized-->
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="meid_switch"
+        android:title="@string/meid_switch" >
+    </com.sprd.engineermode.EMSwitchPreference>
+
+    <!-- open or close dm funtion when ctcc version-->
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="dm_switch"
+        android:title="@string/dm_switch" >
+    </com.sprd.engineermode.EMSwitchPreference>
+
+    <!-- c2k configuration -->
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/c2k_test_config_str"
+        android:entryValues="@array/c2k_test_config_value"
+        android:key="c2k_configuration"
+        android:title="@string/c2k_configuration" />
+</PreferenceScreen>

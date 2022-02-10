@@ -1,0 +1,12 @@
+java_import {
+    name: "rxjava-jar",
+    jars: ["rxjava-2.2.8.jar"],
+    sdk_version: "current",
+}
+
+android_library_import {
+    name: "rxandroid-jar",
+    aars: ["rxandroid-2.1.1.aar"],
+    sdk_version: "current",
+}
+

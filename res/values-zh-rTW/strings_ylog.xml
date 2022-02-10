@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="input_empty_tips">請輸入場景名稱</string>
+	<string name="input_too_large_tips">輸入內容過長</string>
+    <string name="input_already_exists">場景名稱已存在</string>
+    <string name="add_scene_title">Add Log Scene</string>
+    <string name="scene_add_success">Scene add success</string>
+    <string name="scene_add_fail">Scene add fail</string>
+    <string name="ylog_settings">高級設置</string>
+    <string name="ylog_debug_setting_tools">Debug Setting &amp; Tools</string>
+    <string name="ylog_debug_setting_tools_tips">包括設置默認存儲路徑、手動Dump、Modem To Pc以及壹鍵打包Log等功能</string>
+    <string name="ylog_debug_setting">Debug setting</string>
+    <string name="ylog_debug_tools">Debug tools</string>
+    <string name="ylog_debug_collect">Log collect</string>
+    <string name="ylog_modem_monitor">Modem 異常監控</string>
+    <string name="ylog_modem_monitor_tips">開啟此選項，在有Modem異常情況下會自動抓取相關的log信息</string>
+    <string name="system_dump">Sysdump Enable</string>
+    <string name="system_dump_tips">開啟此選項，在有異常情況下會自動觸發system dump</string>
+    <string name="log_setting">Log Setting</string>
+    <string name="log_setting_tips">可設置各類場景中的Log等級、容量大小、循環覆蓋以及cp2/modem重啟功能</string>
+    <string name="reset_to_default">Reset All Settings To Default</string>
+    <string name="reset_to_default_tips">恢復全部默認設置</string>
+    <string name="reset_to_default_warning">該操作將會恢復全部Log設置為默認值，是否繼續?</string>
+    <string name="reset_all_settings_success">Reset all settings success!</string>
+    <string name="show_notification">Always Show Ylog In Notification</string>
+    <string name="snap_service">Snap Service</string>
+    <string name="move_data">Move Phonedata To Inside Card</string>
+    <string name="storage_path">Log Storage Location</string>
+    <string name="modem_assert">Modem Assert Manually</string>
+    <string name="cp2_assert">CP2 Assert Manually</string>
+    <string name="dump_wcn">Dump WCN Mem Manually</string>
+    <string name="dump_gnss">Dump GNSS Mem Manually</string>
+    <string name="dump_art">Dump Art Debug Log</string>
+    <string name="save_sleep_log">Save Modem SleepLog</string>
+    <string name="save_sleep_log_tips">保存modem sleep log失敗，請關閉場景後再使用此功</string>
+    <string name="modem_to_pc">Modem To PC</string>
+    <string name="wcn_to_pc">Wcn To PC</string>
+    <string name="pac_log">Pack Log</string>
+
+    <string name="ylog_settings_title">Log Setting</string>
+    <string name="ap_setting">AP Log Setting</string>
+    <string name="modem_setting">Modem Log Setting</string>
+    <string name="connectivity_setting">Connectivity Log Setting</string>
+    <string name="other_setting">Other Log Setting</string>
+
+    <string name="log_level">Log Level</string>
+    <string name="log_level_0">Level 0</string>
+    <string name="log_level_1">Level 1</string>
+    <string name="log_level_2">Level 2</string>
+    <string name="log_level_3">Level 3</string>
+    <string name="log_level_4">Level 4</string>
+    <string name="log_level_5">Level 5</string>
+    <string name="log_level_6">Level 6</string>
+
+    <string name="log_level_0_summary">輸出 FATAL</string>
+    <string name="log_level_1_summary">輸出 ERROR/FATAL</string>
+    <string name="log_level_2_summary">輸出 WARN/ERROR/FATAL</string>
+    <string name="log_level_3_summary">輸出INFO/WARN/ERROR/FATAL</string>
+    <string name="log_level_4_summary">輸出 DEBUG/INFO/WARN/ERROR/FATAL</string>
+    <string name="log_level_5_summary">輸出所有log</string>
+
+
+    <string name="cp2_log_level_0_summary">Error</string>
+    <string name="cp2_log_level_1_summary">Warn/Error</string>
+    <string name="cp2_log_level_2_summary">Info/Warn/Error</string>
+    <string name="cp2_log_level_3_summary">Debug/Info/Warn/Error</string>
+    <string name="cp2_log_level_4_summary">All log</string>
+
+
+    <string name="android_buffer_summary">日誌記錄器緩沖區大小</string>
+    <string name="bt_hci_max_size">設置當前BT HCI日誌最大值(MB)</string>
+    <string name="bt_hci_max_size_summary">BT HCI日誌屬於AP Log文件中的壹個子文件</string>
+    <string name="ap_max_size">設置當前AP日誌文件夾最大值(MB)</string>
+    <string name="ap_size_summary">當前單個AP日誌文件夾的最大容量</string>
+    <string name="ap_total_max_size">設置AP總日誌容量最大值(MB)</string>
+    <string name="ap_total_max_size_summary">當AP總日誌容量達到最大值時, Log將循環覆蓋\n(需開啟Log循環覆蓋功能)</string>
+    <string name="ap_total_size_dialog_tips">開啟了Log循環覆蓋功能時，生成的AP總日誌容量達到最大值後，將會把時間最早的日誌信息覆蓋，記錄最新的AP日誌信息\n（默認值為： 4096MB，設置大小範圍為：600M～默認存儲總容量的80%。注意：由於默認存儲容量的不確定因素，實際的最大值可能有所變化）</string>
+    <string name="log_override">Log循環覆蓋</string>
+
+    <string name="ps_log_level">PS Log Level</string>
+    <string name="ps_log_level_0">Level 0</string>
+    <string name="ps_log_level_1">Level 1</string>
+    <string name="ps_log_level_2">Level 2</string>
+    <string name="ps_log_level_3">Level 3</string>
+    <string name="ps_log_level_4">Level 4</string>
+    <string name="ps_log_level_5">Level 5</string>
+
+    <string name="dsp_log_level">DSP Log Level</string>
+    <string name="dsp_log_level_0">Level 0</string>
+    <string name="dsp_log_level_1">Level 1</string>
+    <string name="dsp_log_level_2">Level 2</string>
+    <string name="iq_mode_setting">IQ Mode Setting</string>
+    <string name="etb_modle">ETB modle</string>
+    <string name="etb_modle_tips">保存modem block問題調試信息</string>
+    <string name="modem_reboot">Modem Reset</string>
+    <string name="modem_reboot_tips">控制發生modem assert後靜默重啟</string>
+
+    <string name="single_log_size">單個Log大小設置</string>
+    <string name="single_log_size_tips">單個Log大小設置(範圍為200M～512M)</string>
+    <string name="internal_log_size">Data分區Log存儲總量設置</string>
+    <string name="internal_log_size_tips">Data分區Log存儲總量設置(user版本範圍為 50M～100M, userdebug版本最小值為1024MB)</string>
+    <string name="external_log_size">總Log容量最大值設置</string>
+    <string name="internal_log_external_size_tips">使用所有空閑空間</string>
+    <string name="external_log_size_tips">設置在手機存儲空間或SD卡中的總Log容量最大值（默認存儲在SD內，user版本開啟場景後默認值為：8192M，設置大小範圍為：600M～默認存儲總容量的80%。注意：由於默認存儲容量的不確定因素，實際的最大值可能有所變化）</string>
+    <string name="cp2_single_log_size_tips">Cp2單個Log大小設置(範圍為50～128M)</string>
+    <string name="cp2_internal_log_size_tips">Data分區Log存儲總量設置(user版本範圍為50M～100M, userdebug版本範圍為256M~默認存儲總容量20%)</string>
+    <string name="cp2_external_log_size_tips">總Log容量最大值設置\n（默認存儲在SD內，user版本開啟場景後默認值為：3072M，設置大小範圍為：200M～默認存儲總容量的20%。注意：由於默認存儲容量的不確定因素，實際的最大值可能有所變化）</string>
+
+    <string name="ap_cap_log_packet_length">Ap Cap Log Packet Length</string>
+    <string name="modem_cap_log_packet_length">Modem Cap Log Packet Length</string>
+    <string name="audio_log_max_size">設置Audio 日誌最大值(MB)</string>
+    <string name="audio_log_max_size_tips">僅限支持獨立音頻DSP的硬件</string>
+    <string name="sensor_hub_max_size">設置Sensor/PM日誌最大值(MB)</string>
+    <string name="sensor_hub_max_size_tips">控制輸出傳感器和電源管理相關的log</string>
+    <string name="other_total_max_size">總Log容量最大值設置</string>
+
+    <string name="scene_normal">常規場景</string>
+    <string name="scene_data">數據場景</string>
+    <string name="scene_voice">語音場景</string>
+    <string name="scene_wcn">WCN場景</string>
+    <string name="scene_customer">自定義</string>
+
+    <string name="dump_full_log">確認收集全部log？\n</string>
+    <string name="dump_full_log_tips">get all log</string>
+    <string name="dump_ap_log_message">Dumping ap log...</string>
+    <string name="dump_cp0_log_message">Dumping cp0 log...</string>
+    <string name="dump_sensorhub_log_message">Dumping sensorhub log...</string>
+    <string name="dump_wcn_log_message">Dumping wcn log...</string>
+    <string name="dump_gnss_log_message">Dumping gnss log...</string>
+    <string name="dump_audio_log_message">Dumping audio log...</string>
+    <string name="dump_log2pc_log_message">Dumping log2pc log...</string>
+    <string name="dump_full_log_success">dump full log success!</string>
+    <string name="get_all_log">get all log</string>
+
+    <string name="scene_edit_title">Oprate</string>
+    <string name="scene_edit">Edit</string>
+    <string name="scene_delete">Delete</string>
+
+    <string name="slog_scene_info_title1">1.AP:&#160;</string>
+    <string name="slog_scene_info_title2">2.Modem:&#160;</string>
+    <string name="slog_scene_info_title3">3.Connectivity:&#160;</string>
+    <string name="slog_scene_info_title4">4.Others:&#160;</string>
+
+    <string name="ylog_defined_pslog">PS Log Settings</string>
+    <string name="ylog_defined_pslog_1">PS Log</string>
+    <string name="ylog_defined_cap_log">CP Cap Log</string>
+    <string name="ylog_defined_ap_cap_log">AP Cap Log</string>
+    <string name="ylog_defined_wcnlog">Connectivity Log Settings</string>
+    <string name="ylog_defined_otherlog">Others setting</string>
+    <string name="ylog_defined_wcnlog_2">GNSS Log</string>
+
+    <string name="insert_sdcard_tips">請插入SD卡</string>
+    <string name="ylog_tips_title1">壹、場景使用介紹</string>
+    <string name="ylog_tips_title2">二、關鍵功能使用介紹</string>
+    <string name="ylog_tips1">常規場景：用於記錄常規待機，本地業務，WCN業務，微信，網頁瀏覽等效小流量數據業務的相關場景中產生的log\n數據場景：用於記錄在使用數據業務相關場景中產生的異常log\n語音場景：用於記錄在通話時語音業務相關場景中產生的異常log\n自定義：可自由組合設置各個不同場景的Log開關，並記錄任意搭配的場景中所產生的log\n用戶場景：此場景為通信異常事件監視模式，僅抓取Android Log+ Modem Abnormal Monitor\nWCN場景：用於記錄使用藍牙，WIFI，FM等連接管理相關場景中產生的log\n\n</string>
+    <string name="ylog_tips2">1.get all log：能夠快速的壹鍵抓取到使用過程中產生的所有異常信息\n2.pake log：打包所有Ylog文件夾的Log，且保存在Ylog第壹級目錄下“時間文件夾.zip”保存\n3.System Dump Enable:該功能的作用是在有異常情況下會自動觸發system dump\n\n</string>
+    <string name="about_ylog">Log工具說明</string>
+    <string name="about_ylog_title">Log工具使用說明</string>
+
+    <string name="cp2_reboot">CP2 Reset</string>
+    <string name="cp2_reboot_tips">控制發生CP2 assert後靜默重啟</string>
+    <string name="cp2_dump_marlin_tips">控制發生assert後輸出mem文件</string>
+    <string name="open_ylog_tips">請打開Ylog開關</string>
+
+    <string name="moving_log">移動手機數據...</string>
+    <string name="moving_log_message">正在將data分區的數據轉移至內部存儲中...</string>
+    <string name="snap_fail_tips">截圖失敗,Ylog未打開</string>
+    <string name="cap_log_size_unit">（單位: byte）</string>
+    <string name="service_slog_prompt">點擊後返回Ylog界面</string>
+    <string name="service_snap_prompt">點擊後對當前界面進行截圖</string>
+    <string name="notification_low_storage_title">剩余存儲空間不足</string>
+    <string name="notification_low_storage_prompt">請及時導出或清除Log</string>
+</resources>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Added by Yuntao.xiao for SlogUI-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TableLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:stretchColumns="1" >
+         <TableRow
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="10dip">
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="@string/start_freq"
+                 android:textSize="20sp"/>
+             <EditText
+                 android:id="@+id/start_freq_edit"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:maxLength="5"
+                 android:hint="@string/format"
+                 android:digits=".0123456789"/>
+         </TableRow>
+         <TableRow
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="10dip">
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="@string/end_freq"
+                 android:textSize="20sp"/>
+             <EditText
+                 android:id="@+id/end_freq_edit"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:maxLength="5"
+                 android:hint="@string/format"
+                 android:digits=".0123456789"/>
+         </TableRow>
+         <TableRow
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="10dip">
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="@string/fm_delay"
+                 android:textSize="20sp"/>
+             <EditText
+                 android:id="@+id/fm_delay_edit"
+                 android:labelFor="@id/fm_delay_edit"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:maxLength="6"
+                 android:inputType="number"/>
+         </TableRow>
+    </TableLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="?android:attr/buttonBarStyle"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/fm_noise_start"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ota_debug_start"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/fm_noise_stop"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ota_debug_stop"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/fm_freq"
+            android:textSize="18sp" >
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/fm_rssi"
+            android:textSize="18sp" >
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/fm_snr"
+            android:textSize="18sp" >
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        <ListView
+            android:id="@+id/noise_result_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+    </LinearLayout>
+
+    </LinearLayout>
+

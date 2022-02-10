@@ -1,0 +1,26 @@
+cc_library_shared {
+    name: "libjni_engineermode",
+    srcs: [
+        "src/*.cpp",
+    ],
+
+    shared_libs: [
+        "liblog",
+        "libutils",
+        "libcutils",
+        "libandroid_runtime",
+    ],
+
+    /*
+    include_dirs: [
+        "system/media/camera/include",
+    ],
+    */
+
+    export_include_dirs: ["."],
+
+    cppflags: [
+        //"-Wall",
+        //"-Werror",
+    ],
+}

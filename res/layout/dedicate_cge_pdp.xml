@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true" >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1" >
+            <!-- cid -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cid"
+                    android:textSize="18dp" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/cge_cid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:digits="1234567890"
+                    android:singleLine="true" >
+                </EditText>
+            </TableRow>
+            <!-- qci -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/qci"
+                    android:textSize="18dp" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/cge_qci"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:hint="@string/cge_hint_15"
+                    android:digits="1234567890"
+                    android:singleLine="true" >
+                </EditText>
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dl_gbr"
+                    android:textSize="18dp" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/cge_dl_gbr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:digits="1234567890"
+                    android:singleLine="true" >
+                </EditText>
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ul_gbr"
+                    android:textSize="18dp" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/cge_ul_gbr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:digits="1234567890"
+                    android:singleLine="true" >
+                </EditText>
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dl_mbr"
+                    android:textSize="18dp" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/cge_dl_mbr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:digits="1234567890"
+                    android:singleLine="true" >
+                </EditText>
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ul_mbr"
+                    android:textSize="18dp" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/cge_ul_mbr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:digits="1234567890"
+                    android:singleLine="true" >
+                </EditText>
+            </TableRow>
+        </TableLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/cga_activate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/actived"
+                android:textSize="18dp" >
+            </Button>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+     <SwitchPreference
+        android:key="asrvcc"
+        android:title="@string/ue_cap_asrvcc" >
+     </SwitchPreference>
+     <SwitchPreference
+        android:key="bsrvcc"
+        android:title="@string/ue_cap_bsrvcc" >
+     </SwitchPreference>
+     <SwitchPreference
+        android:key="evs"
+        android:title="@string/ue_cap_evs" >
+     </SwitchPreference>
+</PreferenceScreen>

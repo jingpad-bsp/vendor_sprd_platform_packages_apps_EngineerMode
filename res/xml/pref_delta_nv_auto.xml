@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="apc_key"
+        android:title="@string/apc_function" >
+    </com.sprd.engineermode.EMSwitchPreference>
+</PreferenceScreen>

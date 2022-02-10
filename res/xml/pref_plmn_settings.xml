@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <Preference
+        android:title="@string/release_white_list">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.engineermode.telephony.volte.WhiteListActivity"
+            android:targetPackage="com.sprd.engineermode" />
+    </Preference>
+    <EditTextPreference
+        android:key="test_plmn_1"
+        android:maxLength="6"
+        android:numeric="integer"
+        android:summary="please input data"
+        android:title="@string/test_plmn_1" >
+    </EditTextPreference>
+    <EditTextPreference
+        android:key="test_plmn_2"
+        android:maxLength="6"
+        android:numeric="integer"
+        android:summary="please input data"
+        android:title="@string/test_plmn_2" >
+    </EditTextPreference>
+</PreferenceScreen>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/powerdissipation"
+    android:key="powerDissipation">
+
+    <Preference
+        android:key="dvfs"
+        android:summary="On"
+        android:title="DVFS Status" >
+    </Preference>
+
+    <!-- SPRD Bug:847281:Power Dissipation setting - CPU Fre can not set. @{ -->
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="cpuFrequenceSwitch"
+        android:title="CPU FRE SWITCH" >
+    </com.sprd.engineermode.EMSwitchPreference>
+    <!-- @} -->
+    <PreferenceScreen
+        android:dialogTitle="CPU Frequency（400～1400mHz）"
+        android:key="cpuFrequence"
+        android:summary="Make sure thermal IPA is closed"
+        android:title="CPU Frequency" >
+    </PreferenceScreen>
+</PreferenceScreen>

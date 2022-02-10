@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <Preference
+        android:key="lte"
+        android:title="@string/ue_cap_4g" >
+        <intent
+            android:targetClass="com.sprd.engineermode.telephony.UeCapLteActivity"
+            android:targetPackage="com.sprd.engineermode" />
+    </Preference>
+    <!-- SPRD 1020953: C2K feature @{ -->
+    <PreferenceScreen
+        android:key="wcdma"
+        android:title="@string/ue_cap_3g" >
+        <Preference
+            android:title="@string/ue_cap_wcdma">
+            <intent
+                android:targetClass="com.sprd.engineermode.telephony.UeCapWcdmaActivity"
+                android:targetPackage="com.sprd.engineermode" />
+        </Preference>
+        <Preference
+            android:title="@string/ue_cap_cdma">
+            <intent
+                android:targetClass="com.sprd.engineermode.telephony.UeCapC2kActivity"
+                android:targetPackage="com.sprd.engineermode" />
+        </Preference>
+    </PreferenceScreen>
+    <!-- @} -->
+    <Preference
+        android:key="gsm"
+        android:title="@string/ue_cap_2g" >
+        <intent
+            android:targetClass="com.sprd.engineermode.telephony.UeCapGsmActivity"
+            android:targetPackage="com.sprd.engineermode" />
+    </Preference>
+    <!--<SwitchPreference
+        android:key="ipv6"
+        android:title="@string/ue_cap_ipv6" >
+    </SwitchPreference>-->
+</PreferenceScreen>

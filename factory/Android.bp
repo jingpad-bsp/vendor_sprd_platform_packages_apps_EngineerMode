@@ -1,0 +1,23 @@
+
+android_library {
+    name: "em-factory",
+    sdk_version: "current",
+    manifest: "src/main/AndroidManifest.xml",
+
+    srcs: [
+        "src/main/**/*.java",
+        "src/main/**/*.kt",
+    ],
+
+    resource_dirs: [
+        "src/main/res",
+    ],
+
+    static_libs: [
+        "kotlin-reflect",
+    ],
+
+    optimize: {
+        enabled: false,
+    }
+}

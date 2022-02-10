@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+     <Preference
+        android:key="operator_cmcc"
+        android:title="@string/operator_cmcc" >
+     </Preference>
+     <Preference
+        android:key="operator_cucc"
+        android:title="@string/operator_cucc" >
+     </Preference>
+     <Preference
+        android:key="operator_orange"
+        android:title="@string/operator_orange" >
+     </Preference>
+     <Preference
+        android:key="operator_telstra"
+        android:title="@string/operator_telstra" >
+     </Preference>
+     <Preference
+        android:key="operator_vodafone"
+        android:title="@string/operator_vodafone" >
+     </Preference>
+     <Preference
+        android:key="operator_telcel"
+        android:title="@string/operator_telcel" >
+     </Preference>
+     <Preference
+        android:key="operator_movistar"
+        android:title="@string/operator_movistar" >
+     </Preference>
+     <Preference
+        android:key="operator_reliance"
+        android:title="@string/operator_reliance" >
+     </Preference>
+     <Preference
+        android:key="operator_dt"
+        android:title="@string/operator_dt" >
+     </Preference>
+     <Preference
+        android:key="operator_mtn"
+        android:title="@string/operator_mtn" >
+     </Preference>
+     <Preference
+        android:key="operator_claro"
+        android:title="@string/operator_claro" >
+     </Preference>
+     <Preference
+        android:key="operator_docomo"
+        android:title="@string/operator_docomo" >
+     </Preference>
+     <Preference
+        android:key="operator_telefonica"
+        android:title="@string/operator_telefonica" >
+     </Preference>
+     <Preference
+        android:key="operator_ukee"
+        android:title="@string/operator_ukee" >
+     </Preference>
+     <Preference
+        android:key="operator_megafon"
+        android:title="@string/operator_megafon" >
+     </Preference>
+     <Preference
+        android:key="operator_tmobile"
+        android:title="@string/operator_tmobile" >
+     </Preference>
+     <Preference
+        android:key="operator_true"
+        android:title="@string/operator_true" >
+     </Preference>
+     <Preference
+        android:key="operator_ytlc"
+        android:title="@string/operator_ytlc" >
+     </Preference>
+     <Preference
+        android:key="operator_att"
+        android:title="@string/operator_att" >
+     </Preference>
+     <Preference
+        android:key="operator_oysters"
+        android:title="@string/operator_oysters" >
+     </Preference>
+     <Preference
+        android:key="operator_beeline"
+        android:title="@string/operator_beeline" >
+     </Preference>
+     <Preference
+        android:key="operator_tim"
+        android:title="@string/operator_tim" >
+     </Preference>
+     <Preference
+        android:key="operator_ais"
+        android:title="@string/operator_ais" >
+     </Preference>
+     <Preference
+        android:key="operator_smarfren"
+        android:title="@string/operator_smarfren" >
+     </Preference>
+     <Preference
+        android:key="operator_dtag"
+        android:title="@string/operator_dtag" >
+     </Preference>
+     <Preference
+        android:key="operator_etisalat"
+        android:title="@string/operator_etisalat" >
+     </Preference>
+     <Preference
+        android:key="operator_mts"
+        android:title="@string/operator_mts" >
+     </Preference>
+     <Preference
+        android:key="operator_prestigio"
+        android:title="@string/operator_prestigio" >
+     </Preference>
+     <Preference
+        android:key="operator_seatel"
+        android:title="@string/operator_seatel" >
+     </Preference>
+     <Preference
+        android:key="operator_unitel"
+        android:title="@string/operator_unitel" >
+     </Preference>
+     <Preference
+        android:key="operator_altice"
+        android:title="@string/operator_altice" >
+     </Preference>
+     <Preference
+        android:key="operator_peru_claro"
+        android:title="@string/operator_peru_claro" >
+     </Preference>
+     <Preference
+        android:key="operator_dialog"
+        android:title="@string/operator_dialog" >
+     </Preference>
+     <Preference
+        android:key="operator_dtac"
+        android:title="@string/operator_dtac" >
+     </Preference>
+     <Preference
+        android:key="operator_inwi"
+        android:title="@string/operator_inwi" >
+     </Preference>
+     <Preference
+        android:key="operator_irancell"
+        android:title="@string/operator_irancell" >
+     </Preference>
+     <Preference
+        android:key="operator_mascom"
+        android:title="@string/operator_mascom" >
+     </Preference>
+     <Preference
+        android:key="operator_ntel"
+        android:title="@string/operator_ntel" >
+     </Preference>
+     <Preference
+        android:key="operator_smile"
+        android:title="@string/operator_smile" >
+     </Preference>
+     <Preference
+        android:key="operator_veon"
+        android:title="@string/operator_veon" >
+     </Preference>
+     <Preference
+        android:key="operator_vodacom"
+        android:title="@string/operator_vodacom" >
+     </Preference>
+     <Preference
+        android:key="operator_fastlink"
+        android:title="@string/operator_fastlink" >
+     </Preference>
+     <Preference
+        android:key="operator_zone"
+        android:title="@string/operator_zone" >
+     </Preference>
+     <Preference
+        android:key="operator_ctcc"
+        android:title="@string/operator_ctcc" >
+     </Preference>
+</PreferenceScreen>

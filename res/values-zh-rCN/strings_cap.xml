@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright 2007, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- SPRD 815541 : Coulometer Power Test Mode 
+    <string name="coulometer_power">库仑计测试功耗</string>
+    <string name="coulometer_time_quantum1">时间段1</string>
+    <string name="coulometer_time_quantum2">时间段2</string>
+    <string name="coulometer_time_quantum3">时间段3</string>
+    <string name="coulometer_time_begin"> 开始时间: </string>
+    <string name="coulometer_time_finish">End time: </string>
+    <string name="coulometer_time_end"> 测试时长(小时): </string>
+    <string name="coulometer_start">开始</string>
+    <string name="coulometer_finish">结束</string>
+    <string name="coulometer_result">查看结果</string>
+    <string name="coulometer_clean">清除</string>
+    <string name="coulometer_year">年</string>
+    <string name="coulometer_month">月</string>
+    <string name="coulometer_day">日</string>
+    <string name="coulometer_hour">时</string>
+    <string name="coulometer_minute">分</string>
+    <string name="year_format_err">年份格式有误</string>
+    <string name="month_format_err">月份格式有误</string>
+    <string name="day_format_err">日期格式有误</string>
+    <string name="hour_format_err">小时格式有误</string>
+    <string name="minute_format_err">分钟格式有误</string>
+    <string name="during_empty_err">测试时长不能为空</string>
+    <string name="cc_test_chart">功耗测试曲线</string>
+    <string name="notice_test_stop">功耗测试中，确定要停止吗？</string>
+    <string name="notice_data_empty">当前没有测试数据</string>
+    <string name="coulometer_testing">测试中 ...</string>
+    <string name="coulometer_test_stop">测试结束</string>
+    <string name="coulometer_not_test">未测试</string>
+    <string name="coulometer_notice">显示图表</string>
+    <string name="function_introduction">功能简介</string>
+    <string name="start_time_error">"开始时间"小于系统当前时间，请修改"开始时间"</string>
+    <string name="duration_introduce">(精确到小数点后一位)</string>
+    <string name="less_than_twinty_toast">测试时长小于20分钟，不可查看图表</string>
+    <string name="notice_testing_show">测试中，没有数据或者数据不全</string>
+-->
+    <string name="coulometer_power_introduction">库仑计测试功耗(2018-02-09)\n\n需求目的:用户在使用手机时可以看到某个场景的大概功耗\n\n*******************************\n\n实现方法：\n\n1)点“开始”按钮时 echo 1 > /sys/class/power_supply/sprdfgu/cc_test_cmd 到这个节点。\n\n2)点“结束”按钮时 echo 0 > /sys/class/power_supply/sprdfgu/cc_test_cmd到这个节点。\n读取 cat /sys/class/power_supply/sprdfgu/cc_test_result 节点的值显示出来。\n\n*******************************\n\n界面设计:\n\n  数据是每10分钟记录下当前的数据，结束后把每10分钟保存下来的所有数据通过“横轴时间”，“纵轴功耗”值绘制成一简单曲线图。\n  测试长待机功耗，比如 24、48 小时的，可以每一或二小时采集一次数据，之后以每次的数据做为一个点绘制出来。\n  简单场景测试时间小于 20 分钟的，不需要绘制图表。\n\n  每个时间段的测试时间不能有重叠部分</string>
+    <string name="camera_fps">Camera FPS</string>
+    <string name="set_max">Set Max</string>
+    <string name="set_min">Set Min</string>
+    <string name="range">5~30</string>
+    <string name="camera_fps_introduction">Camera FPS(2018-03-01)\n\n需求目的:便于调整录像/预览帧率, 间接调试camera功耗\n\n*******************************\n\n功能描述:\n    录像/预览帧率间接调整。在工程模式或者工程模式中添加定帧的功能。预览和录像可输入想要设定的最大帧率和最小帧率。\n\n*******************************\n\n实现方法：\n\n1)预览帧率设置：\n    setprop persist.sys.camera.preview.fps abcd   //设置预览帧率为cd到ab\n\n2)录像帧率设置：\n    setprop persist.sys.camera.record.fps abcd    //设置录像帧率为cd到ab\n\n3)Restore defaults\n预防测试者测试完成后某个功能开关没有恢复默认值。一键恢复以上所有功能及开关至默认值。\n\n    要固定帧率为某值,以固定录像帧率为20fps为例:\n    setprop persist.sys.camera.record.fps 2020，不能简写为setprop persist.sys.camera.record.fps 20，参数字符串的前两位是maxfps,后两位为minfps，不可缺失。user版本可以使用工程模式中的开关*#*#83781#*#* -> HARDWARETEST -> Camera FPS。\n\n*******************************\n\n界面设计:\n\n  Camera  FPS 包含三个子功能：\n    1)Preview \n    2)Recording \n    3)Restore Defaults</string>
+    <string name="gro_introduction">SETH网卡GRO汇聚功能(2018-03-12)\n\n需求目的:将SETH网卡GRO汇聚功能做在工程模式中, 后续在数传case测试的时候, 方便测试人员进行手动开启测试.\n\n*******************************\n\n功能描述:\n    SETH网卡GRO汇聚功能, 属于AP侧网卡的下行数据报文汇聚功能, 可以减少内核网络子系统的处理压力, 也同时减少上行的TCP ACK个数, 减少CP的mips开销。\n\n*******************************\n\n实现方法：\n\n1)开启GRO, setprop ctl.start gro_on\n\n2)关闭GRO, setprop ctl.start gro_of\n\n3)查询 :sys/module/seth/parameter/gro_enable值为1，则gro开启，值为0，则gro关闭。\n\n*******************************\n\n验收方案:\n\n  FTP下载中, 开启GRO汇聚, 抓取ap的cap log, 下行的报文会有汇聚的效果, 可以从报文的长度去判断是否生效, 基本都是大于1500字节. 关闭GRO汇聚, 下行报文长度在1500字节左右</string>
+    <string name="ping_packages_introduction">Ping packages Test(2018-03-26)\n\n需求目的:\n\n便于IOT测试时检查ping包链路是否正常，目前都通过USB绑定电脑通过电脑进行UE Ping服务器，不利于测试人员操作。\n\n*******************************\n\n功能描述:\n\n    UE Attach完成，能通过工程模式进行UE Ping服务器操作。可以进行IP类型的选择，Ping包时间，Ping包间隔和Ping包大小等内容。\n\n</string>
+    <string name="pdn_test_introduction">PDN Test(2018-03-26)\n\n需求目的:\n\nPDN 是IOT测试中的必需操作，目前都通过APK和AT命令来设置，过程比较复杂，不利于测试人员操作。 \n\n*******************************\n\n功能描述:\n\n    UE Attach建立第一路默认承载，能通过工程模式进行多路PDN的建立，每一路PDN对应不同的APN，能够设置建立专用承载的参数和激活专用承载并将专用承载与默认承载相关联，同时可以进行专用承载和默认承载的去激活。\n\n*******************************\n\n实现方法\n\n设置 --> APN界面中已经存在三种不同类型的APN，分别为default,mms和supl。\n\n1． 界面显示能够激活3路默认承载的3个按键，每个按键对应不同的APN类型的默认承载。\n\n2． 界面显示专用承载菜单，菜单中有默认设置，可以直接激活专用承载，也可以进行参数设置后再激活专用承载（特别是要可以选择与专用承载相关联的默认承载）\n\n建立专用承载的AT命令\n\n1.at+cgdscont=7,1 /* 7表示dedicate pdn cid， 1表示default pdn cid */\n2. at+cgeqos=7,1,128,128,384,384\n3. at+cgtft=7,2,5,“192.168.1.81.255.255.255.255”,1\n4. at+cgact=1,7\n\n3.对于每一路默认承载均有与之相对应的去激活按键，能够去激活默认承载。</string>
+</resources>

@@ -1,0 +1,49 @@
+java_import_host {
+    name: "em-auto-service-jar",
+    jars: ["libs/auto-service-1.0-rc4.jar"],
+}
+
+java_import_host {
+    name: "em-auto-common-jar",
+    jars: ["libs/auto-common-0.10.jar"],
+}
+
+java_import_host {
+    name: "em-guava-jar",
+    jars: ["libs/guava-27.1-jre.jar"],
+}
+
+java_plugin {
+    name: "em-auto-service",
+    processor_class: "com.google.auto.service.processor.AutoServiceProcessor",
+    static_libs: [
+        "em-auto-service-jar",
+        "em-auto-common-jar",
+        "em-guava-jar",],
+}
+
+java_plugin {
+    name: "em-annotationprocessor",
+    processor_class: "com.unisoc.engineermode.core.annotation.processor.ImplementationProcessor",
+    generates_api: true,
+
+    // Required for use of javax.annotation.Generated per http://b/62050818
+    javacflags: ["-J--add-modules=java.xml.ws.annotation"],
+    srcs: ["src/main/java/**/*.java"],
+
+    // Manually include META-INF/services/javax.annotation.processing.Processor
+    // as the AutoService processor doesn't work properly.
+    java_resource_dirs: ["res"],
+
+    static_libs: [
+        "em-annotation",
+        "em-auto-service",
+    ],
+
+    plugins: [
+        "em-auto-service",
+    ],
+
+    java_version: "1.8",
+}
+

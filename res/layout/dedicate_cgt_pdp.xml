@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true" >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1" >
+            <!-- cid -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cid"
+                    android:textSize="18dp" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/cgt_cid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:hint="@string/cgt_hint_11"
+                    android:digits="1234567890"
+                    android:singleLine="true" >
+                </EditText>
+            </TableRow>
+            <!--  -->
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/packet_filter_identifier"
+                    android:textSize="18dp" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/cgt_packet_filter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:hint="@string/cgt_hint_16"
+                    android:digits="1234567890"
+                    android:singleLine="true" >
+                </EditText>
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/evaluation_precedence"
+                    android:textSize="18dp" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/cgt_evaluation_precedence"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:hint="@string/cgt_hint_255"
+                    android:digits="1234567890"
+                    android:singleLine="true" >
+                </EditText>
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/source_address"
+                    android:textSize="18dp" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/cgt_source_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:singleLine="true" >
+                </EditText>
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/protocol_number"
+                    android:textSize="18dp" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/cgt_protocol_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:hint="@string/cgt_hint_255"
+                    android:digits="1234567890"
+                    android:singleLine="true" >
+                </EditText>
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/destination_port_range"
+                    android:textSize="18dp" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/cgt_destination_port_range"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:digits="1234567890"
+                    android:singleLine="true" >
+                </EditText>
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/source_port_range"
+                    android:textSize="18dp" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/cgt_source_port_range"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:digits="1234567890"
+                    android:singleLine="true" >
+                </EditText>
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ipsec_security_parameter"
+                    android:textSize="18dp" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/cgt_ipsec_security_parameter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:hint="@string/cgt_hint_295"
+                    android:digits="1234567890"
+                    android:singleLine="true" >
+                </EditText>
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/type_of_service"
+                    android:textSize="18dp" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/cgt_type_of_service"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:digits="1234567890"
+                    android:singleLine="true" >
+                </EditText>
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/flow_label"
+                    android:textSize="18dp" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/cgt_flow_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:hint="@string/cgt_hint_215"
+                    android:digits="1234567890"
+                    android:singleLine="true" >
+                </EditText>
+            </TableRow>
+        </TableLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/cga_activate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/actived"
+                android:textSize="18dp" >
+            </Button>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

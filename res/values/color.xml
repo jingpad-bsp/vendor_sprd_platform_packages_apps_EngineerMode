@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="btn_text_color">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="orange">#FFA500</color>
+    <color name="gray">#DCDCDC</color>
+    <color name="title_color">#009688</color>
+    <color name="progress_back">#AEAEAE</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="main_top_color">#f7614d</color>
+    <color name="main_top_tab_color">#fcc9c5</color>
+    <color name="main_top_tab_color_2">#ffffff</color>
+    <color name="matrix_color">#ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="red">#FFFF1826</color>
+</resources>

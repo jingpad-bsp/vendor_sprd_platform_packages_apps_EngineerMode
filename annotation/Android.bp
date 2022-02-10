@@ -1,0 +1,14 @@
+
+java_library_static {
+    name: "em-annotation",
+    sdk_version: "current",
+    host_supported: true,
+    srcs: [
+        "src/main/**/*.java",
+    ],
+
+    optimize: {
+        enabled: false,
+    },
+}
+

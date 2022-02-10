@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/phone_information">
+    <Preference
+        android:key="terminator_version"
+        android:title="@string/terminator_version"/>
+    <Preference
+        android:key="hardware_number"
+        android:title="@string/hardware_version"/>
+    <Preference
+        android:key="software_number"
+        android:title="@string/software_version"/>
+    <Preference
+        android:key="prl_version"
+        android:title="@string/prl_version"/>
+    <Preference
+        android:key="system_version"
+        android:title="@string/system_version"/>
+    <Preference
+        android:key="storage_volume"
+        android:title="@string/storage_volume"/>
+    <Preference
+        android:key="memory_volume"
+        android:title="@string/memory_volume"/>
+    <Preference
+        android:key="sid_number"
+        android:title="@string/sid_number"/>
+    <Preference
+        android:key="nid_number"
+        android:title="@string/nid_number"/>
+    <Preference
+        android:key="baseid_number"
+        android:title="@string/baseid_number"/>
+    <Preference
+        android:key="meid_number"
+        android:title="@string/meid_number"/>
+    <Preference
+        android:key="esn_number"
+        android:title="@string/esn_number"/>
+    <Preference
+        android:key="imei_number1"
+        android:title="@string/imei_number1"/>
+    <Preference
+        android:key="imei_number2"
+        android:title="@string/imei_number2"/>
+    <Preference
+        android:key="mcc_sim1"
+        android:title="MCC(sim slot1)"/>
+    <Preference
+        android:key="mcc_sim2"
+        android:title="MCC(sim slot2)"/>
+    <Preference
+        android:key="mnc_sim1"
+        android:title="MNC(sim slot1)"/>
+    <Preference
+        android:key="mnc_sim2"
+        android:title="MNC(sim slot2)"/>
+    <Preference
+        android:key="imsi_sim1"
+        android:title="LTEIMSI(sim slot1)"/>
+    <Preference
+        android:key="imsi_sim2"
+        android:title="LTEIMSI(sim slot2)"/>
+    <Preference
+        android:key="cellid_sim1"
+        android:title="@string/cellid_sim_slot1"/>
+    <Preference
+        android:key="cellid_sim2"
+        android:title="@string/cellid_sim_slot2"/>
+    <Preference
+        android:key="cdma_imsi1"
+        android:title="@string/cdma_imsi1"/>
+    <Preference
+        android:key="cdma_imsi2"
+        android:title="@string/cdma_imsi2"/>
+    <Preference
+        android:key="icc_id1"
+        android:title="@string/icc_id1"/>
+    <Preference
+        android:key="icc_id2"
+        android:title="@string/icc_id2"/>
+</PreferenceScreen>

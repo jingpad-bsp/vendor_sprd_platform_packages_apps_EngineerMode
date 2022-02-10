@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/gsm_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LTE："
+        android:textSize="20dp"
+        android:background="#BFBFBF"/>
+
+    <ListView
+        android:id="@+id/netinfo_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="310dp"
+        android:dividerHeight="2px"
+        android:headerDividersEnabled="true" />
+
+    <TextView
+        android:id="@+id/nr_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NR："
+        android:textSize="20dp"
+        android:background="#BFBFBF"/>
+
+    <ListView
+        android:id="@+id/nr_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:dividerHeight="2px"
+        android:headerDividersEnabled="true" />
+
+</LinearLayout>

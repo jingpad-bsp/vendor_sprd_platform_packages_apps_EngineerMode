@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- IPsec Settings -->
+    <PreferenceScreen
+        android:key="sip_settings"
+        android:title="@string/sip_settings" >
+        <PreferenceCategory
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:title="@string/ipsec_settings" >
+            <com.sprd.engineermode.EMSwitchPreference
+                android:key="ipsec_enable1"
+                android:title="@string/ipsec_enable" >
+            </com.sprd.engineermode.EMSwitchPreference>
+            <Preference android:key="Integrity_algorithm1"
+                android:dialogTitle="@string/Integrity_algorithm"
+                android:entries="@array/integrity_algorithm_str"
+                android:entryValues="@array/integrity_algorithm_value"
+                android:title="@string/Integrity_algorithm" >
+            </Preference>
+            <Preference android:key="cipher_algorithm1"
+                android:dialogTitle="@string/cipher_algorithm"
+                android:entries="@array/cipher_algorithm_str"
+                android:entryValues="@array/cipher_algorithm_value"
+                android:title="@string/cipher_algorithm" >
+            </Preference>
+        </PreferenceCategory>
+        <com.sprd.engineermode.EMSwitchPreference
+            android:key="reg_subscribe_enable1"
+            android:title="@string/reg_subscribe_enable" >
+        </com.sprd.engineermode.EMSwitchPreference>
+        <EditTextPreference
+            android:key="reg_subscrib_expire1"
+            android:maxLength="32"
+            android:numeric="integer"
+            android:summary="please input data"
+            android:title="@string/reg_subscrib_expire" >
+        </EditTextPreference>
+        <com.sprd.engineermode.EMSwitchPreference
+            android:key="mwi_enable1"
+            android:title="@string/mwi_enable" >
+        </com.sprd.engineermode.EMSwitchPreference>
+        <EditTextPreference
+            android:key="mwi_subscribe_expire1"
+            android:maxLength="32"
+            android:numeric="integer"
+            android:summary="please input data"
+            android:title="@string/mwi_subscribe_expire" >
+        </EditTextPreference>
+        <com.sprd.engineermode.EMSwitchPreference
+            android:key="sip_header_compact1"
+            android:title="@string/sip_header_compact" >
+        </com.sprd.engineermode.EMSwitchPreference>
+        <EditTextPreference
+            android:key="mtu1"
+            android:maxLength="32"
+            android:numeric="integer"
+            android:summary="please input data"
+            android:title="@string/mtu" >
+        </EditTextPreference>
+        <EditTextPreference
+            android:key="pcscf_port1"
+            android:maxLength="16"
+            android:numeric="integer"
+            android:summary="please input data"
+            android:title="@string/pcscf_port" >
+        </EditTextPreference>
+        <EditTextPreference
+            android:key="register_expire1"
+            android:maxLength="32"
+            android:numeric="integer"
+            android:summary="please input data"
+            android:title="@string/register_expire" >
+        </EditTextPreference>
+        <EditTextPreference
+            android:key="treg_timer1"
+            android:maxLength="32"
+            android:numeric="integer"
+            android:summary="please input data"
+            android:title="@string/treg_timer" >
+        </EditTextPreference>
+        <EditTextPreference
+            android:key="temergreg_timer1"
+            android:maxLength="32"
+            android:numeric="integer"
+            android:summary="please input data"
+            android:title="@string/temergreg_timer" >
+        </EditTextPreference>
+        <com.sprd.engineermode.EMSwitchPreference
+            android:key="sms_over_ip_enable1"
+            android:title="@string/sms_over_ip_enable" >
+        </com.sprd.engineermode.EMSwitchPreference>
+        <com.sprd.engineermode.EMSwitchPreference
+            android:key="ussi_enable1"
+            android:title="@string/ussi_enable" >
+        </com.sprd.engineermode.EMSwitchPreference>
+        <com.sprd.engineermode.EMSwitchPreference
+            android:key="initial_register_pani1"
+            android:title="@string/initial_register_pani" >
+        </com.sprd.engineermode.EMSwitchPreference>
+    </PreferenceScreen>
+
+    <!-- Call Settings -->
+    <PreferenceScreen
+        android:key="call_settings1"
+        android:title="@string/call_settings" >
+        <PreferenceScreen
+            android:key="audio_codec_settings1"
+            android:title="@string/audio_codec_settings" >
+            <PreferenceCategory
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:title="@string/volte_voice_code_type" >
+                <Preference android:key="volte_voice_code1"
+                    android:title="@string/volte_voice_code_type" >
+                </Preference>
+            </PreferenceCategory>
+            <PreferenceCategory
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:title="@string/volte_evs_primary" >
+                <ListPreference android:key="min_bandwidth1"
+                    android:dialogTitle="@string/min_bandwidth"
+                    android:entries="@array/evs_primary_bandwidth"
+                    android:entryValues="@array/evs_primary_bandwidth_value"
+                    android:title="@string/min_bandwidth" >
+                </ListPreference>
+                <ListPreference android:key="max_bandwidth1"
+                    android:dialogTitle="@string/max_bandwidth"
+                    android:entries="@array/evs_primary_bandwidth"
+                    android:entryValues="@array/evs_primary_bandwidth_value"
+                    android:title="@string/max_bandwidth" >
+                </ListPreference>
+                <ListPreference android:key="min_bitrate1"
+                    android:dialogTitle="@string/min_rate"
+                    android:entries="@array/evs_primary_bitrate"
+                    android:entryValues="@array/evs_primary_bitrate_value"
+                    android:title="@string/min_rate" >
+                </ListPreference>
+                <ListPreference android:key="max_bitrate1"
+                    android:dialogTitle="@string/max_rate"
+                    android:entries="@array/evs_primary_bitrate"
+                    android:entryValues="@array/evs_primary_bitrate_value"
+                    android:title="@string/max_rate" >
+                </ListPreference>
+                <ListPreference android:key="default_encode_bitrate1"
+                    android:dialogTitle="@string/default_encode_rate"
+                    android:entries="@array/evs_primary_bitrate"
+                    android:entryValues="@array/evs_primary_bitrate_value"
+                    android:title="@string/default_encode_rate" >
+                </ListPreference>
+            </PreferenceCategory>
+            <PreferenceCategory
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:title="EVS Channel Aware" >
+                <ListPreference android:key="channel_aware_mode1"
+                    android:dialogTitle="@string/aware_mode_title"
+                    android:entries="@array/channel_aware_mode"
+                    android:entryValues="@array/channel_aware_mode_value"
+                    android:title="@string/aware_mode_title" >
+                </ListPreference>
+            </PreferenceCategory>
+            <PreferenceCategory
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:title="EVS AMR-WB IO" >
+                <Preference android:key="evs_rate_set1"
+                    android:title="@string/rate_set" >
+                </Preference>
+                <ListPreference android:key="evs_io_default_bitrate1"
+                    android:dialogTitle="@string/default_encode_rate"
+                    android:entries="@array/evs_wb_default_bitrate"
+                    android:entryValues="@array/evs_wb_default_bitrate_value"
+                    android:title="@string/default_encode_rate" >
+                </ListPreference>
+            </PreferenceCategory>
+            <PreferenceCategory
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:title="AMR-WB" >
+                <Preference android:key="wb_rate_set1"
+                    android:title="@string/rate_set" >
+                </Preference>
+                <ListPreference android:key="wb_default_bitrate1"
+                    android:dialogTitle="@string/default_encode_rate"
+                    android:entries="@array/evs_wb_default_bitrate"
+                    android:entryValues="@array/evs_wb_default_bitrate_value"
+                    android:title="@string/default_encode_rate" >
+                </ListPreference>
+            </PreferenceCategory>
+            <PreferenceCategory
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:title="AMR-NB" >
+                <Preference android:key="nb_rate_set1"
+                    android:title="@string/rate_set" >
+                </Preference>
+                <ListPreference android:key="nb_default_bitrate1"
+                    android:dialogTitle="@string/default_encode_rate"
+                    android:entries="@array/nb_default_bitrate"
+                    android:entryValues="@array/nb_default_bitrate_value"
+                    android:title="@string/default_encode_rate" >
+                </ListPreference>
+            </PreferenceCategory>
+            <ListPreference android:key="mo_amr_oa_mode1"
+                android:dialogTitle="@string/mo_amr_oa_mode"
+                android:entries="@array/mo_amr_oa_mode_str"
+                android:entryValues="@array/mo_amr_oa_mode_value"
+                android:title="@string/mo_amr_oa_mode" >
+            </ListPreference>
+            <com.sprd.engineermode.EMSwitchPreference
+                android:key="named_tel_event_enable1"
+                android:title="@string/named_tel_event_enable" >
+            </com.sprd.engineermode.EMSwitchPreference>
+        </PreferenceScreen>
+        <EditTextPreference
+            android:key="audio_rtp_timeout_timer1"
+            android:maxLength="8"
+            android:numeric="integer"
+            android:summary="please input data"
+            android:title="@string/audio_rtp_timeout_timer" >
+        </EditTextPreference>
+        <EditTextPreference
+            android:key="audio_rtcp_time_internal1"
+            android:maxLength="8"
+            android:numeric="integer"
+            android:summary="please input data"
+            android:title="@string/audio_rtcp_time_internal" >
+        </EditTextPreference>
+        <EditTextPreference
+            android:key="audio_rs1"
+            android:maxLength="16"
+            android:numeric="integer"
+            android:summary="please input data"
+            android:title="@string/audio_rs" >
+        </EditTextPreference>
+        <EditTextPreference
+            android:key="audio_rr1"
+            android:maxLength="16"
+            android:numeric="integer"
+            android:summary="please input data"
+            android:title="@string/audio_rr" >
+        </EditTextPreference>
+        <com.sprd.engineermode.EMSwitchPreference
+            android:key="audio_dynamic_resolution1"
+            android:title="@string/audio_dynamic_rate" >
+        </com.sprd.engineermode.EMSwitchPreference>
+        <Preference android:key="video_codec_type1"
+            android:title="@string/video_codec_type" >
+        </Preference>
+        <ListPreference
+            android:key="video_max_resolution1"
+            android:dialogTitle="@string/video_max_resolution"
+            android:entries="@array/video_max_resolution_str"
+            android:entryValues="@array/video_max_resolution_value"
+            android:title="@string/video_max_resolution" >
+        </ListPreference>
+        <EditTextPreference
+            android:key="video_rs1"
+            android:maxLength="16"
+            android:numeric="integer"
+            android:summary="please input data"
+            android:title="@string/video_rs" >
+        </EditTextPreference>
+        <EditTextPreference
+            android:key="video_rr1"
+            android:maxLength="16"
+            android:numeric="integer"
+            android:summary="please input data"
+            android:title="@string/video_rr" >
+        </EditTextPreference>
+        <com.sprd.engineermode.EMSwitchPreference
+            android:key="video_dynamic_resolution1"
+            android:title="@string/video_dynamic_rate" >
+        </com.sprd.engineermode.EMSwitchPreference>
+        <com.sprd.engineermode.EMSwitchPreference
+            android:key="reliable_180_enable1"
+            android:title="@string/reliable_180_enable" >
+        </com.sprd.engineermode.EMSwitchPreference>
+        <com.sprd.engineermode.EMSwitchPreference
+            android:key="direct_alerting_enable1"
+            android:title="@string/direct_alerting_enable" >
+        </com.sprd.engineermode.EMSwitchPreference>
+        <com.sprd.engineermode.EMSwitchPreference
+            android:key="resource_always_ready1"
+            android:title="@string/resource_always_ready" >
+        </com.sprd.engineermode.EMSwitchPreference>
+        <com.sprd.engineermode.EMSwitchPreference
+            android:key="precondition_enable1"
+            android:title="@string/precondition_enable" >
+        </com.sprd.engineermode.EMSwitchPreference>
+        <com.sprd.engineermode.EMSwitchPreference
+            android:key="video_upgrade_precondition1"
+            android:title="@string/video_upgrade_precondition" >
+        </com.sprd.engineermode.EMSwitchPreference>
+        <com.sprd.engineermode.EMSwitchPreference
+            android:key="video_early_media1"
+            android:title="@string/video_early_media" >
+        </com.sprd.engineermode.EMSwitchPreference>
+        <PreferenceCategory
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:title="@string/srvcc" >
+            <com.sprd.engineermode.EMSwitchPreference
+                android:key="alerting1"
+                android:title="@string/alerting" >
+            </com.sprd.engineermode.EMSwitchPreference>
+            <com.sprd.engineermode.EMSwitchPreference
+                android:key="mid_call1"
+                android:title="@string/mid_call" >
+            </com.sprd.engineermode.EMSwitchPreference>
+            <com.sprd.engineermode.EMSwitchPreference
+                android:key="pre_alerting1"
+                android:title="@string/pre_alerting" >
+            </com.sprd.engineermode.EMSwitchPreference>
+        </PreferenceCategory>
+        <PreferenceCategory
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:title="@string/rsrvcc" >
+            <com.sprd.engineermode.EMSwitchPreference
+                android:key="rsrvcc_support1"
+                android:title="@string/rsrvcc_support" >
+            </com.sprd.engineermode.EMSwitchPreference>
+            <com.sprd.engineermode.EMSwitchPreference
+                android:key="rsrvcc_alerting1"
+                android:title="@string/alerting" >
+            </com.sprd.engineermode.EMSwitchPreference>
+            <com.sprd.engineermode.EMSwitchPreference
+                android:key="rsrvcc_mid_call1"
+                android:title="@string/mid_call" >
+            </com.sprd.engineermode.EMSwitchPreference>
+        </PreferenceCategory>
+        <ListPreference
+            android:key="national_url_format1"
+            android:dialogTitle="@string/national_url_format"
+            android:entries="@array/national_url_str"
+            android:entryValues="@array/national_url_value"
+            android:title="@string/national_url_format" >
+        </ListPreference>
+        <ListPreference
+            android:key="international_url_format1"
+            android:dialogTitle="@string/international_url_format"
+            android:entries="@array/national_url_str"
+            android:entryValues="@array/national_url_value"
+            android:title="@string/international_url_format" >
+        </ListPreference>
+        <EditTextPreference
+            android:key="tcall_timer1"
+            android:maxLength="32"
+            android:numeric="integer"
+            android:summary="please input data"
+            android:title="@string/tcall_timer" >
+        </EditTextPreference>
+        <EditTextPreference
+            android:key="ringing_timer1"
+            android:maxLength="8"
+            android:numeric="integer"
+            android:summary="please input data"
+            android:title="@string/ringing_timer" >
+        </EditTextPreference>
+        <EditTextPreference
+            android:key="ringback_timer1"
+            android:maxLength="8"
+            android:numeric="integer"
+            android:summary="please input data"
+            android:title="@string/ringback_timer" >
+        </EditTextPreference>
+        <EditTextPreference
+            android:key="no_answer_timer1"
+            android:maxLength="16"
+            android:numeric="integer"
+            android:summary="please input data"
+            android:title="@string/no_answer_timer" >
+        </EditTextPreference>
+        <EditTextPreference
+            android:key="session_timer1"
+            android:maxLength="16"
+            android:numeric="integer"
+            android:summary="please input data"
+            android:title="@string/session_timer" >
+        </EditTextPreference>
+        <ListPreference
+            android:key="session_timer_refresher1"
+            android:dialogTitle="@string/session_timer_refresher"
+            android:entries="@array/session_timer_refresher_str"
+            android:entryValues="@array/session_timer_refresher_value"
+            android:title="@string/session_timer_refresher" >
+        </ListPreference>
+        <EditTextPreference
+            android:key="mt_session_timer1"
+            android:maxLength="16"
+            android:numeric="integer"
+            android:summary="please input data"
+            android:title="@string/mt_session_timer" >
+        </EditTextPreference>
+        <ListPreference
+            android:key="mt_session_timer_refresher1"
+            android:dialogTitle="@string/mt_session_timer_refresher"
+            android:entries="@array/session_timer_refresher_str"
+            android:entryValues="@array/session_timer_refresher_value"
+            android:title="@string/mt_session_timer_refresher" >
+        </ListPreference>
+        <EditTextPreference
+            android:key="min_se_timer1"
+            android:maxLength="16"
+            android:numeric="integer"
+            android:summary="please input data"
+            android:title="@string/min_se_timer" >
+        </EditTextPreference>
+        <com.sprd.engineermode.EMClickEditTextPreference
+            android:key="conference_urI1"
+            android:maxLength="127"
+            android:dialogMessage="@string/default_conference_uri"
+            android:summary="please input data"
+            android:title="@string/conference_urI" >
+        </com.sprd.engineermode.EMClickEditTextPreference>
+        <ListPreference
+            android:key="video_audio_merge1"
+            android:dialogTitle="@string/video_audio_merge"
+            android:entries="@array/video_audio_merge_str"
+            android:entryValues="@array/video_audio_merge_value"
+            android:title="@string/video_audio_merge" >
+        </ListPreference>
+    </PreferenceScreen>
+
+    <!-- Supplementary Service Settings -->
+    <PreferenceScreen
+        android:key="supple_service_settings1"
+        android:title="@string/supple_service_settings" >
+        <com.sprd.engineermode.EMClickEditTextPreference
+            android:key="bsf_uri1"
+            android:maxLength="127"
+            android:dialogMessage="@string/default_bsf_uri"
+            android:summary="please input data"
+            android:title="@string/bsf_uri" >
+        </com.sprd.engineermode.EMClickEditTextPreference>
+        <EditTextPreference
+            android:key="bsf_port1"
+            android:maxLength="16"
+            android:numeric="integer"
+            android:summary="please input data"
+            android:title="@string/bsf_port" >
+        </EditTextPreference>
+        <com.sprd.engineermode.EMClickEditTextPreference
+            android:key="xcap_uri1"
+            android:maxLength="127"
+            android:dialogMessage="@string/default_xcap_uri"
+            android:summary="please input data"
+            android:title="@string/xcap_uri" >
+        </com.sprd.engineermode.EMClickEditTextPreference>
+        <EditTextPreference
+            android:key="xcap_port1"
+            android:maxLength="16"
+            android:numeric="integer"
+            android:summary="please input data"
+            android:title="@string/xcap_port" >
+        </EditTextPreference>
+        <EditTextPreference
+            android:key="xcap_auid1"
+            android:maxLength="31"
+            android:summary="please input data"
+            android:title="@string/xcap_auid" >
+        </EditTextPreference>
+        <com.sprd.engineermode.EMSwitchPreference
+            android:key="local_call_waiting1"
+            android:title="@string/local_call_waiting" >
+        </com.sprd.engineermode.EMSwitchPreference>
+        <com.sprd.engineermode.EMSwitchPreference
+            android:key="dns_srv_enable1"
+            android:title="@string/dns_srv_enable" >
+        </com.sprd.engineermode.EMSwitchPreference>
+        <com.sprd.engineermode.EMSwitchPreference
+            android:key="https_enable1"
+            android:title="@string/https_enable" >
+        </com.sprd.engineermode.EMSwitchPreference>
+        <com.sprd.engineermode.EMSwitchPreference
+            android:key="activate_cfnl_enable1"
+            android:title="@string/activate_cfnl_enable" >
+        </com.sprd.engineermode.EMSwitchPreference>
+        <com.sprd.engineermode.EMSwitchPreference
+            android:key="http_put_media1"
+            android:title="@string/http_put_media" >
+        </com.sprd.engineermode.EMSwitchPreference>
+        <ListPreference android:key="ip_priority1"
+            android:dialogTitle="@string/ip_priority"
+            android:entries="@array/ip_priority_str"
+            android:entryValues="@array/ip_priority_value"
+            android:title="@string/ip_priority" >
+        </ListPreference>
+    </PreferenceScreen>
+</PreferenceScreen>

@@ -1,0 +1,38 @@
+
+android_library {
+    name: "em-core",
+    platform_apis: true,
+    manifest: "src/main/AndroidManifest.xml",
+
+    srcs: [
+        "src/main/**/*.java",
+        "src/main/**/*.kt",
+    ],
+
+    /*
+    asset_dirs: [
+        "src/main/assets",
+    ],
+
+    resource_dirs: [
+        "src/main/res",
+    ],
+    */
+
+    static_libs: [
+        "android.hardware.thermal-V1.0-java",
+        "vendor.sprd.hardware.thermal-V1.0-java",
+        "vendor.sprd.hardware.thermal-V1.0-java-constants",
+        "em-annotation",
+        "em-factory",
+    ],
+
+    plugins: [
+      "em-annotationprocessor",
+    ],
+
+    optimize: {
+        enabled: false,
+    },
+
+}

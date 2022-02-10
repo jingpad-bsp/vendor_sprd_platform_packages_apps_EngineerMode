@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceScreen
+        android:key="sim0_select"
+        android:title="@string/sim_0" >
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="sim1_select"
+        android:title="@string/sim_1" >
+    </PreferenceScreen>
+</PreferenceScreen>

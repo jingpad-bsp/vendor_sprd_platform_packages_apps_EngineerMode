@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- bug 1242269, unknow feature @ {-->
+    <!--
+    <Preference
+        android:key="gcf"
+        android:title="@string/gcf" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.engineermode.gcf.GcfActivity"
+            android:targetPackage="com.sprd.engineermode" />
+    </Preference>
+    <Preference
+        android:key="iot"
+        android:title="@string/iot_activity_two" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.engineermode.gcf.IotActivity"
+            android:targetPackage="com.sprd.engineermode" />
+    </Preference>
+    <Preference
+        android:key="operator"
+        android:title="@string/operator" >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.sprd.engineermode.gcf.OperatorActivity"
+            android:targetPackage="com.sprd.engineermode" />
+    </Preference>
+    -->
+    <!-- @} -->
+
+    <Preference
+        android:key="current_mode"
+        android:summary="@string/mode_set"
+        android:title="@string/current_mode" >
+    </Preference>
+    <!-- SPRD: 871064 - Delta nv @{ -->
+    <PreferenceScreen
+        android:key="apc_mode"
+        android:title="@string/delta_nv" >
+        <Preference
+            android:key="manual_test"
+            android:title="@string/manual_test_mode" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.sprd.engineermode.gcf.ManualDeltaNVActivity"
+                android:targetPackage="com.sprd.engineermode" />
+        </Preference>
+        <Preference
+            android:key="auto_test"
+            android:title="@string/auto_test_mode" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.sprd.engineermode.gcf.AutoTestBySIMActivity"
+                android:targetPackage="com.sprd.engineermode" />
+        </Preference>
+    </PreferenceScreen>
+    <!-- @} -->
+</PreferenceScreen>

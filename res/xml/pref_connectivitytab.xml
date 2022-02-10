@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <Preference
+        android:key="bt"
+        android:title="BT" >
+    </Preference>
+    <Preference
+        android:key="fm"
+        android:title="@string/fm_preference_title" >
+    </Preference>
+    <Preference
+        android:key="wifi eut"
+        android:title="Wifi" >
+    </Preference>
+    <Preference
+        android:key="wifi certification"
+        android:title="@string/wifi_certification">
+    </Preference>
+</PreferenceScreen>

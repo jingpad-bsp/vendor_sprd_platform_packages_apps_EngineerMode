@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:key="key_srs_n41"
+        android:title="Band N41"
+        android:persistent="false"/>
+    <CheckBoxPreference
+        android:key="key_srs_n77"
+        android:title="Band N77"
+        android:persistent="false"/>
+    <CheckBoxPreference
+        android:key="key_srs_n78"
+        android:title="Band N78"
+        android:persistent="false"/>
+    <CheckBoxPreference
+        android:key="key_srs_n79"
+        android:title="Band N79"
+        android:persistent="false"/>
+
+</PreferenceScreen>

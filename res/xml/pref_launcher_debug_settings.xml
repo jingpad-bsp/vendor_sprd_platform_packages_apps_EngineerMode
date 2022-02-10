@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="launcher_debug_preferencescreen"
+    android:title="@string/launcherdebug">
+
+    <PreferenceCategory
+        android:key="category_launcher"
+        android:title="Launcher">
+
+        <com.sprd.engineermode.EMSwitchPreference
+            android:key="launcher_all_log"
+            android:title="All Log"
+            android:disableDependentsState="true">
+        </com.sprd.engineermode.EMSwitchPreference>
+
+        <com.sprd.engineermode.EMSwitchPreference
+            android:key="launcher_external_log"
+            android:title="External Message Log"
+            android:dependency="launcher_all_log">
+        </com.sprd.engineermode.EMSwitchPreference>
+
+        <com.sprd.engineermode.EMSwitchPreference
+            android:key="launcher_loader_log"
+            android:title="Loader Log"
+            android:dependency="launcher_all_log">
+        </com.sprd.engineermode.EMSwitchPreference>
+
+        <com.sprd.engineermode.EMSwitchPreference
+            android:key="launcher_widget_log"
+            android:title="Widget Log"
+            android:dependency="launcher_all_log">
+        </com.sprd.engineermode.EMSwitchPreference>
+
+        <com.sprd.engineermode.EMSwitchPreference
+            android:key="launcher_perform_log"
+            android:title="Performance Log"
+            android:dependency="launcher_all_log">
+        </com.sprd.engineermode.EMSwitchPreference>
+
+        <com.sprd.engineermode.EMSwitchPreference
+            android:key="launcher_unread_log"
+            android:title="Unread Log"
+            android:dependency="launcher_all_log">
+        </com.sprd.engineermode.EMSwitchPreference>
+
+        <com.sprd.engineermode.EMSwitchPreference
+            android:key="launcher_dynamicicon_log"
+            android:title="Dynamicicon Log"
+            android:dependency="launcher_all_log">
+        </com.sprd.engineermode.EMSwitchPreference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Wallpapers">
+        <com.sprd.engineermode.EMSwitchPreference
+            android:key="wallpapers_log"
+            android:title="Wallpapers Log">
+        </com.sprd.engineermode.EMSwitchPreference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="LauncherFrameworks">
+        <com.sprd.engineermode.EMSwitchPreference
+            android:key="launcherframeworks_log"
+            android:title="LauncherFrameworks Log">
+        </com.sprd.engineermode.EMSwitchPreference>
+    </PreferenceCategory>
+</PreferenceScreen>

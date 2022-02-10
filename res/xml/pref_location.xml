@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <Preference
+        android:key="Clock_Quality"
+        android:title="Clock Quality Auto-Test">
+    </Preference>
+    <Preference
+        android:key="GNSS_Desense"
+        android:title="GNSS De-sense Auto-Test">
+    </Preference>
+    <Preference
+        android:key="GNSS_NoiseScan"
+        android:title="GNSS Noise Scan Auto-Test">
+    </Preference>
+     <Preference
+        android:key="SGPS"
+        android:title="SGPS">
+    </Preference>
+</PreferenceScreen>

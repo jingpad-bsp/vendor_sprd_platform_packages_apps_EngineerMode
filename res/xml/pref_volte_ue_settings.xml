@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- UA Name -->
+    <PreferenceCategory
+        android:key="ua_name"
+        android:title="@string/ua_name" >
+        <EditTextPreference
+            android:key="sprd_volte"
+            android:maxLength="255"
+            android:summary="please input data"
+            android:title="@string/sprd_volte" >
+        </EditTextPreference>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/volte_voice_code_type" >
+        <MultiSelectListPreference android:key="volte_voice_code"
+            android:dialogTitle="@string/volte_voice_code_type"
+            android:title="@string/volte_voice_code_type" >
+        </MultiSelectListPreference>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/volte_evs_primary" >
+        <ListPreference android:key="max_bandwidth"
+            android:dialogTitle="@string/max_bandwidth"
+            android:entries="@array/evs_primary_bandwidth"
+            android:entryValues="@array/evs_primary_bandwidth_value"
+            android:title="@string/max_bandwidth" >
+        </ListPreference>
+        <ListPreference android:key="max_bitrate"
+            android:dialogTitle="@string/max_rate"
+            android:entries="@array/evs_primary_bitrate"
+            android:entryValues="@array/evs_primary_bitrate_value"
+            android:title="@string/max_rate" >
+        </ListPreference>
+    </PreferenceCategory>
+
+    <!-- Video -->
+    <PreferenceCategory
+        android:title="@string/video" >
+        <com.sprd.engineermode.EMSwitchPreference
+            android:key="video_call_enable"
+            android:title="@string/video_call_enable" >
+        </com.sprd.engineermode.EMSwitchPreference>
+        <MultiSelectListPreference android:key="volte_video_code"
+            android:title="@string/video_codec" >
+        </MultiSelectListPreference>
+        <com.sprd.engineermode.EMSwitchPreference
+            android:key="video_conference_enable"
+            android:title="@string/video_conference_enable" >
+        </com.sprd.engineermode.EMSwitchPreference>
+        <!--
+        <com.sprd.engineermode.EMSwitchPreference
+            android:key="dynamic_resolution_enable"
+            android:title="@string/dynamic_resolution_enable" >
+        </com.sprd.engineermode.EMSwitchPreference>
+        -->
+    </PreferenceCategory>
+
+    <!-- MSM -->
+    <PreferenceCategory
+        android:key="key_msm"
+        android:title="@string/sms" >
+        <!--
+        <com.sprd.engineermode.EMSwitchPreference
+            android:key="sms_over_ip_enable"
+            android:title="@string/sms_over_ip_enable" >
+        </com.sprd.engineermode.EMSwitchPreference>
+        -->
+        <ListPreference android:key="key_sms_pdu"
+            android:dialogTitle="@string/sms_pdu_format"
+            android:entries="@array/sms_pdu_str"
+            android:entryValues="@array/sms_pdu_value"
+            android:title="@string/sms_pdu_format" >
+        </ListPreference>
+    </PreferenceCategory>
+</PreferenceScreen>

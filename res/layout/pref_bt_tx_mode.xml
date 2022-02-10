@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:id="@+id/tablelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1" >
+        <!-- Channel -->
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bt_rx_channel"
+                android:textSize="18dip" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/tx_mode_channel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip"
+                android:digits="1234567890"
+                android:hint="0~78"
+                android:maxLength="2"
+                android:singleLine="true" >
+            </EditText>
+        </TableRow>
+        <!-- tx mode -->
+        <TableRow android:layout_marginTop="10dip">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bt_tx_mode"
+                android:textSize="18dip" >
+            </TextView>
+            <Spinner
+                android:id="@+id/bt_tx_mode_cw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dip" >
+            </Spinner>
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+        <Button
+            android:id="@+id/tx_mode_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/bt_start"
+            android:textSize="18dip" >
+        </Button>
+        <Button
+            android:id="@+id/tx_mode_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/bt_stop"
+            android:textSize="18dip" >
+        </Button>
+    </LinearLayout>
+
+</RelativeLayout>

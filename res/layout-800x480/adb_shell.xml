@@ -1,0 +1,145 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:fillViewport="true" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/adb_shell_cmd"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+                <EditText
+                    android:id="@+id/adb_shell_cmd1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/adb_shell_hint"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_weight="2"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/start_btn1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/coulometer_start" />
+                <Button
+                    android:id="@+id/clear_btn1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/clear_data" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/result_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FDF5E6"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="@string/result_information"/>
+            <TextView
+                android:id="@+id/result_text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FDF5E6"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+    <!-- seperate line -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="#DADADA"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+                    <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="7dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/adb_shell_cmd"
+                        android:textColor="#000000"
+                        android:textSize="15sp" />
+                    <EditText
+                        android:id="@+id/adb_shell_cmd2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/adb_shell_hint"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="17dp"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
+                    <Button
+                        android:id="@+id/start_btn2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/coulometer_start" />
+                    <Button
+                        android:id="@+id/clear_btn2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/clear_data" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/result_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#FDF5E6"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/result_information"/>
+                <TextView
+                    android:id="@+id/result_text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#FDF5E6"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

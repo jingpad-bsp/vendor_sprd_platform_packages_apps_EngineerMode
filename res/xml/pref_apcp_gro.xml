@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sprd.engineermode.EMSwitchPreference
+        android:key="key_gro"
+        android:title="@string/gro_switch">>
+    </com.sprd.engineermode.EMSwitchPreference>
+</PreferenceScreen>
